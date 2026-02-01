@@ -27,7 +27,7 @@
  * @param {number} targetSum
  * @return {number[]}
  */
-var twoSum = function (numbers, targetSum) {
+const twoSum = (numbers, targetSum) => {
 
     // Map to store numbers we have already seen along with their indices 
     const indexByNumber = new Map();

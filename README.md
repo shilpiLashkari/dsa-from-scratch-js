@@ -1,12 +1,38 @@
+<div align="center">
+
 # 🚀 Data Structures & Algorithms in JavaScript
 
-![JavaScript](https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Progress](https://img.shields.io/badge/Progress-Learning-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+**A journey from understanding syntax to mastering algorithms.**  
+*Implemented in pure JavaScript with a focus on clean architecture and performance.*
 
-Welcome to my **DSA Journey**! This repository documents my path to mastering Data Structures and Algorithms, implemented entirely in **JavaScript**. 
+[Overview](#-about-the-journey) • [Philosophy](#-project-philosophy) • [Structure](#-repository-structure) • [Tech Stack](#-tech-stack--tools) • [Connect](#-connect-with-me)
 
-From basic array manipulations to complex graph theories, this collection represents my dedication to efficient problem solving and clean code architecture.
+</div>
+
+---
+
+## 📖 About The Journey
+
+Like many developers, I started with "tutorial hell" — watching videos but struggling to apply concepts. I created this repository to break that cycle.
+
+My goal is simple: **Don't just solve it. Understand it.**
+
+For every problem in this repo, I don't just paste a solution. I rewrite it, optimize it, and explain it to myself (and you) in plain English. This process forces me to convert abstract logic into concrete, readable code.
+
+---
+
+## 🌟 Project Philosophy
+
+To make this repository useful for myself & for others, I adhere to three core principles:
+
+1.  **Clean Code Architecture**  
+    Code shouldn't look like a competitive programming snippet. I use descriptive variable names (e.g., `currentIndex` instead of `i`) and modular logic. It reads like a story.
+
+2.  **Optimized Performance**  
+    A working solution isn't enough. I strive for the optimal **Time & Space Complexity** (usually O(N) or O(1)), ensuring the code is production-ready.
+
+3.  **Human-Readable Notes**  
+    My "Notes" sections explain the *why* behind the *how*, breaking down complex patterns into simple, conversational logic.
 
 ---
 
@@ -15,21 +41,37 @@ From basic array manipulations to complex graph theories, this collection repres
 I have organized my solutions by difficulty level to track my progression from foundational concepts to advanced problem-solving capabilities.
 
 | Level | Badge | Description | Focus Areas |
-| :--- | :--- | :--- | :--- |
+| :--- | :---: | :--- | :--- |
 | **Easy** | 🟢 | Foundational Problems | Basic Arrays, Strings, Simple Hash Maps |
 | **Medium** | 🟡 | Core Logic & Patterns | Sliding Window, Two Pointers, Linked Lists, Trees |
-| **Hard** | 🔴 | Advanced Optimizaton | DP, Graphs, Backtracking, System Design components |
+| **Hard** | 🔴 | Advanced Optimization | DP, Graphs, Backtracking, System Design components |
 
 ---
 
-## 📚 Topics Covered
+## �️ Tech Stack & Tools
 
-<details>
-<summary><strong>Click to expand topics</strong></summary>
+My development environment matches modern industry standards:
 
-### Data Structures
-- [ ] Arrays & Strings
-- [ ] Hash Maps & Sets
+| Component | Technology | Details |
+| :--- | :--- | :--- |
+| **Language** | ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | ES6+ features (Arrow functions, Classes, Async/Await) |
+| **Runtime** | ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) | Executed via Node.js runtime / Browser Console |
+| **Testing** | ![Jest](https://img.shields.io/badge/-Jest-C21325?style=flat-square&logo=jest&logoColor=white) | *Planned implementation for Unit Testing* |
+
+---
+
+## �📚 Topics Covered
+
+<details open>
+<summary><strong>Click to collapse topics</strong></summary>
+
+<br>
+
+### Data Structures & Concepts
+- [x] **Arrays & Strings** (e.g., Two Sum, Group By, Flatten)
+- [x] **Closures & Functions** (e.g., Memoize, Debounce, Once)
+- [x] **Asynchronous Programming** (e.g., Promise.all Polyfill, Cancellable Intervals)
+- [x] **Classes & OOP** (e.g., Event Emitter, Method Chaining)
 - [ ] Linked Lists (Singly & Doubly)
 - [ ] Stacks & Queues
 - [ ] Trees (Binary, BST, AVL, Tries)
@@ -37,7 +79,7 @@ I have organized my solutions by difficulty level to track my progression from f
 - [ ] Graphs (Adjacency List/Matrix)
 
 ### Algorithms
-- [ ] Sorting (Merge, Quick, Heap, Radix)
+- [x] **Sorting** (Custom Sort By)
 - [ ] Searching (Binary Search)
 - [ ] Recursion & Backtracking
 - [ ] Dynamic Programming
@@ -47,22 +89,18 @@ I have organized my solutions by difficulty level to track my progression from f
 
 ---
 
-## 🛠️ Tech Stack & Tools
-
-- **Language**: JavaScript (ES6+)
-- **Environment**: Node.js / Browser Console
-- **Testing**: Jest (Planned)
-
 ## 💡 Notable Solutions
 
-*A curated list of problems that significantly improved my understanding.*
+A curated list of problems that significantly improved my understanding.
 
 | Problem | Difficulty | Pattern/Concept | Solution Link |
 | :--- | :---: | :--- | :---: |
-| *Example: Two Sum* | 🟢 | Hash Map | [Link](./Easy/TwoSum.js) |
-| *Example: LRU Cache* | 🟡 | Doubly Linked List + Map | [Link](./Medium/LRUCache.js) |
-
-*(This table will be updated as I solve more interesting problems)*
+| **Two Sum** | 🟢 | Hash Map | [Link](./Array/Easy/Two_Sum.js) |
+| **Join Arrays by ID** | 🟡 | Map / Merge Logic | [Link](./Array/Medium/Join_Two_Arrays_by_ID.js) |
+| **Flatten Nested Array** | 🟡 | Recursion | [Link](./Array/Medium/Flatten_Deeply_Nested_Array.js) |
+| **Memoize** | 🟡 | Closures & Caching | [Link](./Closures/Medium/Memoize.js) |
+| **Event Emitter** | 🟡 | Observer Pattern | [Link](./Classes_OOP/Medium/Event_Emitter.js) |
+| **Promise.all Polyfill** | 🟡 | Async/Parallel Execution | [Link](./Asynchronous_Promises/Medium/Execute_Asynchronous_Functions_in_Parallel.js) |
 
 ---
 
@@ -78,14 +116,14 @@ A quick reference for the time and space complexity of common operations I encou
 
 ---
 
+<div align="center">
+
 ## 🤝 Connect with Me
 
 If you find this repo helpful or want to discuss a solution, feel free to reach out!
 
-[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/shilpilashkari/)
-[<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://github.com/shilpiLashkari)
-[<img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white">](https://medium.com/@shilpilashkari)
-[<img src="https://img.shields.io/badge/Personal_Website-4CAF50?style=for-the-badge&logo=google-chrome&logoColor=white">](https://shilpilashkari.netlify.app/)
+[LinkedIn](https://www.linkedin.com/in/shilpilashkari/) • [GitHub](https://github.com/shilpiLashkari) • [Medium](https://medium.com/@shilpilashkari) • [Portfolio](https://shilpilashkari.netlify.app/)
 
----
-*Happy Coding! 💻*
+*"To everyone on this journey: The expert in anything was once a beginner. Keep showing up, keep failing, and keep coding—your future self will thank you."*
+
+</div>

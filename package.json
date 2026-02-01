@@ -1,0 +1,25 @@
+{
+  "name": "dsa-from-scratch-js",
+  "version": "1.0.0",
+  "description": "Mastering Data Structures and Algorithms in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node ."
+  },
+  "keywords": [
+    "dsa",
+    "javascript",
+    "algorithms",
+    "data-structures"
+  ],
+  "author": "Shilpi Lashkari",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "verbose": true
+  }
+}
