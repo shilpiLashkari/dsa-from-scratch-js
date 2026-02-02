@@ -101,6 +101,10 @@ A curated list of problems that significantly improved my understanding.
 | **Memoize** | 🟡 | Closures & Caching | [Link](./Closures/Medium/Memoize.js) |
 | **Event Emitter** | 🟡 | Observer Pattern | [Link](./Classes_OOP/Medium/Event_Emitter.js) |
 | **Promise.all Polyfill** | 🟡 | Async/Parallel Execution | [Link](./Asynchronous_Promises/Medium/Execute_Asynchronous_Functions_in_Parallel.js) |
+| **Median of Two Sorted Arrays** | 🔴 | Binary Search | [Link](./Array/Hard/Median_Of_Two_Sorted_Array.js) |
+| **Sudoku Solver** | 🔴 | Backtracking | [Link](./Array/Hard/Sudoku_Solver.js) |
+| **First Missing Positive** | 🔴 | Index as Hash Map | [Link](./Array/Hard/First_Missing_Positive.js) |
+| **Trapping Rain Water** | 🔴 | Two Pointers | [Link](./Array/Hard/Trapping_Rain_Water.js) |
 
 ---
 
