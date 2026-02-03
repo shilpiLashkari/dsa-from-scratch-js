@@ -105,6 +105,7 @@ A curated list of problems that significantly improved my understanding.
 | **Sudoku Solver** | 🔴 | Backtracking | [Link](./Array/Hard/Sudoku_Solver.js) |
 | **First Missing Positive** | 🔴 | Index as Hash Map | [Link](./Array/Hard/First_Missing_Positive.js) |
 | **Trapping Rain Water** | 🔴 | Two Pointers | [Link](./Array/Hard/Trapping_Rain_Water.js) |
+| **N-Queens** | 🔴 | Backtracking | [Link](./Array/Hard/N_Queens.js) |
 
 ---
 
