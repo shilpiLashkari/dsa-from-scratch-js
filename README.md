@@ -106,6 +106,8 @@ A curated list of problems that significantly improved my understanding.
 | **First Missing Positive** | 🔴 | Index as Hash Map | [Link](./Array/Hard/First_Missing_Positive.js) |
 | **Trapping Rain Water** | 🔴 | Two Pointers | [Link](./Array/Hard/Trapping_Rain_Water.js) |
 | **N-Queens** | 🔴 | Backtracking | [Link](./Array/Hard/N_Queens.js) |
+| **Largest Rectangle in Histogram** | 🔴 | Monotonic Stack | [Link](./Array/Hard/Largest_Rectangle_In_Histogram.js) |
+| **Palindrome Pairs** | 🔴 | Hash Map | [Link](./Array/Hard/Palindrome_Pairs.js) |
 
 ---
 
