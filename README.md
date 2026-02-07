@@ -74,7 +74,7 @@ My development environment matches modern industry standards:
 - [x] **Classes & OOP** (e.g., Event Emitter, Method Chaining)
 - [ ] Linked Lists (Singly & Doubly)
 - [ ] Stacks & Queues
-- [ ] Trees (Binary, BST, AVL, Tries)
+- [x] Trees (Binary, BST, AVL, Tries)
 - [ ] Heaps (Min/Max Priority Queues)
 - [ ] Graphs (Adjacency List/Matrix)
 
@@ -89,18 +89,27 @@ My development environment matches modern industry standards:
 
 ---
 
-## 💡 Notable Solutions
+## 💡 Solution Index
 
 A curated list of problems that significantly improved my understanding.
+
+
+### Array & Strings
 
 | Problem | Difficulty | Pattern/Concept | Solution Link |
 | :--- | :---: | :--- | :---: |
 | **Two Sum** | 🟢 | Hash Map | [Link](./Array/Easy/Two_Sum.js) |
+| **Apply Transform Over Each Element** | 🟢 | Map Function | [Link](./Array/Easy/Apply_Transform_Over_Each_Element_in_Array.js) |
+| **Array Prototype Last** | 🟢 | Prototype Extension | [Link](./Array/Easy/Array_Prototype_Last.js) |
+| **Array Reduce Transformation** | 🟢 | Reduce Logic | [Link](./Array/Easy/Array_Reduce_Transformation.js) |
+| **Chunk Array** | 🟢 | Slicing / Loops | [Link](./Array/Easy/Chunk_Array.js) |
+| **Filter Elements from Array** | 🟢 | Filter Logic | [Link](./Array/Easy/Filter_Elements_from_Array.js) |
+| **Is Object Empty** | 🟢 | JSON / Object Keys | [Link](./Array/Easy/Is_Object_Empty.js) |
+| **Sort By** | 🟢 | Custom Sort | [Link](./Array/Easy/Sort_By.js) |
 | **Join Arrays by ID** | 🟡 | Map / Merge Logic | [Link](./Array/Medium/Join_Two_Arrays_by_ID.js) |
 | **Flatten Nested Array** | 🟡 | Recursion | [Link](./Array/Medium/Flatten_Deeply_Nested_Array.js) |
-| **Memoize** | 🟡 | Closures & Caching | [Link](./Closures/Medium/Memoize.js) |
-| **Event Emitter** | 🟡 | Observer Pattern | [Link](./Classes_OOP/Medium/Event_Emitter.js) |
-| **Promise.all Polyfill** | 🟡 | Async/Parallel Execution | [Link](./Asynchronous_Promises/Medium/Execute_Asynchronous_Functions_in_Parallel.js) |
+| **Group By** | 🟡 | Prototype / Hash Map | [Link](./Array/Medium/Group_By.js) |
+| **Compact Object** | 🟡 | Recursion / DFS | [Link](./Array/Medium/Compact_Object.js) |
 | **Median of Two Sorted Arrays** | 🔴 | Binary Search | [Link](./Array/Hard/Median_Of_Two_Sorted_Array.js) |
 | **Sudoku Solver** | 🔴 | Backtracking | [Link](./Array/Hard/Sudoku_Solver.js) |
 | **First Missing Positive** | 🔴 | Index as Hash Map | [Link](./Array/Hard/First_Missing_Positive.js) |
@@ -108,6 +117,42 @@ A curated list of problems that significantly improved my understanding.
 | **N-Queens** | 🔴 | Backtracking | [Link](./Array/Hard/N_Queens.js) |
 | **Largest Rectangle in Histogram** | 🔴 | Monotonic Stack | [Link](./Array/Hard/Largest_Rectangle_In_Histogram.js) |
 | **Palindrome Pairs** | 🔴 | Hash Map | [Link](./Array/Hard/Palindrome_Pairs.js) |
+| **Text Justification** | 🔴 | String / Greedy | [Link](./Array/Hard/Text_Justification.js) |
+| **Word Search II** | 🔴 | Trie & DFS | [Link](./Array/Hard/Word_Search_II.js) |
+
+### Asynchronous & Promises
+
+| Problem | Difficulty | Pattern/Concept | Solution Link |
+| :--- | :---: | :--- | :---: |
+| **Add Two Promises** | 🟢 | Async/Await | [Link](./Asynchronous_Promises/Easy/Add_Two_Promises.js) |
+| **Interval Cancellation** | 🟢 | setInterval | [Link](./Asynchronous_Promises/Easy/Interval_Cancellation.js) |
+| **Promise Time Limit** | 🟢 | Promise.race | [Link](./Asynchronous_Promises/Easy/Promise_Time_Limit.js) |
+| **Sleep** | 🟢 | Promises | [Link](./Asynchronous_Promises/Easy/Sleep.js) |
+| **Timeout Cancellation** | 🟢 | setTimeout | [Link](./Asynchronous_Promises/Easy/Timeout_Cancellation.js) |
+| **Promise.all Polyfill** | 🟡 | Async/Parallel | [Link](./Asynchronous_Promises/Medium/Execute_Asynchronous_Functions_in_Parallel.js) |
+| **Debounce** | 🟡 | Closures / Timer | [Link](./Asynchronous_Promises/Medium/Debounce.js) |
+
+### Classes & OOP
+
+| Problem | Difficulty | Pattern/Concept | Solution Link |
+| :--- | :---: | :--- | :---: |
+| **Array Wrapper** | 🟢 | Class / toString | [Link](./Classes_OOP/Easy/Array_Wrapper.js) |
+| **Calculator with Method Chaining** | 🟢 | Method Chaining | [Link](./Classes_OOP/Easy/Calculator_with_Method_Chaining.js) |
+| **Event Emitter** | 🟡 | Observer Pattern | [Link](./Classes_OOP/Medium/Event_Emitter.js) |
+| **Cache With Time Limit** | 🟡 | Map / Timeouts | [Link](./Classes_OOP/Medium/Cache_With_Time_Limit.js) |
+
+### Closures
+
+| Problem | Difficulty | Pattern/Concept | Solution Link |
+| :--- | :---: | :--- | :---: |
+| **Allow One Function Call** | 🟢 | Closure / Flags | [Link](./Closures/Easy/Allow_One_Function_Call.js) |
+| **Counter** | 🟢 | Closure | [Link](./Closures/Easy/Counter.js) |
+| **Counter II** | 🟢 | Closure / Object | [Link](./Closures/Easy/Counter_II.js) |
+| **Create Hello World** | 🟢 | Basic Function | [Link](./Closures/Easy/Create_Hello_World_Function.js) |
+| **Return Arguments Length** | 🟢 | Rest Parameters | [Link](./Closures/Easy/Return_Length_of_Arguments_Passed.js) |
+| **To Be Or Not To Be** | 🟢 | Error Handling | [Link](./Closures/Easy/To_Be_Or_Not_To_Be.js) |
+| **Memoize** | 🟡 | Closures & Caching | [Link](./Closures/Medium/Memoize.js) |
+| **Function Composition** | 🟡 | ReduceRight | [Link](./Closures/Medium/Function_Composition.js) |
 
 ---
 
