@@ -119,6 +119,7 @@ A curated list of problems that significantly improved my understanding.
 | **Palindrome Pairs** | 🔴 | Hash Map | [Link](./Array/Hard/Palindrome_Pairs.js) |
 | **Text Justification** | 🔴 | String / Greedy | [Link](./Array/Hard/Text_Justification.js) |
 | **Word Search II** | 🔴 | Trie & DFS | [Link](./Array/Hard/Word_Search_II.js) |
+| **Maximal Rectangle** | 🔴 | Histogram / Monotonic Stack | [Link](./Array/Hard/Maximal_Rectangle.js) |
 
 ### Asynchronous & Promises
 
