@@ -120,18 +120,14 @@ A curated list of problems that significantly improved my understanding.
 | **Text Justification** | 🔴 | String / Greedy | [Link](./Array/Hard/Text_Justification.js) |
 | **Word Search II** | 🔴 | Trie & DFS | [Link](./Array/Hard/Word_Search_II.js) |
 | **Maximal Rectangle** | 🔴 | Histogram / Monotonic Stack | [Link](./Array/Hard/Maximal_Rectangle.js) |
-
-### Asynchronous & Promises
-
-| Problem | Difficulty | Pattern/Concept | Solution Link |
-| :--- | :---: | :--- | :---: |
-| **Add Two Promises** | 🟢 | Async/Await | [Link](./Asynchronous_Promises/Easy/Add_Two_Promises.js) |
-| **Interval Cancellation** | 🟢 | setInterval | [Link](./Asynchronous_Promises/Easy/Interval_Cancellation.js) |
-| **Promise Time Limit** | 🟢 | Promise.race | [Link](./Asynchronous_Promises/Easy/Promise_Time_Limit.js) |
-| **Sleep** | 🟢 | Promises | [Link](./Asynchronous_Promises/Easy/Sleep.js) |
-| **Timeout Cancellation** | 🟢 | setTimeout | [Link](./Asynchronous_Promises/Easy/Timeout_Cancellation.js) |
-| **Promise.all Polyfill** | 🟡 | Async/Parallel | [Link](./Asynchronous_Promises/Medium/Execute_Asynchronous_Functions_in_Parallel.js) |
-| **Debounce** | 🟡 | Closures / Timer | [Link](./Asynchronous_Promises/Medium/Debounce.js) |
+| **Perfect Rectangle** | 🔴 | Geometry / Arrays | [Link](./Array/Hard/Perfect_Rectangle.js) |
+| **Add Two Promises** | 🟢 | Async/Await | [Link](./Array/Easy/Add_Two_Promises.js) |
+| **Interval Cancellation** | 🟢 | setInterval | [Link](./Array/Easy/Interval_Cancellation.js) |
+| **Promise Time Limit** | 🟢 | Promise.race | [Link](./Array/Easy/Promise_Time_Limit.js) |
+| **Sleep** | 🟢 | Promises | [Link](./Array/Easy/Sleep.js) |
+| **Timeout Cancellation** | 🟢 | setTimeout | [Link](./Array/Easy/Timeout_Cancellation.js) |
+| **Promise.all Polyfill** | 🟡 | Async/Parallel | [Link](./Array/Medium/Execute_Asynchronous_Functions_in_Parallel.js) |
+| **Debounce** | 🟡 | Closures / Timer | [Link](./Array/Medium/Debounce.js) |
 
 ### Classes & OOP
 
