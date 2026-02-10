@@ -1,3 +1,32 @@
+// Problem: Perfect Rectangle
+//
+// Given N axis-aligned rectangles, check if they perfectly cover a larger rectangular region without gaps or overlaps.
+// The rectangles are given as an array rectangles where rectangles[i] = [xi, yi, ai, bi] represents an axis-aligned rectangle. 
+// The bottom-left point of the rectangle is (xi, yi) and the top-right point of it is (ai, bi).
+//
+// Example 1:
+// Input: rectangles = [[1,1,3,3],[3,1,4,2],[3,2,4,4],[1,3,2,4],[2,3,3,4]]
+// Output: true
+// Explanation: All 5 rectangles together form an exact cover of a rectangular region.
+//
+// Example 2:
+// Input: rectangles = [[1,1,2,3],[1,3,2,4],[3,1,4,2],[3,2,4,4]]
+// Output: false
+// Explanation: Because there is a gap between the two rectangular regions.
+//
+// Example 3:
+// Input: rectangles = [[1,1,3,3],[3,1,4,2],[1,3,2,4],[2,2,4,4]]
+// Output: false
+// Explanation: Because two of the rectangles overlap with each other.
+//
+// Constraints:
+// 1 <= rectangles.length <= 2 * 10^4
+// rectangles[i].length == 4
+// -10^5 <= xi < ai <= 10^5
+// -10^5 <= yi < bi <= 10^5
+
+// Solution:
+
 /**
  * @param {number[][]} rectangles
  * @return {boolean}
@@ -49,42 +78,21 @@ var isRectangleCover = function (rectangles) {
     return totalArea === (maxX - minX) * (maxY - minY);
 };
 
-// -----------------------------------------------------------------------------
-// NOTES: Perfect Rectangle
-// -----------------------------------------------------------------------------
-
-/*
-1. Problem: 
-   Given N axis-aligned rectangles, check if they perfectly cover a larger rectangular
-   region without gaps or overlaps.
-
-2. Key Insights:
-   A valid "Perfect Rectangle" must satisfy two conditions:
-   a) Area Check: The sum of areas of all small rectangles must equal the area of the 
-      large bounding rectangle (defined by the min/max coordinates).
-   b) Corner Check: All internal corners formed by meeting rectangles should cancel out.
-      Only the 4 corners of the large bounding rectangle should remain.
-
-3. Algorithm (Set-based method):
-   - Track `minX`, `minY`, `maxX`, `maxY` across all rectangles.
-   - Sum up the `area` of each rectangle.
-   - Track corner points in a Set (as "x,y" strings).
-   - For every rectangle, process its 4 corners:
-     - If a corner is already in the Set, remove it (it's an internal meeting point).
-     - If not, add it.
-   - Final Check:
-     - The Set must contain exactly 4 points.
-     - Those 4 points must be the corners of the large bounding box:
-       (minX, minY), (minX, maxY), (maxX, minY), (maxX, maxY).
-     - The `totalArea` must equal `(maxX - minX) * (maxY - minY)`.
-
-4. Complexity:
-   - Time: O(N), where N is the number of rectangles. We iterate once.
-     Set operations are O(1) on average.
-   - Space: O(N) to store corners in the Set.
-
-5. Edge Cases:
-   - Overlapping rectangles (area sum might match, but corners won't cancel correctly).
-   - Gaps (area sum will be less).
-   - Touching corners but not forming a solid rectangle.
-*/
+// Notes:
+//
+// - A valid "Perfect Rectangle" must satisfy two conditions:
+//   1. Area Check: The sum of areas of all small rectangles must equal the area of the large bounding rectangle (defined by the min/max coordinates).
+//   2. Corner Check: All internal corners formed by meeting rectangles should cancel out. Only the 4 corners of the large bounding rectangle should remain.
+// - Algorithm (Set-based method):
+//   - Track `minX`, `minY`, `maxX`, `maxY` across all rectangles.
+//   - Sum up the `area` of each rectangle.
+//   - Track corner points in a Set (as "x,y" strings).
+//   - For every rectangle, process its 4 corners:
+//     - If a corner is already in the Set, remove it (it's an internal meeting point).
+//     - If not, add it.
+//   - Final Check:
+//     - The Set must contain exactly 4 points.
+//     - Those 4 points must be the corners of the large bounding box: (minX, minY), (minX, maxY), (maxX, minY), (maxX, maxY).
+//     - The `totalArea` must equal `(maxX - minX) * (maxY - minY)`.
+// - Time Complexity: O(N), where N is the number of rectangles. We iterate once. Set operations are O(1) on average.
+// - Space Complexity: O(N) to store corners in the Set.
