@@ -123,6 +123,7 @@ A curated list of problems that significantly improved my understanding.
 | **Perfect Rectangle** | 🔴 | Geometry / Arrays | [Link](./Array/Hard/Perfect_Rectangle.js) |
 | **Word Break II** | 🔴 | Recursion / Memoization | [Link](./Array/Hard/Word_Break_II.js) |
 | **Max Points on a Line** | 🔴 | Geometry / Hash Map | [Link](./Array/Hard/Max_Points_on_a_Line.js) |
+| **Count of Smaller Numbers After Self** | 🔴 | Merge Sort / BIT | [Link](./Array/Hard/Count_of_Smaller_Numbers_After_Self.js) |
 | **Add Two Promises** | 🟢 | Async/Await | [Link](./Array/Easy/Add_Two_Promises.js) |
 | **Interval Cancellation** | 🟢 | setInterval | [Link](./Array/Easy/Interval_Cancellation.js) |
 | **Promise Time Limit** | 🟢 | Promise.race | [Link](./Array/Easy/Promise_Time_Limit.js) |
