@@ -56,7 +56,6 @@ My development environment matches modern industry standards:
 | :--- | :--- | :--- |
 | **Language** | ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | ES6+ features (Arrow functions, Classes, Async/Await) |
 | **Runtime** | ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) | Executed via Node.js runtime / Browser Console |
-| **Testing** | ![Jest](https://img.shields.io/badge/-Jest-C21325?style=flat-square&logo=jest&logoColor=white) | *Planned implementation for Unit Testing* |
 
 ---
 
@@ -110,6 +109,7 @@ A curated list of problems that significantly improved my understanding.
 | **Flatten Nested Array** | 🟡 | Recursion | [Link](./Array/Medium/Flatten_Deeply_Nested_Array.js) |
 | **Group By** | 🟡 | Prototype / Hash Map | [Link](./Array/Medium/Group_By.js) |
 | **Compact Object** | 🟡 | Recursion / DFS | [Link](./Array/Medium/Compact_Object.js) |
+| **Container With Most Water** | 🟡 | Two Pointers / Greedy | [Link](./Array/Medium/Container_With_Most_Water.js) |
 | **Median of Two Sorted Arrays** | 🔴 | Binary Search | [Link](./Array/Hard/Median_Of_Two_Sorted_Array.js) |
 | **Sudoku Solver** | 🔴 | Backtracking | [Link](./Array/Hard/Sudoku_Solver.js) |
 | **First Missing Positive** | 🔴 | Index as Hash Map | [Link](./Array/Hard/First_Missing_Positive.js) |
@@ -124,6 +124,8 @@ A curated list of problems that significantly improved my understanding.
 | **Word Break II** | 🔴 | Recursion / Memoization | [Link](./Array/Hard/Word_Break_II.js) |
 | **Max Points on a Line** | 🔴 | Geometry / Hash Map | [Link](./Array/Hard/Max_Points_on_a_Line.js) |
 | **Count of Smaller Numbers After Self** | 🔴 | Merge Sort / BIT | [Link](./Array/Hard/Count_of_Smaller_Numbers_After_Self.js) |
+| **Self Crossing** | 🔴 | Geometry / Array | [Link](./Array/Hard/Self_Crossing.js) |
+| **Dungeon Game** | 🔴 | Dynamic Programming | [Link](./Array/Hard/Dungeon_Game.js) |
 | **Add Two Promises** | 🟢 | Async/Await | [Link](./Array/Easy/Add_Two_Promises.js) |
 | **Interval Cancellation** | 🟢 | setInterval | [Link](./Array/Easy/Interval_Cancellation.js) |
 | **Promise Time Limit** | 🟢 | Promise.race | [Link](./Array/Easy/Promise_Time_Limit.js) |

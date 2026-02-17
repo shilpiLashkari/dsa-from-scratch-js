@@ -29,3 +29,6 @@ yarn-error.log*
 *.swp
 *.swo
 *.tgz
+
+# Checklist
+checklist.txt
