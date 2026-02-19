@@ -127,6 +127,7 @@ A curated list of problems that significantly improved my understanding.
 | **Self Crossing** | 🔴 | Geometry / Array | [Link](./Array/Hard/Self_Crossing.js) |
 | **Dungeon Game** | 🔴 | Dynamic Programming | [Link](./Array/Hard/Dungeon_Game.js) |
 | **Sliding Window Maximum** | 🔴 | Monotonic Deque | [Link](./Array/Hard/Sliding_Window_Maximum.js) |
+| **Split Array Largest Sum** | 🔴 | Binary Search | [Link](./Array/Hard/Split_Array_Largest_Sum.js) |
 | **Add Two Promises** | 🟢 | Async/Await | [Link](./Array/Easy/Add_Two_Promises.js) |
 | **Interval Cancellation** | 🟢 | setInterval | [Link](./Array/Easy/Interval_Cancellation.js) |
 | **Promise Time Limit** | 🟢 | Promise.race | [Link](./Array/Easy/Promise_Time_Limit.js) |
