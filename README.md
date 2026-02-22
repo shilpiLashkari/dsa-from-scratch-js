@@ -113,6 +113,7 @@ A curated list of problems that significantly improved my understanding.
 | **Median of Two Sorted Arrays** | 🔴 | Binary Search | [Link](./Array/Hard/Median_Of_Two_Sorted_Array.js) |
 | **Sudoku Solver** | 🔴 | Backtracking | [Link](./Array/Hard/Sudoku_Solver.js) |
 | **First Missing Positive** | 🔴 | Index as Hash Map | [Link](./Array/Hard/First_Missing_Positive.js) |
+| **Best Time to Buy and Sell Stock III** | 🔴 | Dynamic Programming | [Link](./Array/Hard/Best_Time_to_Buy_and_Sell_Stock_III.js) |
 | **Candy** | 🔴 | Greedy | [Link](./Array/Hard/Candy.js) |
 | **Trapping Rain Water** | 🔴 | Two Pointers | [Link](./Array/Hard/Trapping_Rain_Water.js) |
 | **N-Queens** | 🔴 | Backtracking | [Link](./Array/Hard/N_Queens.js) |

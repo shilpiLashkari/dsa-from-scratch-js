@@ -184,7 +184,8 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [ ] Distinct Subsequences
 - [ ] Palindrome Partitioning II
 - [ ] Maximum Subarray Sum Circular
-- [ ] Best Time to Buy and Sell Stock IV
+- [x] Best Time to Buy and Sell Stock IV
+- [x] Best Time to Buy and Sell Stock III
 - [ ] Paint House
 - [ ] Paint House II
 
@@ -258,6 +259,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Shortest Subarray with Sum at Least K
 - [x] Count of Range Sum
 - [x] Candy
+- [x] Best Time to Buy and Sell Stock III
 
 
 ## 🔁 Closures / Functions — Easy
