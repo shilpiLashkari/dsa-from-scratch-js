@@ -70,6 +70,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 ## 🟢 Search in Rotated Array
 - [ ] Find Minimum in Rotated Sorted Array
 - [ ] Search in Rotated Sorted Array
+- [x] Find Minimum in Rotated Sorted Array II
 
 ## 🟢 Sliding Window (Core)
 - [ ] Longest Substring Without Repeating Characters
@@ -260,6 +261,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Count of Range Sum
 - [x] Candy
 - [x] Best Time to Buy and Sell Stock III
+- [x] Find Minimum in Rotated Sorted Array II
 
 
 ## 🔁 Closures / Functions — Easy
