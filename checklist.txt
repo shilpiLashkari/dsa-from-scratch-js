@@ -264,6 +264,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Best Time to Buy and Sell Stock III
 - [x] Find Minimum in Rotated Sorted Array II
 - [x] Reverse Pairs
+- [x] Contains Duplicate III
 
 
 ## 🔁 Closures / Functions — Easy

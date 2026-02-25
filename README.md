@@ -135,6 +135,7 @@ A curated list of problems that significantly improved my understanding.
 | **Count of Range Sum** | 🔴 | Merge Sort | [Link](./Array/Hard/Count_of_Range_Sum.js) |
 | **Find Minimum in Rotated Sorted Array II** | 🔴 | Binary Search | [Link](./Array/Hard/Find_Minimum_in_Rotated_Sorted_Array_II.js) |
 | **Reverse Pairs** | 🔴 | Merge Sort | [Link](./Array/Hard/Reverse_Pairs.js) |
+| **Contains Duplicate III** | 🔴 | Bucket Sort | [Link](./Array/Hard/Contains_Duplicate_III.js) |
 | **Add Two Promises** | 🟢 | Async/Await | [Link](./Array/Easy/Add_Two_Promises.js) |
 | **Interval Cancellation** | 🟢 | setInterval | [Link](./Array/Easy/Interval_Cancellation.js) |
 | **Promise Time Limit** | 🟢 | Promise.race | [Link](./Array/Easy/Promise_Time_Limit.js) |
