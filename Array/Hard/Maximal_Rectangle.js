@@ -33,14 +33,10 @@ const maximalRectangle = (matrix) => {
     const cols = matrix[0].length;
     let maxArea = 0;
 
-    // We'll store the heights of consecutive 1s for each column
-    // effectively converting each row into a histogram problem
     const heights = new Array(cols).fill(0);
 
     for (let i = 0; i < rows; i++) {
         for (let j = 0; j < cols; j++) {
-            // If the current cell is '1', the height increases by 1
-            // If it's '0', the height resets to 0 (no bar can pass through it)
             if (matrix[i][j] === '1') {
                 heights[j] += 1;
             } else {
@@ -48,35 +44,28 @@ const maximalRectangle = (matrix) => {
             }
         }
 
-        // After updating the heights for this row, calculate the largest rectangle
-        // for this "histogram"
         maxArea = Math.max(maxArea, largestRectangleArea(heights));
     }
 
     return maxArea;
 };
 
-// Helper function: Logic from "Largest Rectangle in Histogram"
-// This is reused to solve the problem for each row
 const largestRectangleArea = (heights) => {
-    const stack = []; // Stores indices
+    const stack = []; 
     let maxArea = 0;
     let i = 0;
 
     while (i < heights.length) {
-        // If stack is empty or current bar is higher than the one at stack top
         if (stack.length === 0 || heights[i] >= heights[stack[stack.length - 1]]) {
             stack.push(i);
             i++;
         } else {
-            // Current bar is lower, so we can calculate area for the bar at stack top
             const height = heights[stack.pop()];
             const width = stack.length === 0 ? i : i - stack[stack.length - 1] - 1;
             maxArea = Math.max(maxArea, height * width);
         }
     }
 
-    // Process remaining bars in stack
     while (stack.length > 0) {
         const height = heights[stack.pop()];
         const width = stack.length === 0 ? i : i - stack[stack.length - 1] - 1;

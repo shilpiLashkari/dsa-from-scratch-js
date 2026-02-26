@@ -26,7 +26,6 @@ class Calculator {
      */
     add(value) {
         this.currentValue += value;
-        // Returning 'this' allows chaining: cal.add(5).subtract(2)
         return this;
     }
 

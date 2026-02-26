@@ -34,7 +34,6 @@ const findWords = (board, words) => {
     const m = board.length;
     const n = board[0].length;
 
-    // Build the Trie
     const root = {};
     for (const word of words) {
         let node = root;
@@ -42,28 +41,24 @@ const findWords = (board, words) => {
             if (!node[char]) node[char] = {};
             node = node[char];
         }
-        node.word = word; // Mark end of word
+        node.word = word; 
     }
 
     const dfs = (r, c, node) => {
         const char = board[r][c];
 
-        // Base case or pruning
         if (!node[char]) return;
 
         const nextNode = node[char];
 
-        // Ensure we check for words at this node
         if (nextNode.word) {
             result.push(nextNode.word);
             nextNode.word = null;
-            delete nextNode.word; // Remove property to help with pruning
+            delete nextNode.word; 
         }
 
-        // Mark as visited
         board[r][c] = '#';
 
-        // Explore neighbors
         const directions = [[0, 1], [0, -1], [1, 0], [-1, 0]];
         for (const [dr, dc] of directions) {
             const nr = r + dr;
@@ -73,10 +68,8 @@ const findWords = (board, words) => {
             }
         }
 
-        // Backtrack
         board[r][c] = char;
 
-        // Optimization: Prune leaf nodes
         if (Object.keys(nextNode).length === 0) {
             delete node[char];
         }

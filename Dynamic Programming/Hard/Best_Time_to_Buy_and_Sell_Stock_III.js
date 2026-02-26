@@ -33,12 +33,6 @@ const maxProfit = (prices) => {
         return 0;
     }
 
-    // We can solve this using DP with 4 states:
-    // 1st Buy: The minimum price to buy the stock for the first time.
-    // 1st Sell: The maximum profit after the first transaction.
-    // 2nd Buy: The "effective" minimum price to buy the stock for the second time 
-    //          (subtracting the profit from the first transaction).
-    // 2nd Sell: The maximum profit after the second transaction.
 
     let firstBuy = Infinity;
     let firstSell = 0;
@@ -46,17 +40,12 @@ const maxProfit = (prices) => {
     let secondSell = 0;
 
     for (const price of prices) {
-        // Track the lowest price for the first purchase
         firstBuy = Math.min(firstBuy, price);
         
-        // Track the max profit if we sold at 'price' after buying at 'firstBuy'
         firstSell = Math.max(firstSell, price - firstBuy);
         
-        // Track the lowest "effective" price for the second purchase.
-        // We subtract 'firstSell' because the profit we already made reduces our cost.
         secondBuy = Math.min(secondBuy, price - firstSell);
         
-        // Track the max total profit if we sold at 'price' after buying at 'secondBuy'
         secondSell = Math.max(secondSell, price - secondBuy);
     }
 

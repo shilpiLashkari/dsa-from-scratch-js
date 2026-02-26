@@ -24,10 +24,7 @@
  * @return {Array}
  */
 const sortBy = (inputArray, sortKeyFunction) => {
-    // Array.sort sorts in place, so we return the result of that
     return inputArray.sort((a, b) => {
-        // Compare the values returned by the sortKeyFunction
-        // To sort ascending: result(a) - result(b)
         return sortKeyFunction(a) - sortKeyFunction(b);
     });
 };

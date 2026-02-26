@@ -34,18 +34,14 @@ var TimeLimitedCache = function () {
 TimeLimitedCache.prototype.set = function (key, value, duration) {
     const keyExists = this.cache.has(key);
 
-    // If the key is already there, we need to clear its old expiration timer
-    // so we can set a fresh one.
     if (keyExists) {
         clearTimeout(this.cache.get(key).timerId);
     }
 
-    // Create a timer to automatically delete this key after 'duration'
     const timerId = setTimeout(() => {
         this.cache.delete(key);
     }, duration);
 
-    // Save the value AND the ticket number (timerId) so we can cancel it later if needed
     this.cache.set(key, { value, timerId });
 
     return keyExists;
@@ -59,7 +55,6 @@ TimeLimitedCache.prototype.get = function (key) {
     if (this.cache.has(key)) {
         return this.cache.get(key).value;
     }
-    // Return -1 if not found
     return -1;
 };
 
@@ -67,7 +62,6 @@ TimeLimitedCache.prototype.get = function (key) {
  * @return {number} count of non-expired keys
  */
 TimeLimitedCache.prototype.count = function () {
-    // Only active keys are in the map (since we delete them on timeout)
     return this.cache.size;
 };
 

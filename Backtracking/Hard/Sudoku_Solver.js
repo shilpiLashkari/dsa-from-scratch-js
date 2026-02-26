@@ -43,23 +43,19 @@
  * @return {void} Do not return anything, modify board in-place instead.
  */
 const solveSudoku = (board) => {
-    // Helper function to check if placing a number is valid
     const isValidPlacement = (row, col, num) => {
-        // Check if the number already exists in the current row
         for (let column = 0; column < 9; column++) {
             if (board[row][column] === num) {
                 return false;
             }
         }
 
-        // Check if the number already exists in the current column
         for (let rowIndex = 0; rowIndex < 9; rowIndex++) {
             if (board[rowIndex][col] === num) {
                 return false;
             }
         }
 
-        // Check if the number exists in the current 3x3 sub-box
         const boxStartRow = Math.floor(row / 3) * 3;
         const boxStartCol = Math.floor(col / 3) * 3;
 
@@ -71,47 +67,35 @@ const solveSudoku = (board) => {
             }
         }
 
-        // If we passed all checks, the placement is valid
         return true;
     };
 
-    // Recursive backtracking function to solve the puzzle
     const solve = () => {
-        // Try to find an empty cell (marked with '.')
         for (let row = 0; row < 9; row++) {
             for (let col = 0; col < 9; col++) {
                 if (board[row][col] === '.') {
-                    // Try placing digits 1-9
                     for (let num = 1; num <= 9; num++) {
                         const numStr = num.toString();
 
-                        // Check if this number can be placed here
                         if (isValidPlacement(row, col, numStr)) {
-                            // Place the number
                             board[row][col] = numStr;
 
-                            // Recursively try to solve the rest
                             if (solve()) {
-                                return true; // Solution found!
+                                return true; 
                             }
 
-                            // If we reach here, this number didn't work out
-                            // Backtrack by removing the number
                             board[row][col] = '.';
                         }
                     }
 
-                    // If no number from 1-9 worked, this path is invalid
                     return false;
                 }
             }
         }
 
-        // If we didn't find any empty cells, the board is complete
         return true;
     };
 
-    // Start the solving process
     solve();
 };
 

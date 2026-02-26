@@ -21,15 +21,12 @@ const once = (functionToLimit) => {
     let hasBeenCalled = false;
 
     return function (...args) {
-        // If we haven't called it yet, do it now
         if (!hasBeenCalled) {
             hasBeenCalled = true;
 
-            // Execute the original function with provided arguments
             return functionToLimit.apply(this, args);
         }
 
-        // Return undefined for all future calls
         return undefined;
     }
 };

@@ -22,7 +22,6 @@
 const expect = (actualValue) => {
     return {
         toBe: (expectedValue) => {
-            // Check strict equality
             if (actualValue === expectedValue) {
                 return true;
             } else {
@@ -30,7 +29,6 @@ const expect = (actualValue) => {
             }
         },
         notToBe: (expectedValue) => {
-            // Check strict inequality
             if (actualValue !== expectedValue) {
                 return true;
             } else {

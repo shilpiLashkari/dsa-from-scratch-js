@@ -27,37 +27,29 @@
  */
 const promiseAll = async (functionsArray) => {
     return new Promise((resolve, reject) => {
-        // Edge case: Empty array should resolve immediately
         if (functionsArray.length === 0) {
             resolve([]);
             return;
         }
 
-        // Array to store our results in the correct order
         const results = new Array(functionsArray.length);
 
         let completedCount = 0;
         let hasRejected = false;
 
-        // Loop through each function...
         functionsArray.forEach((fn, index) => {
-            // ...and execute it!
             fn()
                 .then(val => {
-                    // If something already failed, ignore this success
                     if (hasRejected) return;
 
-                    // Store the result at the SAME index it came from
                     results[index] = val;
                     completedCount++;
 
-                    // If this was the last one, we are done!
                     if (completedCount === functionsArray.length) {
                         resolve(results);
                     }
                 })
                 .catch(err => {
-                    // If any promise fails, we reject the whole thing immediately
                     if (!hasRejected) {
                         hasRejected = true;
                         reject(err);

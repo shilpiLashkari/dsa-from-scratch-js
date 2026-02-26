@@ -20,10 +20,8 @@
  * @return { increment: Function, decrement: Function, reset: Function }
  */
 const createCounter = (initialValue) => {
-    // Keep track of the current count
     let currentValue = initialValue;
 
-    // Return an object with 3 handy methods
     return {
         increment: () => {
             currentValue += 1;

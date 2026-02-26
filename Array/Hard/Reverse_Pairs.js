@@ -46,7 +46,6 @@ const mergeSort = (nums, left, right) => {
     const mid = Math.floor((left + right) / 2);
     let count = mergeSort(nums, left, mid) + mergeSort(nums, mid + 1, right);
 
-    // Count reverse pairs where i is in the left half and j is in the right half
     let j = mid + 1;
     for (let i = left; i <= mid; i++) {
         while (j <= right && nums[i] > 2 * nums[j]) {
@@ -55,7 +54,6 @@ const mergeSort = (nums, left, right) => {
         count += (j - (mid + 1));
     }
 
-    // Merge the two sorted halves
     merge(nums, left, mid, right);
     return count;
 };

@@ -29,8 +29,6 @@
  * @return {number[][]}
  */
 const outerTrees = (trees) => {
-    // Monotone Chain Algorithm
-    // Sort trees by x-coordinate (and y-coordinate for ties)
     trees.sort((a, b) => {
         if (a[0] === b[0]) {
             return a[1] - b[1];
@@ -38,28 +36,19 @@ const outerTrees = (trees) => {
         return a[0] - b[0];
     });
 
-    // Cross product of two vectors OA and OB
-    // returns positive if O-A-B is counter-clockwise turn,
-    // negative if clockwise, and zero if collinear
     const crossProduct = (o, a, b) => {
         return (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0]);
     };
 
-    // Build lower hull
     const lower = [];
     for (const tree of trees) {
-        // While we have at least 2 points in the lower hull,
-        // check if the current point makes a clockwise turn (or matches previous direction)
-        // If it does, remove the last point because it's not part of the convex hull
         while (lower.length >= 2 && crossProduct(lower[lower.length - 2], lower[lower.length - 1], tree) < 0) {
             lower.pop();
         }
         lower.push(tree);
     }
 
-    // Build upper hull
     const upper = [];
-    // Iterate in reverse order to build the upper hull
     for (let i = trees.length - 1; i >= 0; i--) {
         const tree = trees[i];
         while (upper.length >= 2 && crossProduct(upper[upper.length - 2], upper[upper.length - 1], tree) < 0) {
@@ -68,9 +57,6 @@ const outerTrees = (trees) => {
         upper.push(tree);
     }
 
-    // Concatenate lower and upper hulls
-    // Remove duplicate points (start and end points might be duplicated)
-    // Use a Set to store unique string representations of coordinates
     const uniquePoints = new Set();
 
     for (const point of lower) {
@@ -80,7 +66,6 @@ const outerTrees = (trees) => {
         uniquePoints.add(point.join(','));
     }
 
-    // Convert back to array of coordinates
     const result = [];
     for (const pointStr of uniquePoints) {
         result.push(pointStr.split(',').map(Number));

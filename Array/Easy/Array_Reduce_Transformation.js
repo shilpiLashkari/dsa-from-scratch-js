@@ -23,17 +23,12 @@
  * @return {number}
  */
 const reduce = (inputArray, reducerFunction, initialValue) => {
-    // Start with the initial value provided
     let accumulator = initialValue;
 
-    // Loop through every number in the input array
     for (let index = 0; index < inputArray.length; index++) {
-        // Update the accumulator by applying the reducer function 
-        // to the current accumulated value and the current element
         accumulator = reducerFunction(accumulator, inputArray[index]);
     }
 
-    // Return the final accumulated result
     return accumulator;
 };
 

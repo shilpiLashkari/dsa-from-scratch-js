@@ -25,19 +25,15 @@
  * @return {Array}
  */
 const flat = (inputArray, depthLimit) => {
-    // If we reached depth 0, we can't flatten anymore
     if (depthLimit === 0) return inputArray;
 
     const flattenedArray = [];
 
     for (const element of inputArray) {
-        // Check if the element is an array and if we are allowed to go deeper
         if (Array.isArray(element) && depthLimit > 0) {
-            // Recursively flatten it with one less depth
             const nested = flat(element, depthLimit - 1);
             flattenedArray.push(...nested);
         } else {
-            // Just a regular number, add it
             flattenedArray.push(element);
         }
     }

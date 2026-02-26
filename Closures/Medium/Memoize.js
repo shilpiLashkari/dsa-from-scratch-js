@@ -28,18 +28,14 @@ const memoize = (functionToMemoize) => {
     const memoryCache = new Map();
 
     return function (...args) {
-        // Create a unique key for the inputs (e.g., "[2,2]")
         const key = JSON.stringify(args);
 
-        // If we've seen this key before, return the saved answer directly
         if (memoryCache.has(key)) {
             return memoryCache.get(key);
         }
 
-        // If not, calculate the result by running the function
         const result = functionToMemoize.apply(this, args);
 
-        // Save the result for next time
         memoryCache.set(key, result);
 
         return result;

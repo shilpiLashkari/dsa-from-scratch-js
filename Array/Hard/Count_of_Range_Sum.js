@@ -28,13 +28,11 @@
  */
 const countRangeSum = (nums, lower, upper) => {
     const n = nums.length;
-    // prefix[i] is the sum of the first i elements
     const prefix = new Array(n + 1).fill(0);
     for (let i = 0; i < n; i++) {
         prefix[i + 1] = prefix[i] + nums[i];
     }
 
-    // Helper function to perform merge sort and count valid range sums
     const countWhileMergeSort = (sums, start, end) => {
         if (end - start <= 1) return 0;
 
@@ -46,11 +44,9 @@ const countRangeSum = (nums, lower, upper) => {
         let r = 0;
 
         for (let i = start; i < mid; i++) {
-            // Count sums[j] - sums[i] in [lower, upper]
             while (k < end && sums[k] - sums[i] < lower) k++;
             while (j < end && sums[j] - sums[i] <= upper) j++;
 
-            // Standard merge sort: merge the sorted halves into cache
             while (t < end && sums[t] < sums[i]) {
                 cache[r++] = sums[t++];
             }
@@ -58,12 +54,10 @@ const countRangeSum = (nums, lower, upper) => {
             count += j - k;
         }
 
-        // Fill remaining from right side
         while (t < end) {
             cache[r++] = sums[t++];
         }
 
-        // Copy cache back to sums
         for (let i = 0; i < cache.length; i++) {
             sums[start + i] = cache[i];
         }

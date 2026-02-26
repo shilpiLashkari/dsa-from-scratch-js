@@ -23,7 +23,6 @@
  * @return {Function}
  */
 const createHelloWorld = () => {
-    // Return a function that ignores its arguments
     return function (...args) {
         return "Hello World";
     };
@@ -31,7 +30,7 @@ const createHelloWorld = () => {
 
 /**
  * const f = createHelloWorld();
- * f(); // "Hello World"
+ * f(); 
  */
 
 // Notes:

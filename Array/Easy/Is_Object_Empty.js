@@ -30,12 +30,10 @@
  * @return {boolean}
  */
 const isEmpty = (inputObject) => {
-    // If it's an array, checking length is enough
     if (Array.isArray(inputObject)) {
         return inputObject.length === 0;
     }
 
-    // If it's an object, we need to check if it has any keys
     return Object.keys(inputObject).length === 0;
 };
 

@@ -29,23 +29,17 @@
  */
 const twoSum = (numbers, targetSum) => {
 
-    // Map to store numbers we have already seen along with their indices 
     const indexByNumber = new Map();
 
-    // Loop through the array once
     for (let currentIndex = 0; currentIndex < numbers.length; currentIndex++) {
         const currentNumber = numbers[currentIndex];
 
-        // Find the value needed to make the sum equal to targetSum
         const requiredNumber = targetSum - currentNumber;
 
-        // Check if the required number is already present in the map  
         if (indexByNumber.has(requiredNumber)) {
-            // If yes, return the indices of the required number and the current number
             return [indexByNumber.get(requiredNumber), currentIndex];
         }
 
-        // Add the current number and its index to the map for next iterations
         indexByNumber.set(currentNumber, currentIndex);
     }
 };

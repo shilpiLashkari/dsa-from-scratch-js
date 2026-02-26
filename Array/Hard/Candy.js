@@ -30,29 +30,20 @@ const candy = (ratings) => {
     const n = ratings.length;
     if (n <= 1) return n;
 
-    // Each child must have at least one candy
     const candies = new Array(n).fill(1);
 
-    // Left-to-right pass:
-    // If a child has a higher rating than the left neighbor, 
-    // they must have more candies than the left neighbor.
     for (let i = 1; i < n; i++) {
         if (ratings[i] > ratings[i - 1]) {
             candies[i] = candies[i - 1] + 1;
         }
     }
 
-    // Right-to-left pass:
-    // If a child has a higher rating than the right neighbor,
-    // they must have more candies than the right neighbor.
-    // We take the max to satisfy both left and right conditions.
     for (let i = n - 2; i >= 0; i--) {
         if (ratings[i] > ratings[i + 1]) {
             candies[i] = Math.max(candies[i], candies[i + 1] + 1);
         }
     }
 
-    // Sum up the candies
     return candies.reduce((total, count) => total + count, 0);
 };
 

@@ -31,30 +31,20 @@ const findMin = (nums) => {
     let low = 0;
     let high = nums.length - 1;
 
-    // We use binary search to narrow down the range
     while (low < high) {
         let mid = low + Math.floor((high - low) / 2);
 
-        // Case 1: nums[mid] is smaller than the last element in the current range.
-        // The minimum must be at mid or to the left of mid.
         if (nums[mid] < nums[high]) {
             high = mid;
         }
-        // Case 2: nums[mid] is larger than the last element.
-        // The rotation point (and thus the minimum) must be to the right of mid.
         else if (nums[mid] > nums[high]) {
             low = mid + 1;
         }
-        // Case 3: nums[mid] is equal to nums[high].
-        // We can't determine which side the minimum is on.
-        // However, we can safely reduce the search space by shrinking 'high' by 1.
-        // Even if nums[high] was the minimum, nums[mid] is the same value and stays in range.
         else {
             high--;
         }
     }
 
-    // When low === high, we've narrowed it down to the minimum element.
     return nums[low];
 };
 

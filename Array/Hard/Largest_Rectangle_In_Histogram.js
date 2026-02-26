@@ -23,29 +23,16 @@
  * @return {number}
  */
 const largestRectangleArea = (heights) => {
-    // We'll use a stack to keep track of increasing heights. 
-    // The stack will store indices, not values, because we need width.
     const stack = [];
     let maxArea = 0;
 
-    // We iterate through the heights, including one extra iteration with height 0
-    // to ensure any remaining bars in the stack are processed at the end.
     for (let i = 0; i <= heights.length; i++) {
-        // Use 0 as the height for the last iteration (virtual bar)
-        // Otherwise, use the current height
         const currentHeight = i === heights.length ? 0 : heights[i];
 
-        // While the stack is not empty AND the current bar is shorter than the bar at the top of the stack:
-        // This means we've found the right boundary for the rectangle with the height of the bar at stack top.
         while (stack.length > 0 && currentHeight < heights[stack[stack.length - 1]]) {
-            const height = heights[stack.pop()]; // Get height of the bar we're processing
-            const width = stack.length === 0 ? i : i - stack[stack.length - 1] - 1; // Calculate width
+            const height = heights[stack.pop()]; 
+            const width = stack.length === 0 ? i : i - stack[stack.length - 1] - 1; 
 
-            // Explanation of width calculation:
-            // 'i' is the Right Boundary (exclusive).
-            // 'stack[stack.length - 1]' is the Left Boundary (exclusive) after popping.
-            // If stack is empty after pop, it means the popped bar was the smallest so far, 
-            // so it extends all the way to the left (width = i).
 
             maxArea = Math.max(maxArea, height * width);
         }

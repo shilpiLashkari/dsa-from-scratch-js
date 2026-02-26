@@ -29,7 +29,6 @@
  * @return {number}
  */
 const findMedianSortedArrays = (nums1, nums2) => {
-    // Make sure nums1 is the smaller array for efficiency
     if (nums1.length > nums2.length) {
         return findMedianSortedArrays(nums2, nums1);
     }
@@ -40,38 +39,29 @@ const findMedianSortedArrays = (nums1, nums2) => {
     let high = m;
 
     while (low <= high) {
-        // Partition nums1 at position i
         const partitionX = Math.floor((low + high) / 2);
 
-        // Partition nums2 such that left half has same number of elements as right half
         const partitionY = Math.floor((m + n + 1) / 2) - partitionX;
 
-        // Handle edge cases where partition is at the start or end
         const maxLeftX = partitionX === 0 ? -Infinity : nums1[partitionX - 1];
         const minRightX = partitionX === m ? Infinity : nums1[partitionX];
 
         const maxLeftY = partitionY === 0 ? -Infinity : nums2[partitionY - 1];
         const minRightY = partitionY === n ? Infinity : nums2[partitionY];
 
-        // Check if we found the correct partition
         if (maxLeftX <= minRightY && maxLeftY <= minRightX) {
-            // If total length is even, median is average of two middle elements
             if ((m + n) % 2 === 0) {
                 return (Math.max(maxLeftX, maxLeftY) + Math.min(minRightX, minRightY)) / 2;
             } else {
-                // If odd, median is the max of left side
                 return Math.max(maxLeftX, maxLeftY);
             }
         } else if (maxLeftX > minRightY) {
-            // We went too far on the right side of nums1, go left
             high = partitionX - 1;
         } else {
-            // We're too far on the left side of nums1, go right
             low = partitionX + 1;
         }
     }
 
-    // This shouldn't happen if inputs are valid
     throw new Error("Input arrays are not sorted");
 };
 

@@ -105,29 +105,23 @@ A curated list of problems that significantly improved my understanding.
 | **Filter Elements from Array** | 🟢 | Filter Logic | [Link](./Array/Easy/Filter_Elements_from_Array.js) |
 | **Is Object Empty** | 🟢 | JSON / Object Keys | [Link](./Array/Easy/Is_Object_Empty.js) |
 | **Sort By** | 🟢 | Custom Sort | [Link](./Array/Easy/Sort_By.js) |
-| **Join Arrays by ID** | 🟡 | Map / Merge Logic | [Link](./Array/Medium/Join_Two_Arrays_by_ID.js) |
+| **Join Arrays by ID** | 🟢 | Map / Merge Logic | [Link](./Array/Easy/Join_Two_Arrays_by_ID.js) |
+| **Compact Object** | 🟢 | Recursion / DFS | [Link](./Array/Easy/Compact_Object.js) |
+| **Remove Duplicates From Sorted Array** | 🟢 | Two Pointers | [Link](./Array/Easy/Remove_Duplicates_From_Sorted_Array.js) |
 | **Flatten Nested Array** | 🟡 | Recursion | [Link](./Array/Medium/Flatten_Deeply_Nested_Array.js) |
 | **Group By** | 🟡 | Prototype / Hash Map | [Link](./Array/Medium/Group_By.js) |
-| **Compact Object** | 🟡 | Recursion / DFS | [Link](./Array/Medium/Compact_Object.js) |
 | **Container With Most Water** | 🟡 | Two Pointers / Greedy | [Link](./Array/Medium/Container_With_Most_Water.js) |
 | **Median of Two Sorted Arrays** | 🔴 | Binary Search | [Link](./Array/Hard/Median_Of_Two_Sorted_Array.js) |
-| **Sudoku Solver** | 🔴 | Backtracking | [Link](./Array/Hard/Sudoku_Solver.js) |
 | **First Missing Positive** | 🔴 | Index as Hash Map | [Link](./Array/Hard/First_Missing_Positive.js) |
-| **Best Time to Buy and Sell Stock III** | 🔴 | Dynamic Programming | [Link](./Array/Hard/Best_Time_to_Buy_and_Sell_Stock_III.js) |
 | **Candy** | 🔴 | Greedy | [Link](./Array/Hard/Candy.js) |
 | **Trapping Rain Water** | 🔴 | Two Pointers | [Link](./Array/Hard/Trapping_Rain_Water.js) |
-| **N-Queens** | 🔴 | Backtracking | [Link](./Array/Hard/N_Queens.js) |
 | **Largest Rectangle in Histogram** | 🔴 | Monotonic Stack | [Link](./Array/Hard/Largest_Rectangle_In_Histogram.js) |
-| **Palindrome Pairs** | 🔴 | Hash Map | [Link](./Array/Hard/Palindrome_Pairs.js) |
 | **Text Justification** | 🔴 | String / Greedy | [Link](./Array/Hard/Text_Justification.js) |
-| **Word Search II** | 🔴 | Trie & DFS | [Link](./Array/Hard/Word_Search_II.js) |
 | **Maximal Rectangle** | 🔴 | Histogram / Monotonic Stack | [Link](./Array/Hard/Maximal_Rectangle.js) |
 | **Perfect Rectangle** | 🔴 | Geometry / Arrays | [Link](./Array/Hard/Perfect_Rectangle.js) |
-| **Word Break II** | 🔴 | Recursion / Memoization | [Link](./Array/Hard/Word_Break_II.js) |
 | **Max Points on a Line** | 🔴 | Geometry / Hash Map | [Link](./Array/Hard/Max_Points_on_a_Line.js) |
 | **Count of Smaller Numbers After Self** | 🔴 | Merge Sort / BIT | [Link](./Array/Hard/Count_of_Smaller_Numbers_After_Self.js) |
 | **Self Crossing** | 🔴 | Geometry / Array | [Link](./Array/Hard/Self_Crossing.js) |
-| **Dungeon Game** | 🔴 | Dynamic Programming | [Link](./Array/Hard/Dungeon_Game.js) |
 | **Sliding Window Maximum** | 🔴 | Monotonic Deque | [Link](./Array/Hard/Sliding_Window_Maximum.js) |
 | **Split Array Largest Sum** | 🔴 | Binary Search | [Link](./Array/Hard/Split_Array_Largest_Sum.js) |
 | **Erect the Fence** | 🔴 | Monotone Chain | [Link](./Array/Hard/Erect_The_Fence.js) |
@@ -136,13 +130,17 @@ A curated list of problems that significantly improved my understanding.
 | **Find Minimum in Rotated Sorted Array II** | 🔴 | Binary Search | [Link](./Array/Hard/Find_Minimum_in_Rotated_Sorted_Array_II.js) |
 | **Reverse Pairs** | 🔴 | Merge Sort | [Link](./Array/Hard/Reverse_Pairs.js) |
 | **Contains Duplicate III** | 🔴 | Bucket Sort | [Link](./Array/Hard/Contains_Duplicate_III.js) |
-| **Add Two Promises** | 🟢 | Async/Await | [Link](./Array/Easy/Add_Two_Promises.js) |
-| **Interval Cancellation** | 🟢 | setInterval | [Link](./Array/Easy/Interval_Cancellation.js) |
-| **Promise Time Limit** | 🟢 | Promise.race | [Link](./Array/Easy/Promise_Time_Limit.js) |
-| **Sleep** | 🟢 | Promises | [Link](./Array/Easy/Sleep.js) |
-| **Timeout Cancellation** | 🟢 | setTimeout | [Link](./Array/Easy/Timeout_Cancellation.js) |
-| **Promise.all Polyfill** | 🟡 | Async/Parallel | [Link](./Array/Medium/Execute_Asynchronous_Functions_in_Parallel.js) |
-| **Debounce** | 🟡 | Closures / Timer | [Link](./Array/Medium/Debounce.js) |
+
+### Asynchronous Programming
+
+| Problem | Difficulty | Pattern/Concept | Solution Link |
+| :--- | :---: | :--- | :---: |
+| **Add Two Promises** | 🟢 | Async/Await | [Link](./Asynchronous_Programming/Easy/Add_Two_Promises.js) |
+| **Interval Cancellation** | 🟢 | setInterval | [Link](./Asynchronous_Programming/Easy/Interval_Cancellation.js) |
+| **Promise Time Limit** | 🟢 | Promise.race | [Link](./Asynchronous_Programming/Easy/Promise_Time_Limit.js) |
+| **Sleep** | 🟢 | Promises | [Link](./Asynchronous_Programming/Easy/Sleep.js) |
+| **Timeout Cancellation** | 🟢 | setTimeout | [Link](./Asynchronous_Programming/Easy/Timeout_Cancellation.js) |
+| **Promise.all Polyfill** | 🟡 | Async/Parallel | [Link](./Asynchronous_Programming/Medium/Execute_Asynchronous_Functions_in_Parallel.js) |
 
 ### Classes & OOP
 
@@ -165,6 +163,36 @@ A curated list of problems that significantly improved my understanding.
 | **To Be Or Not To Be** | 🟢 | Error Handling | [Link](./Closures/Easy/To_Be_Or_Not_To_Be.js) |
 | **Memoize** | 🟡 | Closures & Caching | [Link](./Closures/Medium/Memoize.js) |
 | **Function Composition** | 🟡 | ReduceRight | [Link](./Closures/Medium/Function_Composition.js) |
+| **Debounce** | 🟡 | Closures / Timer | [Link](./Closures/Medium/Debounce.js) |
+
+### Backtracking
+
+| Problem | Difficulty | Pattern/Concept | Solution Link |
+| :--- | :---: | :--- | :---: |
+| **Sudoku Solver** | 🔴 | Backtracking | [Link](./Backtracking/Hard/Sudoku_Solver.js) |
+| **N-Queens** | 🔴 | Backtracking | [Link](./Backtracking/Hard/N_Queens.js) |
+
+### Dynamic Programming
+
+| Problem | Difficulty | Pattern/Concept | Solution Link |
+| :--- | :---: | :--- | :---: |
+| **Best Time to Buy and Sell Stock III** | 🔴 | DP | [Link](./Dynamic%20Programming/Hard/Best_Time_to_Buy_and_Sell_Stock_III.js) |
+| **Dungeon Game** | 🔴 | DP | [Link](./Dynamic%20Programming/Hard/Dungeon_Game.js) |
+| **Word Break II** | 🔴 | DP | [Link](./Dynamic%20Programming/Hard/Word_Break_II.js) |
+
+### Trie
+
+| Problem | Difficulty | Pattern/Concept | Solution Link |
+| :--- | :---: | :--- | :---: |
+| **Palindrome Pairs** | 🔴 | Trie/Map | [Link](./Trie/Hard/Palindrome_Pairs.js) |
+| **Word Search II** | 🔴 | Trie & DFS | [Link](./Trie/Hard/Word_Search_II.js) |
+
+### Math
+
+| Problem | Difficulty | Pattern/Concept | Solution Link |
+| :--- | :---: | :--- | :---: |
+| **Palindrome Number** | 🟢 | Math / Digit Reversal | [Link](./Math/Easy/Palindrome_Number.js) |
+| **Reverse Integer** | 🟡 | Math / Digit Reversal | [Link](./Math/Medium/Reverse_Integer.js) |
 
 ---
 

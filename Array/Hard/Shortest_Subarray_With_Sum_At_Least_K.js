@@ -30,7 +30,6 @@
  */
 const shortestSubarray = (nums, k) => {
     const n = nums.length;
-    // prefix[i] is the sum of the first i elements
     const prefix = new Array(n + 1).fill(0);
     
     for (let i = 0; i < n; i++) {
@@ -38,20 +37,13 @@ const shortestSubarray = (nums, k) => {
     }
     
     let result = Infinity;
-    // Deque stores indices i such that prefix[i] is increasing
     const deque = [];
     
     for (let i = 0; i <= n; i++) {
-        // While the difference between current prefix sum and the smallest prefix sum in deque is >= k,
-        // we found a candidate subarray. Update result and move the left boundary.
         while (deque.length && prefix[i] - prefix[deque[0]] >= k) {
             result = Math.min(result, i - deque.shift());
         }
         
-        // Maintain the deque in increasing order of prefix sums.
-        // If current prefix sum is smaller than the largest in deque, 
-        // the larger one will never be part of a "shortest" subarray starting from i or later,
-        // because the current smaller one is both smaller and further to the right.
         while (deque.length && prefix[i] <= prefix[deque[deque.length - 1]]) {
             deque.pop();
         }

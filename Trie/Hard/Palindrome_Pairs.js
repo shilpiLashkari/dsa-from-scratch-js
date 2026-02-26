@@ -39,12 +39,10 @@ const palindromePairs = (words) => {
     const pairs = [];
     const map = new Map();
 
-    // Store word -> index mapping for O(1) lookup
     for (let i = 0; i < words.length; i++) {
         map.set(words[i], i);
     }
 
-    // Helper to check if a string is a palindrome
     const isPalindrome = (str) => {
         let left = 0;
         let right = str.length - 1;
@@ -59,23 +57,16 @@ const palindromePairs = (words) => {
     for (let i = 0; i < words.length; i++) {
         const word = words[i];
 
-        // We split the word into two parts: prefix and suffix
-        // We look for complementary parts in the map.
 
         for (let j = 0; j <= word.length; j++) {
             const prefix = word.substring(0, j);
             const suffix = word.substring(j);
 
-            // Case 1: If prefix is a palindrome, we look for reverse(suffix) as 'target'.
-            // If found, then Target + Word = reversedSuffix + (prefix + suffix) is a palindrome.
-            // To avoid duplicates, we enforce len(Target) < len(Word).
             if (isPalindrome(prefix)) {
                 const reversedSuffix = suffix.split('').reverse().join('');
                 if (map.has(reversedSuffix)) {
                     const targetIndex = map.get(reversedSuffix);
                     if (targetIndex !== i) {
-                        // Word[target] + Word[i] is candidate.
-                        // Structure: Target (shorter) + Word (longer).
                         if (words[targetIndex].length < words[i].length) {
                             pairs.push([targetIndex, i]);
                         }
@@ -83,17 +74,11 @@ const palindromePairs = (words) => {
                 }
             }
 
-            // Case 2: If suffix is a palindrome, we look for reverse(prefix) as 'target'.
-            // If found, then Word + Target = (prefix + suffix) + reversedPrefix is a palindrome.
-            // To avoid duplicates, we enforce len(Word) >= len(Target).
-            // This covers the "Equal Length" case (including pure reversal) exactly once.
             if (isPalindrome(suffix)) {
                 const reversedPrefix = prefix.split('').reverse().join('');
                 if (map.has(reversedPrefix)) {
                     const targetIndex = map.get(reversedPrefix);
                     if (targetIndex !== i) {
-                        // Word[i] + Word[target] is candidate.
-                        // Structure: Word (longer/equal) + Target (shorter/equal).
                         if (words[i].length >= words[targetIndex].length) {
                             pairs.push([i, targetIndex]);
                         }

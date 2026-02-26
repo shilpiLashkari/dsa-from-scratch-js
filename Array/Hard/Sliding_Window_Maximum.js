@@ -38,31 +38,20 @@ const maxSlidingWindow = (nums, k) => {
     const n = nums.length;
     if (n === 0) return [];
 
-    // Deque (double-ended queue) to store indices
-    // It will store indices of elements in the current window in decreasing order of their values.
-    // The front of the deque will always be the index of the maximum element for the current window.
     const deque = [];
     const result = [];
 
     for (let i = 0; i < n; i++) {
-        // 1. Remove indices that are out of the current window (from the front)
-        // If the index at the front is (i - k), it's no longer in the window range [i-k+1, i]
         if (deque.length > 0 && deque[0] <= i - k) {
             deque.shift();
         }
 
-        // 2. Maintain the deque in decreasing order of values (from the back)
-        // If the current element nums[i] is greater than or equal to elements at the back of the deque,
-        // those elements can never be the maximum for the current or future windows because nums[i] is newer and larger.
         while (deque.length > 0 && nums[deque[deque.length - 1]] <= nums[i]) {
             deque.pop();
         }
 
-        // 3. Add current element's index to the deque
         deque.push(i);
 
-        // 4. Add the maximum element for the current window to the result
-        // The first window ends at index k-1, so we start adding to result from index k-1 onwards.
         if (i >= k - 1) {
             result.push(nums[deque[0]]);
         }

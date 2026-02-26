@@ -30,12 +30,9 @@ const debounce = (functionToDebounce, delay) => {
     let timerId;
 
     return function (...args) {
-        // If a timer was already running (meaning a previous call happened recently), cancel it!
         clearTimeout(timerId);
 
-        // Start a new timer for this call
         timerId = setTimeout(() => {
-            // Apply the function with the correct 'this' and arguments
             functionToDebounce.apply(this, args);
         }, delay);
     }
@@ -43,9 +40,9 @@ const debounce = (functionToDebounce, delay) => {
 
 /**
  * const log = debounce(console.log, 100);
- * log('Hello'); // cancelled
- * log('Hello'); // cancelled
- * log('Hello'); // Logged at t=100ms
+ * log('Hello'); 
+ * log('Hello'); 
+ * log('Hello'); 
  */
 
 // Notes:

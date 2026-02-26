@@ -25,19 +25,16 @@ var isSelfCrossing = function (distance) {
     if (n <= 3) return false;
 
     for (let i = 3; i < n; i++) {
-        // Case 1: Fourth line crosses first line or onward
         if (distance[i] >= distance[i - 2] && distance[i - 1] <= distance[i - 3]) {
             return true;
         }
 
-        // Case 2: Fifth line meets first line
         if (i >= 4) {
             if (distance[i - 1] === distance[i - 3] && distance[i] + distance[i - 4] >= distance[i - 2]) {
                 return true;
             }
         }
 
-        // Case 3: Sixth line crosses first line
         if (i >= 5) {
             if (distance[i - 1] <= distance[i - 3] &&
                 distance[i - 1] + distance[i - 5] >= distance[i - 3] &&
@@ -51,9 +48,5 @@ var isSelfCrossing = function (distance) {
     return false;
 };
 
-// Example Usage:
-// console.log(isSelfCrossing([2, 1, 1, 2])); // true
-// console.log(isSelfCrossing([1, 2, 3, 4])); // false
-// console.log(isSelfCrossing([1, 1, 1, 2, 1])); // true
 
 module.exports = isSelfCrossing;

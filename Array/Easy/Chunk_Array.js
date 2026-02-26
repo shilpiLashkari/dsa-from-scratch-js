@@ -29,12 +29,9 @@
 const chunk = (inputArray, chunkSize) => {
     const chunkedArray = [];
 
-    // Iterate through the array, skipping by 'chunkSize' each time
     for (let index = 0; index < inputArray.length; index += chunkSize) {
-        // Slice a piece of the array from current index to index + chunkSize
         const currentChunk = inputArray.slice(index, index + chunkSize);
 
-        // Add this piece to our result
         chunkedArray.push(currentChunk);
     }
 

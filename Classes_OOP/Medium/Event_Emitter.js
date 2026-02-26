@@ -17,7 +17,6 @@
 
 class EventEmitter {
     constructor() {
-        // Map to store: Event Name -> List of Functions to call
         this.events = new Map();
     }
 
@@ -27,20 +26,16 @@ class EventEmitter {
      * @return {Object}
      */
     subscribe(eventName, callback) {
-        // If this is the first time we see this event, start an empty list
         if (!this.events.has(eventName)) {
             this.events.set(eventName, []);
         }
 
-        // Add the new listener to the list
         const listeners = this.events.get(eventName);
         listeners.push(callback);
 
         return {
             unsubscribe: () => {
-                // To remove, first find where it is in the list
                 const index = listeners.indexOf(callback);
-                // Then remove it using splice
                 if (index !== -1) {
                     listeners.splice(index, 1);
                 }
@@ -58,10 +53,8 @@ class EventEmitter {
             return [];
         }
 
-        // Get all functions listening to this event
         const listeners = this.events.get(eventName);
 
-        // Run each function with the arguments and collect their return values
         return listeners.map(fn => fn(...args));
     }
 }

@@ -20,12 +20,11 @@
  * @return {number}
  */
 const argumentsLength = (...args) => {
-    // The rest operator (...args) puts all arguments into an array
     return args.length;
 };
 
 /**
- * argumentsLength(1, 2, 3); // 3
+ * argumentsLength(1, 2, 3); 
  */
 
 // Notes:

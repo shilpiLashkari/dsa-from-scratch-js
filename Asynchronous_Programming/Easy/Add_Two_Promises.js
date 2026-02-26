@@ -16,11 +16,8 @@
  * @return {Promise}
  */
 const addTwoPromises = async (promise1, promise2) => {
-    // Wait for both promises to finish using Promise.all
-    // It gives us an array of both results: [result1, result2]
     const [result1, result2] = await Promise.all([promise1, promise2]);
 
-    // Return the sum
     return result1 + result2;
 };
 

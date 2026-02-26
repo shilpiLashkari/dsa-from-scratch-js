@@ -3,7 +3,7 @@
 Progress: Track your journey from foundational concepts to advanced algorithms.
 
 ## 🟢 Arrays & Basics (Start Here)
-- [ ] Two Sum
+- [x] Two Sum
 - [ ] Contains Duplicate
 - [ ] Best Time to Buy and Sell Stock
 - [ ] Valid Anagram
@@ -17,18 +17,18 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [ ] Rotate Image
 - [ ] Spiral Matrix
 - [ ] Longest Consecutive Sequence
-- [ ] Apply Transform Over Each Element in Array
-- [ ] Array Prototype Last
-- [ ] Array Reduce Transformation
-- [ ] Chunk Array
-- [ ] Filter Elements from Array
-- [ ] Is Object Empty
-- [ ] Sort By
+- [x] Apply Transform Over Each Element in Array
+- [x] Array Prototype Last
+- [x] Array Reduce Transformation
+- [x] Chunk Array
+- [x] Filter Elements from Array
+- [x] Is Object Empty
+- [x] Sort By
 
 ## 🟢 Strings
 - [ ] Valid Palindrome
 - [ ] Reverse String
-- [ ] Reverse Integer
+- [x] Reverse Integer
 - [ ] Implement strStr()
 - [ ] Longest Common Prefix
 
@@ -80,7 +80,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [ ] Maximum Sliding Window
 
 ## 👀 Sliding Window (Hard)
-- [ ] Sliding Window Maximum
+- [x] Sliding Window Maximum
 
 ## 🟢 Sliding Window (Advanced)
 - [ ] Longest Substring with At Most K Distinct Characters
@@ -156,12 +156,12 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 
 ## 🟢 Backtracking
 - [ ] Word Search
-- [ ] Word Search II
+- [x] Word Search II
 - [ ] Combination Sum
 - [ ] Subsets
 - [ ] Permutations
-- [ ] N-Queens
-- [ ] Sudoku Solver
+- [x] N-Queens
+- [x] Sudoku Solver
 
 ## 🟢 String DP
 - [ ] Palindromic Substrings
@@ -176,7 +176,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [ ] Unique Paths II
 
 ## 🟢 DP (Advanced – FAANG)
-- [ ] Edit Distance
+- [x] Edit Distance
 - [ ] Longest Common Subsequence
 - [ ] Decode Ways
 - [ ] Decode Ways II
@@ -185,10 +185,11 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [ ] Distinct Subsequences
 - [ ] Palindrome Partitioning II
 - [ ] Maximum Subarray Sum Circular
-- [x] Best Time to Buy and Sell Stock IV
-- [x] Best Time to Buy and Sell Stock III
 - [ ] Paint House
 - [ ] Paint House II
+- [x] Best Time to Buy and Sell Stock III
+- [x] Dungeon Game
+- [x] Word Break II
 
 ## 🟢 Greedy
 - [ ] Jump Game
@@ -207,14 +208,14 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [ ] Insert Interval
 
 ## 🟢 Stack (Advanced)
-- [ ] Trapping Rain Water
-- [ ] Largest Rectangle in Histogram
+- [x] Trapping Rain Water
+- [x] Largest Rectangle in Histogram
 - [ ] Daily Temperatures
 - [ ] Car Fleet
 
 ## 🟢 Design / Data Stream
 - [ ] Find Median from Data Stream
-- [ ] Sliding Window Maximum
+- [x] Sliding Window Maximum
 - [ ] LRU Cache
 - [ ] LFU Cache
 
@@ -225,7 +226,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [ ] Design Snake Game
 
 ## 🟢 Extreme Hard (Top FAANG Level)
-- [ ] Median of Two Sorted Arrays
+- [x] Median of Two Sorted Arrays
 - [ ] Regular Expression Matching
 - [ ] Wildcard Matching
 - [ ] Serialize and Deserialize Binary Tree
@@ -237,7 +238,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 
 # ✅ Solved By Me
 
-## 🧮 Arrays — & Basics
+## 🧮 Array — Easy
 - [x] Two Sum
 - [x] Apply Transform Over Each Element in Array
 - [x] Array Prototype Last
@@ -246,14 +247,16 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Filter Elements from Array
 - [x] Is Object Empty
 - [x] Sort By
-
-## 🧮 Arrays — Medium
 - [x] Join Two Arrays by ID
-- [x] Flatten Deeply Nested Array
 - [x] Compact Object
-- [x] Group By
+- [x] Remove Duplicates From Sorted Array
 
-## 🧮 Arrays — Hard
+## 🧮 Array — Medium
+- [x] Flatten Deeply Nested Array
+- [x] Group By
+- [x] Container With Most Water
+
+## 🧮 Array — Hard
 - [x] Count of Smaller Numbers After Self
 - [x] Sliding Window Maximum
 - [x] Split Array Largest Sum
@@ -261,13 +264,38 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Shortest Subarray with Sum at Least K
 - [x] Count of Range Sum
 - [x] Candy
-- [x] Best Time to Buy and Sell Stock III
 - [x] Find Minimum in Rotated Sorted Array II
 - [x] Reverse Pairs
 - [x] Contains Duplicate III
+- [x] First Missing Positive
+- [x] Largest Rectangle in Histogram
+- [x] Text Justification
+- [x] Maximal Rectangle
+- [x] Perfect Rectangle
+- [x] Max Points on a Line
+- [x] Self Crossing
+- [x] Median of Two Sorted Arrays
+- [x] Trapping Rain Water
 
+## ⏱ Asynchronous_Programming — Easy
+- [x] Sleep
+- [x] Add Two Promises
+- [x] Promise Time Limit
+- [x] Timeout Cancellation
+- [x] Interval Cancellation
 
-## 🔁 Closures / Functions — Easy
+## ⏱ Asynchronous_Programming — Medium
+- [x] Execute Asynchronous Functions in Parallel
+
+## 🧠 Classes_OOP — Easy
+- [x] Array Wrapper
+- [x] Calculator with Method Chaining
+
+## 🧠 Classes_OOP — Medium
+- [x] Cache With Time Limit
+- [x] Event Emitter
+
+## 🔁 Closures — Easy
 - [x] Create Hello World Function
 - [x] Counter
 - [x] Counter II
@@ -275,25 +303,24 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Return Length of Arguments Passed
 - [x] To Be Or Not To Be
 
-## 🔁 Closures / Functions — Medium
+## 🔁 Closures — Medium
 - [x] Memoize
 - [x] Function Composition
-
-## ⏱ Asynchronous / Promises — Easy
-- [x] Sleep
-- [x] Add Two Promises
-- [x] Promise Time Limit
-- [x] Timeout Cancellation
-- [x] Interval Cancellation
-
-## ⏱ Asynchronous / Promises — Medium
-- [x] Execute Asynchronous Functions in Parallel
 - [x] Debounce
 
-## 🧠 Classes / OOP — Easy
-- [x] Array Wrapper
-- [x] Calculator with Method Chaining
+## 🧬 Backtracking — Hard
+- [x] Sudoku Solver
+- [x] N-Queens
 
-## 🧠 Classes / OOP — Medium
-- [x] Cache With Time Limit
-- [x] Event Emitter
+## ⚡ Dynamic Programming — Hard
+- [x] Best Time to Buy and Sell Stock III
+- [x] Dungeon Game
+- [x] Word Break II
+
+## 🌳 Trie — Hard
+- [x] Palindrome Pairs
+- [x] Word Search II
+
+## 🧮 Math
+- [x] Palindrome Number
+- [x] Reverse Integer

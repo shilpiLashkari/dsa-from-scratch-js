@@ -18,16 +18,14 @@
  * @return {Promise}
  */
 const sleep = async (milliseconds) => {
-    // Return a new Promise that resolves after the given time
     return new Promise((resolve) => {
-        // setTimeout does the actual waiting
         setTimeout(resolve, milliseconds);
     });
 }
 
 /**
  * let t = Date.now()
- * sleep(100).then(() => console.log(Date.now() - t)) // 100
+ * sleep(100).then(() => console.log(Date.now() - t)) 
  */
 
 // Notes:

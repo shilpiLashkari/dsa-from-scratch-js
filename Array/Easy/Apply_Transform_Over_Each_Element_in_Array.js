@@ -18,15 +18,11 @@
  * @return {number[]}
  */
 const map = (inputArray, transformFunction) => {
-    // Create an empty array to hold our results
     const transformedArray = [];
 
-    // Iterate over the input array
     for (let index = 0; index < inputArray.length; index++) {
-        // Apply the transformation function to the current element and its index
         const processedValue = transformFunction(inputArray[index], index);
 
-        // Add the processed value to our result array
         transformedArray.push(processedValue);
     }
 

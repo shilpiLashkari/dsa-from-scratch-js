@@ -21,17 +21,12 @@
  * @return {number[]}
  */
 const filter = (inputArray, filteringFunction) => {
-    // Array to store elements that pass the test
     const filteredArray = [];
 
-    // Loop through each element
     for (let index = 0; index < inputArray.length; index++) {
         const currentElement = inputArray[index];
 
-        // Check if the current element passes the filtering condition
-        // The function takes the element and its index
         if (filteringFunction(currentElement, index)) {
-            // If true, keep it
             filteredArray.push(currentElement);
         }
     }

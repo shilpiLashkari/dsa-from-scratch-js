@@ -24,18 +24,16 @@
 const createCounter = (startValue) => {
     let internalCount = startValue;
 
-    // Return a function that uses 'internalCount' from the outer scope (closure)
     return function () {
-        // Return correct value, THEN increment it for next time
         return internalCount++;
     };
 };
 
 /**
  * const counter = createCounter(10)
- * counter() // 10
- * counter() // 11
- * counter() // 12
+ * counter() 
+ * counter() 
+ * counter() 
  */
 
 // Notes:

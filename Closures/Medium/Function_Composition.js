@@ -26,10 +26,7 @@ const compose = (functionsArray) => {
     }
 
     return function (x) {
-        // Loop backwards through the functions
-        // Right-to-Left execution: f(g(h(x))) starts with h(x)
         for (let i = functionsArray.length - 1; i >= 0; i--) {
-            // Pass the current value `x` into the function, and update `x`
             x = functionsArray[i](x);
         }
         return x;

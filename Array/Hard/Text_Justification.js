@@ -53,19 +53,16 @@ const fullJustify = (words, maxWidth) => {
     const n = words.length;
 
     while (i < n) {
-        // 1. Determine which words fit on the current line
         let lineWords = [];
         let currentLength = 0;
         let j = i;
 
-        // Keep adding words as long as they fit (including at least one space between words)
         while (j < n && (currentLength + words[j].length + lineWords.length) <= maxWidth) {
             lineWords.push(words[j]);
             currentLength += words[j].length;
             j++;
         }
 
-        // 2. Calculate space distribution
         const numWords = lineWords.length;
         const totalSpaces = maxWidth - currentLength;
         const isLastLine = (j === n);
@@ -73,13 +70,10 @@ const fullJustify = (words, maxWidth) => {
 
         let line = "";
 
-        // Case A: Last line or single word - left justify
         if (isLastLine || isSingleWord) {
             line = lineWords.join(" ");
-            // Pad remaining space at the end
             line += " ".repeat(maxWidth - line.length);
         }
-        // Case B: Middle line with multiple words - fully justify
         else {
             const numGaps = numWords - 1;
             const baseSpaces = Math.floor(totalSpaces / numGaps);
@@ -88,7 +82,6 @@ const fullJustify = (words, maxWidth) => {
             for (let k = 0; k < numWords; k++) {
                 line += lineWords[k];
 
-                // Add spaces after the word (except for the last word)
                 if (k < numWords - 1) {
                     let spacesToAdd = baseSpaces;
                     if (k < extraSpaces) {
@@ -100,7 +93,7 @@ const fullJustify = (words, maxWidth) => {
         }
 
         result.push(line);
-        i = j; // Move to the next word
+        i = j; 
     }
 
     return result;

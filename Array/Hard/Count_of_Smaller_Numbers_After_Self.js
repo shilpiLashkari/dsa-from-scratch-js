@@ -33,11 +33,8 @@ const countSmaller = (nums) => {
     const n = nums.length;
     const counts = new Array(n).fill(0);
 
-    // Create an array of objects to track original indices
-    // We need indices because sorting will change positions, but we need to update counts at original indices
     const items = nums.map((val, index) => ({ val, index }));
 
-    // Merge Sort function
     const mergeSort = (arr) => {
         if (arr.length <= 1) return arr;
 
@@ -48,32 +45,24 @@ const countSmaller = (nums) => {
         return merge(left, right);
     };
 
-    // Merge function that counts smaller elements
     const merge = (left, right) => {
         const sorted = [];
-        let i = 0; // pointer for left
-        let j = 0; // pointer for right
-        let rightCounter = 0; // counts number of elements from right array that are smaller than current left element
+        let i = 0; 
+        let j = 0; 
+        let rightCounter = 0; 
 
         while (i < left.length && j < right.length) {
-            // Sort in ascending order
             if (right[j].val < left[i].val) {
-                // If right element is smaller, it moves to sorted array BEFORE left element
-                // This means checking from left's perspective, this right element is "smaller and to the right"
                 rightCounter++;
                 sorted.push(right[j]);
                 j++;
             } else {
-                // If left element is smaller or equal, it's its turn to be placed in sorted array
-                // At this moment, we know exactly how many elements from 'right' subarray (which were originally to the right of 'left' subarray)
-                // have jumped ahead of 'left[i]' because they were smaller.
                 counts[left[i].index] += rightCounter;
                 sorted.push(left[i]);
                 i++;
             }
         }
 
-        // Processing remaining elements
         while (i < left.length) {
             counts[left[i].index] += rightCounter;
             sorted.push(left[i]);

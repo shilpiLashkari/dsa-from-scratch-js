@@ -20,26 +20,20 @@
  * @return {Object|Array}
  */
 const compactObject = (inputObject) => {
-    // Base Case: If it's just a value (number, string, null), return it directly
     if (inputObject === null || typeof inputObject !== 'object') {
         return inputObject;
     }
 
-    // Identify if we are working with an Array or an Object
     if (Array.isArray(inputObject)) {
-        // For arrays, we clean each item recursively, then remove the bad ones (Boolean(false) ones)
         return inputObject
-            .map(compactObject) // Recursively compact children
-            .filter(Boolean);   // Keep only truthy values
+            .map(compactObject) 
+            .filter(Boolean);   
     }
 
-    // For objects, we build a new object
     const compactedResult = {};
     for (const key in inputObject) {
-        // Clean the value
         const cleanedValue = compactObject(inputObject[key]);
 
-        // If the cleaned value is valid (truthy), add it to our result
         if (Boolean(cleanedValue)) {
             compactedResult[key] = cleanedValue;
         }

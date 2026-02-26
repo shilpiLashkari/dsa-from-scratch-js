@@ -37,25 +37,17 @@ const containsNearbyAlmostDuplicate = (nums, indexDiff, valueDiff) => {
         return false;
     }
 
-    // Bucket-based sliding window approach
-    // We use buckets of size (valueDiff + 1).
-    // Any two numbers in the same bucket satisfy abs(nums[i] - nums[j]) <= valueDiff.
-    // Numbers in adjacent buckets MIGHT satisfy the condition.
     const buckets = new Map();
     const width = valueDiff + 1;
 
     for (let i = 0; i < nums.length; i++) {
-        // Map number to a bucket ID
-        // For negative numbers, we shift them to handle the division correctly
         const val = nums[i];
         const bucketId = Math.floor(val / width);
 
-        // If bucket exists, we found a pair
         if (buckets.has(bucketId)) {
             return true;
         }
 
-        // Check adjacent buckets
         if (buckets.has(bucketId - 1) && Math.abs(val - buckets.get(bucketId - 1)) <= valueDiff) {
             return true;
         }
@@ -63,10 +55,8 @@ const containsNearbyAlmostDuplicate = (nums, indexDiff, valueDiff) => {
             return true;
         }
 
-        // Add current number to bucket
         buckets.set(bucketId, val);
 
-        // Maintain sliding window of size indexDiff
         if (i >= indexDiff) {
             const oldBucketId = Math.floor(nums[i - indexDiff] / width);
             buckets.delete(oldBucketId);

@@ -23,17 +23,12 @@ var maxArea = function (height) {
     let maxWater = 0;
 
     while (left < right) {
-        // Calculate current area
-        // Height is limited by the shorter line
         const width = right - left;
         const currentHeight = Math.min(height[left], height[right]);
         const currentArea = width * currentHeight;
 
         maxWater = Math.max(maxWater, currentArea);
 
-        // Move the pointer pointing to the shorter line
-        // Why? Moving the taller line can only decrease width without increasing height (limited by shorter line)
-        // Moving the shorter line gives a chance to find a taller line to pair with the other one
         if (height[left] < height[right]) {
             left++;
         } else {
@@ -44,8 +39,5 @@ var maxArea = function (height) {
     return maxWater;
 };
 
-// Example Usage:
-// console.log(maxArea([1,8,6,2,5,4,8,3,7])); // 49
-// console.log(maxArea([1,1])); // 1
 
 module.exports = maxArea;

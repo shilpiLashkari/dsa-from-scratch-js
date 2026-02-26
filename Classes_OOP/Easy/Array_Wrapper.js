@@ -32,8 +32,6 @@ var ArrayWrapper = function (nums) {
  * @return {number}
  */
 ArrayWrapper.prototype.valueOf = function () {
-    // When using + with objects, JS calls .valueOf().
-    // We want to return the sum of all numbers in this array.
     return this.nums.reduce((sum, num) => sum + num, 0);
 }
 
@@ -41,16 +39,15 @@ ArrayWrapper.prototype.valueOf = function () {
  * @return {string}
  */
 ArrayWrapper.prototype.toString = function () {
-    // When converted to string, we just format it nicely like "[1,2,3]"
     return `[${this.nums.join(',')}]`;
 }
 
 /**
  * const obj1 = new ArrayWrapper([1,2]);
  * const obj2 = new ArrayWrapper([3,4]);
- * obj1 + obj2; // 10
- * String(obj1); // "[1,2]"
- * String(obj2); // "[3,4]"
+ * obj1 + obj2; 
+ * String(obj1); 
+ * String(obj2); 
  */
 
 // Notes:

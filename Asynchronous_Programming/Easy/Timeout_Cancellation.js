@@ -22,12 +22,10 @@
  * @return {Function}
  */
 const cancellable = (callback, argumentsList, delay) => {
-    // Schedule the function to run after 'delay' ms
     const timerId = setTimeout(() => {
         callback(...argumentsList);
     }, delay);
 
-    // Return a function that cancels that scheduled task
     return function () {
         clearTimeout(timerId);
     };
@@ -35,7 +33,7 @@ const cancellable = (callback, argumentsList, delay) => {
 
 /**
  *  const cancel = cancellable(console.log, ["Hello"], 100);
- *  cancel(); // "Hello" will NEVER be logged because we cancelled it immediately.
+ *  cancel(); 
  */
 
 // Notes:

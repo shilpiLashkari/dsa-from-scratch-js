@@ -34,15 +34,11 @@ var maxPoints = function (points) {
             const [x1, y1] = points[i];
             const [x2, y2] = points[j];
 
-            // Calculate slope
-            // We use Math.atan2 to avoid precision issues and handle vertical lines automatically.
-            // atan2(y, x) returns the angle in radians.
             const angle = Math.atan2(y2 - y1, x2 - x1);
 
             slopes.set(angle, (slopes.get(angle) || 0) + 1);
         }
 
-        // The max points relative to point i is (count of same slope + point i itself)
         for (const count of slopes.values()) {
             maxPointsOnLine = Math.max(maxPointsOnLine, count + 1);
         }

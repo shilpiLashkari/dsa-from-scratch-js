@@ -28,15 +28,11 @@
  * @return {Array}
  */
 const join = (array1, array2) => {
-    // We'll use an object to quickly look up items by their ID
     const combinedData = {};
 
-    // Helper function to add items to our combinedData object
     const processArray = (arr) => {
         for (const item of arr) {
-            // If ID exists, merge it. If not, just add it.
             if (combinedData[item.id]) {
-                // array2 items come later, so they will override array1 (standard spread behavior)
                 combinedData[item.id] = { ...combinedData[item.id], ...item };
             } else {
                 combinedData[item.id] = item;
@@ -44,13 +40,10 @@ const join = (array1, array2) => {
         }
     };
 
-    // First process the first array
     processArray(array1);
 
-    // Then process the second array (which handles overrides)
     processArray(array2);
 
-    // Convert our object back to an array and sort by ID
     const sortedResult = Object.values(combinedData).sort((a, b) => a.id - b.id);
 
     return sortedResult;

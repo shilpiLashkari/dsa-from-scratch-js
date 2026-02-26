@@ -25,7 +25,6 @@
  * @return {number}
  */
 const trap = (height) => {
-    // Edge case: if array is too small, no water can be trapped
     if (height.length < 3) {
         return 0;
     }
@@ -36,31 +35,21 @@ const trap = (height) => {
     let rightMax = 0;
     let totalWater = 0;
 
-    // Use two pointers moving towards each other
     while (left < right) {
-        // Process the side with the smaller height
-        // Why? Water level is determined by the minimum of the two boundaries
         if (height[left] < height[right]) {
-            // Check if current position can hold water
             if (height[left] >= leftMax) {
-                // This is a new peak on the left, update the max
                 leftMax = height[left];
             } else {
-                // Water can be trapped here!
-                // The amount is the difference between the max height so far and current height
                 totalWater += leftMax - height[left];
             }
-            left++; // Move left pointer forward
+            left++; 
         } else {
-            // Process from the right side
             if (height[right] >= rightMax) {
-                // New peak on the right
                 rightMax = height[right];
             } else {
-                // Water trapped on the right side
                 totalWater += rightMax - height[right];
             }
-            right--; // Move right pointer backward
+            right--; 
         }
     }
 

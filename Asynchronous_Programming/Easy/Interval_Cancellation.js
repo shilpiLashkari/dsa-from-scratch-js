@@ -28,15 +28,12 @@
  * @return {Function}
  */
 const cancellable = (callback, argumentsList, intervalTime) => {
-    // 1. Call the function right away (as per requirement)
     callback(...argumentsList);
 
-    // 2. Set up the repeating interval
     const intervalId = setInterval(() => {
         callback(...argumentsList);
     }, intervalTime);
 
-    // 3. Return the function to stop it
     return function () {
         clearInterval(intervalId);
     };

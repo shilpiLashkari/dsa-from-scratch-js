@@ -20,23 +20,18 @@
  */
 const timeLimit = (asyncFunction, timeLimit) => {
     return async function (...args) {
-        // We return a new Promise that acts as a race
         return new Promise((resolve, reject) => {
 
-            // 1. Set a timer that will reject if time runs out
             const timeoutId = setTimeout(() => {
                 reject("Time Limit Exceeded");
             }, timeLimit);
 
-            // 2. Run the actual function
             asyncFunction(...args)
                 .then((result) => {
-                    // If it finishes in time, clear the timeout so it doesn't reject later
                     clearTimeout(timeoutId);
                     resolve(result);
                 })
                 .catch((error) => {
-                    // If the function fails, we also clear timeout and pass the error
                     clearTimeout(timeoutId);
                     reject(error);
                 });

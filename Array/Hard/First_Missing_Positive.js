@@ -31,39 +31,30 @@
 const firstMissingPositive = (nums) => {
     const n = nums.length;
 
-    // Step 1: Clean up the array - replace negatives, zeros, and numbers > n with a placeholder
-    // Why? Because the answer must be in range [1, n+1], so anything outside doesn't matter
     for (let i = 0; i < n; i++) {
         if (nums[i] <= 0 || nums[i] > n) {
-            nums[i] = n + 1; // Use n+1 as a safe placeholder that won't interfere
+            nums[i] = n + 1; 
         }
     }
 
-    // Step 2: Use the array indices as a hash map
-    // For each number, mark its presence by making the value at index (number-1) negative
     for (let i = 0; i < n; i++) {
-        const num = Math.abs(nums[i]); // Get the actual value (might be negative from previous marking)
+        const num = Math.abs(nums[i]); 
 
-        // If this number is in valid range [1, n], mark its position
         if (num <= n) {
-            const targetIndex = num - 1; // Convert to 0-indexed
+            const targetIndex = num - 1; 
 
-            // Make it negative to indicate this number exists
-            // Only flip if it's not already negative
             if (nums[targetIndex] > 0) {
                 nums[targetIndex] = -nums[targetIndex];
             }
         }
     }
 
-    // Step 3: Find the first positive number - its index+1 is the missing number
     for (let i = 0; i < n; i++) {
         if (nums[i] > 0) {
-            return i + 1; // Found the first unmarked position
+            return i + 1; 
         }
     }
 
-    // If all positions [1, n] are marked, the answer is n+1
     return n + 1;
 };
 
