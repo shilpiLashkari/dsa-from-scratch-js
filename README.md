@@ -104,6 +104,7 @@ A curated list of problems that significantly improved my understanding.
 | **Chunk Array** | 🟢 | Slicing / Loops | [Link](./Array/Easy/Chunk_Array.js) |
 | **Filter Elements from Array** | 🟢 | Filter Logic | [Link](./Array/Easy/Filter_Elements_from_Array.js) |
 | **Is Object Empty** | 🟢 | JSON / Object Keys | [Link](./Array/Easy/Is_Object_Empty.js) |
+| **Plus One** | 🟢 | Array Manipulation | [Link](./Array/Easy/Plus_One.js) |
 | **Sort By** | 🟢 | Custom Sort | [Link](./Array/Easy/Sort_By.js) |
 | **Join Arrays by ID** | 🟢 | Map / Merge Logic | [Link](./Array/Easy/Join_Two_Arrays_by_ID.js) |
 | **Compact Object** | 🟢 | Recursion / DFS | [Link](./Array/Easy/Compact_Object.js) |
