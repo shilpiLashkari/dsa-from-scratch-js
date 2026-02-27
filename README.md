@@ -194,6 +194,7 @@ A curated list of problems that significantly improved my understanding.
 | :--- | :---: | :--- | :---: |
 | **Palindrome Number** | 🟢 | Math / Digit Reversal | [Link](./Math/Easy/Palindrome_Number.js) |
 | **Reverse Integer** | 🟡 | Math / Digit Reversal | [Link](./Math/Medium/Reverse_Integer.js) |
+| **Super Palindromes** | 🔴 | Math / Palindrome | [Link](./Math/Hard/Super_Palindromes.js) |
 
 ---
 
