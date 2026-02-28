@@ -193,6 +193,7 @@ A curated list of problems that significantly improved my understanding.
 | Problem | Difficulty | Pattern/Concept | Solution Link |
 | :--- | :---: | :--- | :---: |
 | **Palindrome Number** | 🟢 | Math / Digit Reversal | [Link](./Math/Easy/Palindrome_Number.js) |
+| **Sqrt(x)** | 🟢 | Math / Binary Search | [Link](./Math/Easy/Sqrt.js) |
 | **Reverse Integer** | 🟡 | Math / Digit Reversal | [Link](./Math/Medium/Reverse_Integer.js) |
 | **Super Palindromes** | 🔴 | Math / Palindrome | [Link](./Math/Hard/Super_Palindromes.js) |
 
