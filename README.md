@@ -104,10 +104,15 @@ A curated list of problems that significantly improved my understanding.
 | **Chunk Array** | 🟢 | Slicing / Loops | [Link](./Array/Easy/Chunk_Array.js) |
 | **Filter Elements from Array** | 🟢 | Filter Logic | [Link](./Array/Easy/Filter_Elements_from_Array.js) |
 | **Is Object Empty** | 🟢 | JSON / Object Keys | [Link](./Array/Easy/Is_Object_Empty.js) |
+| **Max Consecutive Ones** | 🟢 | Array / Counting | [Link](./Array/Easy/Max_Consecutive_Ones.js) |
+| **Move Zeroes** | 🟢 | Two Pointers | [Link](./Array/Easy/Move_Zeroes.js) |
 | **Plus One** | 🟢 | Array Manipulation | [Link](./Array/Easy/Plus_One.js) |
+| **Remove Element** | 🟢 | Two Pointers | [Link](./Array/Easy/Remove_Element.js) |
+| **Reverse String** | 🟢 | Two Pointers | [Link](./String/Easy/Reverse_String.js) |
 | **Sort By** | 🟢 | Custom Sort | [Link](./Array/Easy/Sort_By.js) |
 | **Join Arrays by ID** | 🟢 | Map / Merge Logic | [Link](./Array/Easy/Join_Two_Arrays_by_ID.js) |
 | **Compact Object** | 🟢 | Recursion / DFS | [Link](./Array/Easy/Compact_Object.js) |
+| **Merge Sorted Array** | 🟢 | Two Pointers | [Link](./Array/Easy/Merge_Sorted_Arrays.js) |
 | **Remove Duplicates From Sorted Array** | 🟢 | Two Pointers | [Link](./Array/Easy/Remove_Duplicates_From_Sorted_Array.js) |
 | **Flatten Nested Array** | 🟡 | Recursion | [Link](./Array/Medium/Flatten_Deeply_Nested_Array.js) |
 | **Group By** | 🟡 | Prototype / Hash Map | [Link](./Array/Medium/Group_By.js) |
@@ -177,6 +182,7 @@ A curated list of problems that significantly improved my understanding.
 
 | Problem | Difficulty | Pattern/Concept | Solution Link |
 | :--- | :---: | :--- | :---: |
+| **Best Time to Buy and Sell Stock** | 🟢 | Greedy / DP | [Link](./Dynamic%20Programming/Easy/Best_Time_to_Buy_and_Sell_Stock.js) |
 | **Best Time to Buy and Sell Stock III** | 🔴 | DP | [Link](./Dynamic%20Programming/Hard/Best_Time_to_Buy_and_Sell_Stock_III.js) |
 | **Dungeon Game** | 🔴 | DP | [Link](./Dynamic%20Programming/Hard/Dungeon_Game.js) |
 | **Word Break II** | 🔴 | DP | [Link](./Dynamic%20Programming/Hard/Word_Break_II.js) |
