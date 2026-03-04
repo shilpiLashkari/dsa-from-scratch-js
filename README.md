@@ -105,9 +105,11 @@ A curated list of problems that significantly improved my understanding.
 | **Filter Elements from Array** | 🟢 | Filter Logic | [Link](./Array/Easy/Filter_Elements_from_Array.js) |
 | **Is Object Empty** | 🟢 | JSON / Object Keys | [Link](./Array/Easy/Is_Object_Empty.js) |
 | **Max Consecutive Ones** | 🟢 | Array / Counting | [Link](./Array/Easy/Max_Consecutive_Ones.js) |
+| **Missing Number** | 🟢 | Math / Summation | [Link](./Array/Easy/Missing_number.js) |
 | **Move Zeroes** | 🟢 | Two Pointers | [Link](./Array/Easy/Move_Zeroes.js) |
 | **Plus One** | 🟢 | Array Manipulation | [Link](./Array/Easy/Plus_One.js) |
 | **Remove Element** | 🟢 | Two Pointers | [Link](./Array/Easy/Remove_Element.js) |
+| **Single Number** | 🟢 | Bit Manipulation / XOR | [Link](./Array/Easy/Single_Number.js) |
 | **Reverse String** | 🟢 | Two Pointers | [Link](./String/Easy/Reverse_String.js) |
 | **Sort By** | 🟢 | Custom Sort | [Link](./Array/Easy/Sort_By.js) |
 | **Join Arrays by ID** | 🟢 | Map / Merge Logic | [Link](./Array/Easy/Join_Two_Arrays_by_ID.js) |
