@@ -122,6 +122,7 @@ A curated list of problems that significantly improved my understanding.
 | **Flatten Nested Array**                                          |     🟡     | Recursion                   |                  [Link](./Array/Medium/Flatten_Deeply_Nested_Array.js)                   |
 | **Group By**                                                      |     🟡     | Prototype / Hash Map        |                            [Link](./Array/Medium/Group_By.js)                            |
 | **Container With Most Water**                                     |     🟡     | Two Pointers / Greedy       |                   [Link](./Array/Medium/Container_With_Most_Water.js)                    |
+| **Find Unique Binary String**                                     |     🟡     | Cantor's Diagonal Argument  |                   [Link](./Array/Medium/Find_Unique_Binary_String.js)                    |
 | **Median of Two Sorted Arrays**                                   |     🔴     | Binary Search               |                    [Link](./Array/Hard/Median_Of_Two_Sorted_Array.js)                    |
 | **First Missing Positive**                                        |     🔴     | Index as Hash Map           |                      [Link](./Array/Hard/First_Missing_Positive.js)                      |
 | **Candy**                                                         |     🔴     | Greedy                      |                              [Link](./Array/Hard/Candy.js)                               |
