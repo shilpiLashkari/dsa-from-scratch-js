@@ -187,12 +187,13 @@ A curated list of problems that significantly improved my understanding.
 
 ### Dynamic Programming
 
-| Problem                                 | Difficulty | Pattern/Concept |                                Solution Link                                |
-| :-------------------------------------- | :--------: | :-------------- | :-------------------------------------------------------------------------: |
-| **Best Time to Buy and Sell Stock**     |     🟢     | Greedy / DP     |   [Link](./Dynamic%20Programming/Easy/Best_Time_to_Buy_and_Sell_Stock.js)   |
-| **Best Time to Buy and Sell Stock III** |     🔴     | DP              | [Link](./Dynamic%20Programming/Hard/Best_Time_to_Buy_and_Sell_Stock_III.js) |
-| **Dungeon Game**                        |     🔴     | DP              |            [Link](./Dynamic%20Programming/Hard/Dungeon_Game.js)             |
-| **Word Break II**                       |     🔴     | DP              |            [Link](./Dynamic%20Programming/Hard/Word_Break_II.js)            |
+| Problem                                       | Difficulty | Pattern/Concept |                                   Solution Link                                   |
+| :-------------------------------------------- | :--------: | :-------------- | :-------------------------------------------------------------------------------: |
+| **Best Time to Buy and Sell Stock**           |     🟢     | Greedy / DP     |      [Link](./Dynamic%20Programming/Easy/Best_Time_to_Buy_and_Sell_Stock.js)      |
+| **Best Time to Buy and Sell Stock III**       |     🔴     | DP              |    [Link](./Dynamic%20Programming/Hard/Best_Time_to_Buy_and_Sell_Stock_III.js)    |
+| **Dungeon Game**                              |     🔴     | DP              |               [Link](./Dynamic%20Programming/Hard/Dungeon_Game.js)                |
+| **Word Break II**                             |     🔴     | DP              |               [Link](./Dynamic%20Programming/Hard/Word_Break_II.js)               |
+| **Find All Possible Stable Binary Arrays II** |     🔴     | DP              | [Link](./Dynamic%20Programming/Hard/Find_All_Possible_Stable_Binary_Arrays_II.js) |
 
 ### Trie
 
