@@ -208,10 +208,11 @@ A curated list of problems that significantly improved my understanding.
 | :-------------------- | :--------: | :---------------------- | :--------------------------------------: |
 | **Palindrome Number** |     🟢     | Math / Digit Reversal   | [Link](./Math/Easy/Palindrome_Number.js) |
 | **Fibonacci Number**  |     🟢     | Math / Recursion / DP   | [Link](./Math/Easy/Fibonacci_Number.js)  |
-| **Sqrt(x)**           |     🟢     | Math / Binary Search    |       [Link](./Math/Easy/Sqrt.js)        |
-| **Happy Number**      |     🟢     | Math / Two Pointers     |   [Link](./Math/Easy/Happy_Number.js)    |
-| **Power of Two**      |     🟢     | Math / Bit Manipulation |   [Link](./Math/Easy/Power_of_Two.js)    |
-| **Reverse Integer**   |     🟡     | Math / Digit Reversal   | [Link](./Math/Medium/Reverse_Integer.js) |
+| **Sqrt(x)**               |     🟢     | Math / Binary Search    |       [Link](./Math/Easy/Sqrt.js)        |
+| **Happy Number**           |     🟢     | Math / Two Pointers     |   [Link](./Math/Easy/Happy_Number.js)    |
+| **Power of Two**           |     🟢     | Math / Bit Manipulation |   [Link](./Math/Easy/Power_of_Two.js)    |
+| **Complement of Base 10 Integer** |     🟢     | Math / Bit Manipulation | [Link](./Math/Easy/Complement_of_Base_10_Integer.js) |
+| **Reverse Integer**        |     🟡     | Math / Digit Reversal   | [Link](./Math/Medium/Reverse_Integer.js) |
 | **Super Palindromes** |     🔴     | Math / Palindrome       | [Link](./Math/Hard/Super_Palindromes.js) |
 
 ---
