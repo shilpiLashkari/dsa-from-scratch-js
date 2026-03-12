@@ -202,6 +202,12 @@ A curated list of problems that significantly improved my understanding.
 | **Palindrome Pairs** |     🔴     | Trie/Map        | [Link](./Trie/Hard/Palindrome_Pairs.js) |
 | **Word Search II**   |     🔴     | Trie & DFS      |  [Link](./Trie/Hard/Word_Search_II.js)  |
 
+### Graph Theory
+
+| Problem                                          | Difficulty | Pattern/Concept             |                                 Solution Link                                  |
+| :----------------------------------------------- | :--------: | :-------------------------- | :----------------------------------------------------------------------------: |
+| **Maximize Spanning Tree Stability with Upgrades** |     🔴     | Binary Search / DSU / Union-Find | [Link](./Graphy%20Theory/Hard/Maximize_Spanning_Tree_Stability_with_Upgrades.js) |
+
 ### Math
 
 | Problem               | Difficulty | Pattern/Concept         |              Solution Link               |
