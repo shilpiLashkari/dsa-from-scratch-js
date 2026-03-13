@@ -218,7 +218,8 @@ A curated list of problems that significantly improved my understanding.
 | **Happy Number**           |     🟢     | Math / Two Pointers     |   [Link](./Math/Easy/Happy_Number.js)    |
 | **Power of Two**           |     🟢     | Math / Bit Manipulation |   [Link](./Math/Easy/Power_of_Two.js)    |
 | **Complement of Base 10 Integer** |     🟢     | Math / Bit Manipulation | [Link](./Math/Easy/Complement_of_Base_10_Integer.js) |
-| **Reverse Integer**        |     🟡     | Math / Digit Reversal   | [Link](./Math/Medium/Reverse_Integer.js) |
+| **Reverse Integer**               |     🟡     | Math / Digit Reversal   | [Link](./Math/Medium/Reverse_Integer.js) |
+| **Minimum Number of Seconds to Make Mountain Height Zero** |     🟡     | Math / Binary Search / Greedy | [Link](./Math/Medium/Minimum_Number_of_Seconds_to_Make_Mountain_Height_Zero.js) |
 | **Super Palindromes** |     🔴     | Math / Palindrome       | [Link](./Math/Hard/Super_Palindromes.js) |
 
 ---
