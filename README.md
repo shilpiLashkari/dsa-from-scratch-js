@@ -222,6 +222,7 @@ A curated list of problems that significantly improved my understanding.
 | **Minimum Number of Seconds to Make Mountain Height Zero** |     🟡     | Math / Binary Search / Greedy | [Link](./Math/Medium/Minimum_Number_of_Seconds_to_Make_Mountain_Height_Zero.js) |
 | **The k-th Lexicographical String of All Happy Strings of Length n** |     🟡     | Math / Deductive Logic | [Link](./Math/Medium/The_k-th_Lexicographical_String_of_All_Happy_Strings_of_Length_n.js) |
 | **Super Palindromes** |     🔴     | Math / Palindrome       | [Link](./Math/Hard/Super_Palindromes.js) |
+| **Fancy Sequence** |     🔴     | Math / Modular Arithmetic / Design | [Link](./Math/Hard/Fancy_Sequence.js) |
 
 ---
 
