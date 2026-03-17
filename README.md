@@ -143,6 +143,7 @@ A curated list of problems that significantly improved my understanding.
 | **Find Minimum in Rotated Sorted Array II**                       |     🔴     | Binary Search               |             [Link](./Array/Hard/Find_Minimum_in_Rotated_Sorted_Array_II.js)              |
 | **Reverse Pairs**                                                 |     🔴     | Merge Sort                  |                          [Link](./Array/Hard/Reverse_Pairs.js)                           |
 | **Contains Duplicate III**                                        |     🔴     | Bucket Sort                 |                      [Link](./Array/Hard/Contains_Duplicate_III.js)                      |
+| **Largest Submatrix With Rearrangements** |     🟡     | Array / Sorting / Greedy | [Link](./Array/Medium/Largest_Submatrix_With_Rearrangements.js) |
 
 ### Asynchronous Programming
 
