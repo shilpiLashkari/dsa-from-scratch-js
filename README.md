@@ -144,6 +144,7 @@ A curated list of problems that significantly improved my understanding.
 | **Reverse Pairs**                                                 |     🔴     | Merge Sort                  |                          [Link](./Array/Hard/Reverse_Pairs.js)                           |
 | **Contains Duplicate III**                                        |     🔴     | Bucket Sort                 |                      [Link](./Array/Hard/Contains_Duplicate_III.js)                      |
 | **Largest Submatrix With Rearrangements** |     🟡     | Array / Sorting / Greedy | [Link](./Array/Medium/Largest_Submatrix_With_Rearrangements.js) |
+| **Count Submatrices with Top-Left Element and Sum Less Than k** |     🟡     | Array / 2D Prefix Sum | [Link](./Array/Medium/Count_Submatrices_with_Top_Left_Element_and_Sum_Less_Than_k.js) |
 
 ### Asynchronous Programming
 
