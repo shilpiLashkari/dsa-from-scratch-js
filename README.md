@@ -120,6 +120,7 @@ A curated list of problems that significantly improved my understanding.
 | **Compact Object**                                                |     🟢     | Recursion / DFS             |                          [Link](./Array/Easy/Compact_Object.js)                          |
 | **Merge Sorted Array**                                            |     🟢     | Two Pointers                |                       [Link](./Array/Easy/Merge_Sorted_Arrays.js)                        |
 | **Remove Duplicates From Sorted Array**                           |     🟢     | Two Pointers                |               [Link](./Array/Easy/Remove_Duplicates_From_Sorted_Array.js)                |
+| **Flip Square Submatrix Vertically** |     🟢     | Array / Two Pointers | [Link](./Array/Easy/Flip_Square_Submatrix_Vertically.js) |
 | **Flatten Nested Array**                                          |     🟡     | Recursion                   |                  [Link](./Array/Medium/Flatten_Deeply_Nested_Array.js)                   |
 | **Group By**                                                      |     🟡     | Prototype / Hash Map        |                            [Link](./Array/Medium/Group_By.js)                            |
 | **Container With Most Water**                                     |     🟡     | Two Pointers / Greedy       |                   [Link](./Array/Medium/Container_With_Most_Water.js)                    |
