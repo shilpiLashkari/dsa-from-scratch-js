@@ -121,6 +121,7 @@ A curated list of problems that significantly improved my understanding.
 | **Merge Sorted Array**                                            |     🟢     | Two Pointers                |                       [Link](./Array/Easy/Merge_Sorted_Arrays.js)                        |
 | **Remove Duplicates From Sorted Array**                           |     🟢     | Two Pointers                |               [Link](./Array/Easy/Remove_Duplicates_From_Sorted_Array.js)                |
 | **Flip Square Submatrix Vertically** |     🟢     | Array / Two Pointers | [Link](./Array/Easy/Flip_Square_Submatrix_Vertically.js) |
+| **Determine Whether Matrix Can Be Obtained By Rotation** |     🟢     | Array / Matrix Simulation | [Link](./Array/Easy/Determine_Whether_Matrix_Can_Be_Obtained_By_Rotation.js) |
 | **Flatten Nested Array**                                          |     🟡     | Recursion                   |                  [Link](./Array/Medium/Flatten_Deeply_Nested_Array.js)                   |
 | **Group By**                                                      |     🟡     | Prototype / Hash Map        |                            [Link](./Array/Medium/Group_By.js)                            |
 | **Container With Most Water**                                     |     🟡     | Two Pointers / Greedy       |                   [Link](./Array/Medium/Container_With_Most_Water.js)                    |
