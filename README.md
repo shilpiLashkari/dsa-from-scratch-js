@@ -196,6 +196,8 @@ A curated list of problems that significantly improved my understanding.
 | Problem                                       | Difficulty | Pattern/Concept |                                   Solution Link                                   |
 | :-------------------------------------------- | :--------: | :-------------- | :-------------------------------------------------------------------------------: |
 | **Best Time to Buy and Sell Stock**           |     🟢     | Greedy / DP     |      [Link](./Dynamic%20Programming/Easy/Best_Time_to_Buy_and_Sell_Stock.js)      |
+| **Decode Ways**                                |     🟡     | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Decode_Ways.js) |
+| **Maximum Non Negative Product in a Matrix**   |     🟡     | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Maximum_Non_Negative_Product_in_a_Matrix.js) |
 | **Best Time to Buy and Sell Stock III**       |     🔴     | DP              |    [Link](./Dynamic%20Programming/Hard/Best_Time_to_Buy_and_Sell_Stock_III.js)    |
 | **Dungeon Game**                              |     🔴     | DP              |               [Link](./Dynamic%20Programming/Hard/Dungeon_Game.js)                |
 | **Word Break II**                             |     🔴     | DP              |               [Link](./Dynamic%20Programming/Hard/Word_Break_II.js)               |
