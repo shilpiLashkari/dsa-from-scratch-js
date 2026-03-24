@@ -149,6 +149,7 @@ A curated list of problems that significantly improved my understanding.
 | **Count Submatrices with Top-Left Element and Sum Less Than k** |     🟡     | Array / 2D Prefix Sum | [Link](./Array/Medium/Count_Submatrices_with_Top_Left_Element_and_Sum_Less_Than_k.js) |
 | **Count Submatrices With Equal Frequency of X and Y** |     🟡     | Array / 2D Prefix Sum | [Link](./Array/Medium/Count_Submatrices_With_Equal_Frequency_of_X_and_Y.js) |
 | **Minimum Absolute Difference in Sliding Submatrix** |     🟡     | Array / Sliding Window / Sorting | [Link](./Array/Medium/Minimum_Absolute_Difference_in%20_Sliding_Submatrix.js) |
+| **Construct Product Matrix**                         |     🟡     | Array / Prefix Sums             | [Link](./Array/Medium/Construct_Product_Matrix.js) |
 
 ### Asynchronous Programming
 
