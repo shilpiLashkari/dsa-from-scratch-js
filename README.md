@@ -134,8 +134,10 @@ A curated list of problems that significantly improved my understanding.
 | **Text Justification**                                            |     🔴     | String / Greedy             |                        [Link](./Array/Hard/Text_Justification.js)                        |
 | **Maximal Rectangle**                                             |     🔴     | Histogram / Monotonic Stack |                        [Link](./Array/Hard/Maximal_Rectangle.js)                         |
 | **Perfect Rectangle**                                             |     🔴     | Geometry / Arrays           |                        [Link](./Array/Hard/Perfect_Rectangle.js)                         |
+| **Reverse Pairs**                                                 |     🔴     | Array / Merge Sort          |                          [Link](./Array/Hard/Reverse_Pairs.js)                           |
+| **Equal Sum Grid Partition II**                                   |     🔴     | Array / Grid Partition / Case Analysis | [Link](./Array/Hard/Equal_Sum_Grid_Partition_II.js) |
+| **Count of Smaller Numbers After Self**                           |     🔴     | Array / Fenwick Tree        |               [Link](./Array/Hard/Count_of_Smaller_Numbers_After_Self.js)                |
 | **Max Points on a Line**                                          |     🔴     | Geometry / Hash Map         |                       [Link](./Array/Hard/Max_Points_on_a_Line.js)                       |
-| **Count of Smaller Numbers After Self**                           |     🔴     | Merge Sort / BIT            |               [Link](./Array/Hard/Count_of_Smaller_Numbers_After_Self.js)                |
 | **Self Crossing**                                                 |     🔴     | Geometry / Array            |                          [Link](./Array/Hard/Self_Crossing.js)                           |
 | **Sliding Window Maximum**                                        |     🔴     | Monotonic Deque             |                      [Link](./Array/Hard/Sliding_Window_Maximum.js)                      |
 | **Split Array Largest Sum**                                       |     🔴     | Binary Search               |                     [Link](./Array/Hard/Split_Array_Largest_Sum.js)                      |
