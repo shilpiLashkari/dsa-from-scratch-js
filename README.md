@@ -112,6 +112,7 @@ A curated list of problems that significantly improved my understanding.
 | **Remove Element**                                                |     🟢     | Two Pointers                |                          [Link](./Array/Easy/Remove_Element.js)                          |
 | **Single Number**                                                 |     🟢     | Bit Manipulation / XOR      |                          [Link](./Array/Easy/Single_Number.js)                           |
 | **Reverse String**                                                |     🟢     | Two Pointers                |                         [Link](./String/Easy/Reverse_String.js)                          |
+| **Roman to Integer**                                              |     🟢     | Hash Map / Math             |                             [Link](./String/Easy/Roman_to_Integer.js)                           |
 | **Check if Binary String Has at Most One Segment of Ones**        |     🟢     | String / Greedy             |         [Link](./String/Easy/Check_If_Binary_Has_At_Most_One_Segment_Of_Ones.js)         |
 | **Minimum Number of Flips to Make the Binary String Alternating** |     🟡     | Sliding Window / Greedy     | [Link](./String/Medium/Minimum_Number_of_Flips_to_Make_the_Binary_String_Alternating.js) |
 | **Find All Possible Stable Binary Arrays I**                      |     🟡     | Dynamic Programming         |    [Link](./Dynamic%20Programming/Medium/Find_All_Possible_Stable_Binary_Arrays_I.js)    |
