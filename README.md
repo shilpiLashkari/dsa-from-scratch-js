@@ -207,6 +207,7 @@ A curated list of problems that significantly improved my understanding.
 | **Best Time to Buy and Sell Stock III**       |     🔴     | DP              |    [Link](./Dynamic%20Programming/Hard/Best_Time_to_Buy_and_Sell_Stock_III.js)    |
 | **Dungeon Game**                              |     🔴     | DP              |               [Link](./Dynamic%20Programming/Hard/Dungeon_Game.js)                |
 | **Word Break II**                             |     🔴     | DP              |               [Link](./Dynamic%20Programming/Hard/Word_Break_II.js)               |
+| **Find the String with LCP**                  |     🔴     | DP / Greedy     | [Link](./Dynamic%20Programming/Hard/Find_the_String_with_LCP.js) |
 | **Find All Possible Stable Binary Arrays II** |     🔴     | DP              | [Link](./Dynamic%20Programming/Hard/Find_All_Possible_Stable_Binary_Arrays_II.js) |
 
 ### Trie
