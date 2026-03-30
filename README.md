@@ -115,6 +115,7 @@ A curated list of problems that significantly improved my understanding.
 | **Roman to Integer**                                              |     🟢     | Hash Map / Math             |                             [Link](./String/Easy/Roman_to_Integer.js)                           |
 | **Check if Strings Can be Made Equal With Operations I**          |     🟢     | String / Swap Logic         | [Link](./String/Easy/Check_if_Strings_Can_be_Made_Equal_With_Operations_I.js) |
 | **Check if Binary String Has at Most One Segment of Ones**        |     🟢     | String / Greedy             |         [Link](./String/Easy/Check_If_Binary_Has_At_Most_One_Segment_Of_Ones.js)         |
+| **Check if Strings Can be Made Equal With Operations II**         |     🟡     | String / Swap Logic / Freq  | [Link](./String/Medium/Check_if_Strings_Can_be_Made_Equal_With_Operations_II.js) |
 | **Minimum Number of Flips to Make the Binary String Alternating** |     🟡     | Sliding Window / Greedy     | [Link](./String/Medium/Minimum_Number_of_Flips_to_Make_the_Binary_String_Alternating.js) |
 | **Find All Possible Stable Binary Arrays I**                      |     🟡     | Dynamic Programming         |    [Link](./Dynamic%20Programming/Medium/Find_All_Possible_Stable_Binary_Arrays_I.js)    |
 | **Sort By**                                                       |     🟢     | Custom Sort                 |                             [Link](./Array/Easy/Sort_By.js)                              |
