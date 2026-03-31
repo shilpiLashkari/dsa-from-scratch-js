@@ -136,6 +136,7 @@ A curated list of problems that significantly improved my understanding.
 | **Trapping Rain Water**                                           |     🔴     | Two Pointers                |                       [Link](./Array/Hard/Trapping_Rain_Water.js)                        |
 | **Largest Rectangle in Histogram**                                |     🔴     | Monotonic Stack             |                  [Link](./Array/Hard/Largest_Rectangle_In_Histogram.js)                  |
 | **Text Justification**                                            |     🔴     | String / Greedy             |                        [Link](./Array/Hard/Text_Justification.js)                        |
+| **Lexicographically Smallest Generated String**                   |     🔴     | String / Greedy / Sorting   | [Link](./String/Hard/Lexicographically_Smallest_Generated_String.js) |
 | **Maximal Rectangle**                                             |     🔴     | Histogram / Monotonic Stack |                        [Link](./Array/Hard/Maximal_Rectangle.js)                         |
 | **Perfect Rectangle**                                             |     🔴     | Geometry / Arrays           |                        [Link](./Array/Hard/Perfect_Rectangle.js)                         |
 | **Reverse Pairs**                                                 |     🔴     | Array / Merge Sort          |                          [Link](./Array/Hard/Reverse_Pairs.js)                           |
