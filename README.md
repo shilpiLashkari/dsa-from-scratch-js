@@ -144,6 +144,7 @@ A curated list of problems that significantly improved my understanding.
 | **Count of Smaller Numbers After Self**                           |     🔴     | Array / Fenwick Tree        |               [Link](./Array/Hard/Count_of_Smaller_Numbers_After_Self.js)                |
 | **Max Points on a Line**                                          |     🔴     | Geometry / Hash Map         |                       [Link](./Array/Hard/Max_Points_on_a_Line.js)                       |
 | **Self Crossing**                                                 |     🔴     | Geometry / Array            |                          [Link](./Array/Hard/Self_Crossing.js)                           |
+| **Robot Collisions**                                              |     🔴     | Stack / Sorting             |                         [Link](./Array/Hard/Robot_Collisions.js)                         |
 | **Sliding Window Maximum**                                        |     🔴     | Monotonic Deque             |                      [Link](./Array/Hard/Sliding_Window_Maximum.js)                      |
 | **Split Array Largest Sum**                                       |     🔴     | Binary Search               |                     [Link](./Array/Hard/Split_Array_Largest_Sum.js)                      |
 | **Erect the Fence**                                               |     🔴     | Monotone Chain              |                         [Link](./Array/Hard/Erect_The_Fence.js)                          |
