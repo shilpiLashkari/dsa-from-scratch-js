@@ -33,35 +33,35 @@
  * @return {string[]}
  */
 var wordBreak = function (s, wordDict) {
-    const wordSet = new Set(wordDict);
-    const memo = new Map();
+  const wordSet = new Set(wordDict);
+  const memo = new Map();
 
-    const dfs = (startIndex) => {
-        if (memo.has(startIndex)) {
-            return memo.get(startIndex);
+  const dfs = (startIndex) => {
+    if (memo.has(startIndex)) {
+      return memo.get(startIndex);
+    }
+
+    if (startIndex === s.length) {
+      return [""];
+    }
+
+    const results = [];
+
+    for (let endIndex = startIndex + 1; endIndex <= s.length; endIndex++) {
+      const word = s.substring(startIndex, endIndex);
+      if (wordSet.has(word)) {
+        const subSentences = dfs(endIndex);
+        for (const subSentence of subSentences) {
+          results.push(word + (subSentence ? " " + subSentence : ""));
         }
+      }
+    }
 
-        if (startIndex === s.length) {
-            return [""];
-        }
+    memo.set(startIndex, results);
+    return results;
+  };
 
-        const results = [];
-
-        for (let endIndex = startIndex + 1; endIndex <= s.length; endIndex++) {
-            const word = s.substring(startIndex, endIndex);
-            if (wordSet.has(word)) {
-                const subSentences = dfs(endIndex);
-                for (const subSentence of subSentences) {
-                    results.push(word + (subSentence ? " " + subSentence : ""));
-                }
-            }
-        }
-
-        memo.set(startIndex, results);
-        return results;
-    };
-
-    return dfs(0);
+  return dfs(0);
 };
 
 // Notes:

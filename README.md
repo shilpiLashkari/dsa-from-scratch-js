@@ -214,6 +214,7 @@ A curated list of problems that significantly improved my understanding.
 | **Word Break II**                             |     🔴     | DP              |               [Link](./Dynamic%20Programming/Hard/Word_Break_II.js)               |
 | **Find the String with LCP**                  |     🔴     | DP / Greedy     | [Link](./Dynamic%20Programming/Hard/Find_the_String_with_LCP.js) |
 | **Find All Possible Stable Binary Arrays II** |     🔴     | DP              | [Link](./Dynamic%20Programming/Hard/Find_All_Possible_Stable_Binary_Arrays_II.js) |
+| **Maximum Walls Destroyed by Robots**         |     🔴     | DP / Binary Search | [Link](./Dynamic%20Programming/Hard/Maximum_Walls_Destroyed_by_Robots.js) |
 
 ### Trie
 
