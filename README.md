@@ -117,6 +117,7 @@ A curated list of problems that significantly improved my understanding.
 | **Check if Binary String Has at Most One Segment of Ones**        |     🟢     | String / Greedy             |         [Link](./String/Easy/Check_If_Binary_Has_At_Most_One_Segment_Of_Ones.js)         |
 | **Check if Strings Can be Made Equal With Operations II**         |     🟡     | String / Swap Logic / Freq  | [Link](./String/Medium/Check_if_Strings_Can_be_Made_Equal_With_Operations_II.js) |
 | **Minimum Number of Flips to Make the Binary String Alternating** |     🟡     | Sliding Window / Greedy     | [Link](./String/Medium/Minimum_Number_of_Flips_to_Make_the_Binary_String_Alternating.js) |
+| **Decode the Slanted Ciphertext**                                 |     🟡     | String / Matrix Traversal   | [Link](./String/Medium/Decode_the_Slanted_Ciphertext.js) |
 | **Find All Possible Stable Binary Arrays I**                      |     🟡     | Dynamic Programming         |    [Link](./Dynamic%20Programming/Medium/Find_All_Possible_Stable_Binary_Arrays_I.js)    |
 | **Sort By**                                                       |     🟢     | Custom Sort                 |                             [Link](./Array/Easy/Sort_By.js)                              |
 | **Join Arrays by ID**                                             |     🟢     | Map / Merge Logic           |                      [Link](./Array/Easy/Join_Two_Arrays_by_ID.js)                       |

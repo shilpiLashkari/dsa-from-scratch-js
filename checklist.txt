@@ -37,6 +37,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Roman to Integer
 - [x] Check if Strings Can be Made Equal With Operations I
 - [x] Check if Strings Can be Made Equal With Operations II
+- [x] Decode the Slanted Ciphertext
 - [ ] Implement strStr()
 - [ ] Longest Common Prefix
 
@@ -285,6 +286,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 ## 🧮 Array — Medium
 - [x] Equal Sum Grid Partition I
 - [x] Check if Strings Can be Made Equal With Operations II
+- [x] Decode the Slanted Ciphertext
 - [x] Flatten Deeply Nested Array
 - [x] Group By
 - [x] Container With Most Water
