@@ -38,6 +38,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Check if Strings Can be Made Equal With Operations I
 - [x] Check if Strings Can be Made Equal With Operations II
 - [x] Decode the Slanted Ciphertext
+- [x] Robot Return to Origin
 - [ ] Implement strStr()
 - [ ] Longest Common Prefix
 
@@ -273,6 +274,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Remove Element
 - [x] Single Number
 - [x] Check if Binary String Has at Most One Segment of Ones
+- [x] Robot Return to Origin
 - [x] Check if Strings Can be Made Equal With Operations I
 - [x] Find Unique Binary String
 - [x] Roman to Integer
