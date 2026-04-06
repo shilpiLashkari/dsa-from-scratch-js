@@ -161,6 +161,8 @@ A curated list of problems that significantly improved my understanding.
 | **Minimum Absolute Difference in Sliding Submatrix** |     🟡     | Array / Sliding Window / Sorting | [Link](./Array/Medium/Minimum_Absolute_Difference_in%20_Sliding_Submatrix.js) |
 | **Construct Product Matrix**                         |     🟡     | Array / Prefix Sums             | [Link](./Array/Medium/Construct_Product_Matrix.js) |
 | **Equal Sum Grid Partition I**                       |     🟡     | Array / Interval Merging        | [Link](./Array/Medium/Equal_Sum_Grid_Partition_I.js) |
+| **Walking Robot Simulation**                         |     🟡     | Array / Simulation              | [Link](./Array/Medium/Walking_Robot_Simulation.js) |
+
 
 ### Asynchronous Programming
 

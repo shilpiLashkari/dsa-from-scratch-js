@@ -298,7 +298,8 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Count Submatrices With Equal Frequency of X and Y
 - [x] Minimum Absolute Difference in Sliding Submatrix
 - [x] Construct Product Matrix
-- [x] Equal Sum Grid Partition I
+- [x] Walking Robot Simulation
+
 
 ## 🧮 Array — Hard
 - [x] Count of Smaller Numbers After Self
