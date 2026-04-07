@@ -183,6 +183,7 @@ A curated list of problems that significantly improved my understanding.
 | **Calculator with Method Chaining** |     🟢     | Method Chaining  | [Link](./Classes_OOP/Easy/Calculator_with_Method_Chaining.js) |
 | **Event Emitter**                   |     🟡     | Observer Pattern |         [Link](./Classes_OOP/Medium/Event_Emitter.js)         |
 | **Cache With Time Limit**           |     🟡     | Map / Timeouts   |     [Link](./Classes_OOP/Medium/Cache_With_Time_Limit.js)     |
+| **Walking Robot Simulation II**      |     🟡     | Simulation / OOP |     [Link](./Classes_OOP/Medium/Robot_Walk_on_Grid.js)     |
 
 ### Closures
 

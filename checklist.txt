@@ -341,6 +341,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 ## 🧠 Classes_OOP — Medium
 - [x] Cache With Time Limit
 - [x] Event Emitter
+- [x] Walking Robot Simulation II
 
 ## 🔁 Closures — Easy
 - [x] Create Hello World Function
