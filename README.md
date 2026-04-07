@@ -21,6 +21,18 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 
 ---
 
+## 📅 Progress Log
+
+| Day | Topic                         | Source   | Status |
+| :-- | :---------------------------- | :------- | :----- |
+| 01  | Cache With Time Limit          | Internal | ✅ Done |
+| 02  | Sudoku Solver                  | LeetCode | ✅ Done |
+| 03  | Word Search II                 | LeetCode | ✅ Done |
+| 04  | Event Emitter                  | Internal | ✅ Done |
+| 05  | Walking Robot Simulation II    | LeetCode | ✅ Done |
+
+---
+
 ## 🌟 Project Philosophy
 
 To make this repository useful for myself & for others, I adhere to three core principles:
