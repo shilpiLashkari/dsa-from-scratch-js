@@ -30,6 +30,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 03  | Word Search II                 | LeetCode | ✅ Done |
 | 04  | Event Emitter                  | Internal | ✅ Done |
 | 05  | Walking Robot Simulation II    | LeetCode | ✅ Done |
+| 06  | XOR After Range Multiplication Queries I | LeetCode | ✅ Done |
 
 ---
 
@@ -88,16 +89,16 @@ My development environment matches modern industry standards:
 - [ ] Stacks & Queues
 - [x] Trees (Binary, BST, AVL, Tries)
 - [ ] Heaps (Min/Max Priority Queues)
-- [ ] Graphs (Adjacency List/Matrix)
+- [x] Graphs (Adjacency List/Matrix)
 
 ### Algorithms
 
 - [x] **Sorting** (Custom Sort By)
-- [ ] Searching (Binary Search)
+- [x] Searching (Binary Search)
 - [x] Recursion & Backtracking
 - [x] Dynamic Programming
-- [ ] Greedy Algorithms
-- [ ] Graph Traversal (BFS, DFS)
+- [x] Greedy Algorithms
+- [x] Graph Traversal (BFS, DFS)
 </details>
 
 ---
@@ -174,6 +175,7 @@ A curated list of problems that significantly improved my understanding.
 | **Construct Product Matrix**                         |     🟡     | Array / Prefix Sums             | [Link](./Array/Medium/Construct_Product_Matrix.js) |
 | **Equal Sum Grid Partition I**                       |     🟡     | Array / Interval Merging        | [Link](./Array/Medium/Equal_Sum_Grid_Partition_I.js) |
 | **Walking Robot Simulation**                         |     🟡     | Array / Simulation              | [Link](./Array/Medium/Walking_Robot_Simulation.js) |
+| **XOR After Range Multiplication Queries I** |     🟡     | Array / Simulation / BigInt     | [Link](./Array/Medium/XOR_After_Range_Multiplication_Queries_I.js) |
 
 
 ### Asynchronous Programming
