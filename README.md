@@ -32,6 +32,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 05  | Walking Robot Simulation II    | LeetCode | ✅ Done |
 | 06  | XOR After Range Multiplication Queries I | LeetCode | ✅ Done |
 | 07  | XOR After Range Multiplication Queries II | LeetCode | ✅ Done |
+| 08  | Minimum Distance Between Three Equal Elements I | LeetCode | ✅ Done |
 
 ---
 
@@ -124,6 +125,7 @@ A curated list of problems that significantly improved my understanding.
 | **Move Zeroes**                                                   |     🟢     | Two Pointers                |                           [Link](./Array/Easy/Move_Zeroes.js)                            |
 | **Plus One**                                                      |     🟢     | Array Manipulation          |                             [Link](./Array/Easy/Plus_One.js)                             |
 | **Remove Element**                                                |     🟢     | Two Pointers                |                          [Link](./Array/Easy/Remove_Element.js)                          |
+| **Minimum Distance Between Three Equal Elements I** |     🟢     | Array / Map / Logic | [Link](./Array/Easy/Minimum_Distance_Between_Three_Equal_Elements_I.js) |
 | **Single Number**                                                 |     🟢     | Bit Manipulation / XOR      |                          [Link](./Array/Easy/Single_Number.js)                           |
 | **Reverse String**                                                |     🟢     | Two Pointers                |                         [Link](./String/Easy/Reverse_String.js)                          |
 | **Roman to Integer**                                              |     🟢     | Hash Map / Math             |                             [Link](./String/Easy/Roman_to_Integer.js)                           |
