@@ -33,6 +33,8 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 06  | XOR After Range Multiplication Queries I | LeetCode | ✅ Done |
 | 07  | XOR After Range Multiplication Queries II | LeetCode | ✅ Done |
 | 08  | Minimum Distance Between Three Equal Elements I | LeetCode | ✅ Done |
+| 09  | LeetCode Hard Batch (Strings & DP) | LeetCode | ✅ Done |
+| 10  | Advanced DP Batch (Decoding, Interleaving, Bursting) | LeetCode | ✅ Done |
 
 ---
 
@@ -132,6 +134,8 @@ A curated list of problems that significantly improved my understanding.
 | **Check if Strings Can be Made Equal With Operations I**          |     🟢     | String / Swap Logic         | [Link](./String/Easy/Check_if_Strings_Can_be_Made_Equal_With_Operations_I.js) |
 | **Check if Binary String Has at Most One Segment of Ones**        |     🟢     | String / Greedy             |         [Link](./String/Easy/Check_If_Binary_Has_At_Most_One_Segment_Of_Ones.js)         |
 | **Robot Return to Origin**                                        |     🟢     | String / Simulation         |         [Link](./String/Easy/Robot_Return_to_Origin.js)                         |
+| **Substring with Concatenation of Words**                         |     🔴     | Sliding Window / Hash Map   | [Link](./String/Hard/Substring_with_Concatenation_of_Words.js)          |
+| **Valid Number**                                                  |     🔴     | String / State Machine      | [Link](./String/Hard/Valid_Number.js)                                  |
 | **Check if Strings Can be Made Equal With Operations II**         |     🟡     | String / Swap Logic / Freq  | [Link](./String/Medium/Check_if_Strings_Can_be_Made_Equal_With_Operations_II.js) |
 | **Minimum Number of Flips to Make the Binary String Alternating** |     🟡     | Sliding Window / Greedy     | [Link](./String/Medium/Minimum_Number_of_Flips_to_Make_the_Binary_String_Alternating.js) |
 | **Decode the Slanted Ciphertext**                                 |     🟡     | String / Matrix Traversal   | [Link](./String/Medium/Decode_the_Slanted_Ciphertext.js) |
@@ -232,12 +236,23 @@ A curated list of problems that significantly improved my understanding.
 | **Decode Ways**                                |     🟡     | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Decode_Ways.js) |
 | **Maximum Non Negative Product in a Matrix**   |     🟡     | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Maximum_Non_Negative_Product_in_a_Matrix.js) |
 | **Maximum Amount of Money Robot Can Earn**   |     🟡     | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Maximum_Amount_of_Money_Robot_Can_Earn.js) |
+| **Interleaving String**                         |     🟡     | String Matching / DP | [Link](./Dynamic%20Programming/Medium/Interleaving_String.js) |
 | **Best Time to Buy and Sell Stock III**       |     🔴     | DP              |    [Link](./Dynamic%20Programming/Hard/Best_Time_to_Buy_and_Sell_Stock_III.js)    |
 | **Dungeon Game**                              |     🔴     | DP              |               [Link](./Dynamic%20Programming/Hard/Dungeon_Game.js)                |
 | **Word Break II**                             |     🔴     | DP              |               [Link](./Dynamic%20Programming/Hard/Word_Break_II.js)               |
 | **Find the String with LCP**                  |     🔴     | DP / Greedy     | [Link](./Dynamic%20Programming/Hard/Find_the_String_with_LCP.js) |
 | **Find All Possible Stable Binary Arrays II** |     🔴     | DP              | [Link](./Dynamic%20Programming/Hard/Find_All_Possible_Stable_Binary_Arrays_II.js) |
 | **Maximum Walls Destroyed by Robots**         |     🔴     | DP / Binary Search | [Link](./Dynamic%20Programming/Hard/Maximum_Walls_Destroyed_by_Robots.js) |
+| **Regular Expression Matching**               |     🔴     | DP              | [Link](./Dynamic%20Programming/Hard/Regular_Expression_Matching.js) |
+| **Scramble String**                           |     🔴     | DP / Recursion  | [Link](./Dynamic%20Programming/Hard/Scramble_String.js) |
+| **Number of Digit One**                       |     🔴     | Digit DP / Math | [Link](./Dynamic%20Programming/Hard/Number_of_Digit_One.js) |
+| **Longest Valid Parentheses**                 |     🔴     | DP              | [Link](./Dynamic%20Programming/Hard/Longest_Valid_Parentheses.js) |
+| **Wildcard Matching**                         |     🔴     | DP              | [Link](./Dynamic%20Programming/Hard/Wildcard_Matching.js) |
+| **Cat and Mouse**                             |     🔴     | Game Theory / DP| [Link](./Dynamic%20Programming/Hard/Cat_and_Mouse.js) |
+| **Remove Boxes**                              |     🔴     | DP              | [Link](./Dynamic%20Programming/Hard/Remove_Boxes.js) |
+| **Decode Ways II**                            |     🔴     | DP / BigInt     | [Link](./Dynamic%20Programming/Hard/Decode_Ways_II.js) |
+| **Burst Balloons**                            |     🔴     | Range DP        | [Link](./Dynamic%20Programming/Hard/Burst_Balloons.js) |
+| **Distinct Subsequences**                     |     🔴     | 2D DP           | [Link](./Dynamic%20Programming/Hard/Distinct_Subsequences.js) |
 
 ### Trie
 
