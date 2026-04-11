@@ -36,6 +36,11 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 09  | LeetCode Hard Batch (Strings & DP) | LeetCode | ✅ Done |
 | 10  | Advanced DP Batch (Decoding, Interleaving, Bursting) | LeetCode | ✅ Done |
 | 11  | Minimum Distance Between Three Equal Elements II | LeetCode | ✅ Done |
+| 12  | Math Easy Batch (Add Binary, Climbing Stairs, Excel Titles, etc.) | LeetCode | ✅ Done |
+| 13  | Math Easy Batch 2 (Base 7, Perfect Number, Range Addition II, etc.) | LeetCode | ✅ Done |
+| 14  | Math Easy Batch 3 (Number of Good Pairs, Water Bottles, etc.) | LeetCode | ✅ Done |
+| 15  | Math Easy Batch 4 (Minimum Sum After Splitting, etc.) | LeetCode | ✅ Done |
+| 16  | Math Medium Batch 1 (Add Two Numbers, Rotate Image, Pow(x,n), etc.) | LeetCode | ✅ Done |
 
 ---
 
@@ -279,10 +284,89 @@ A curated list of problems that significantly improved my understanding.
 | **Happy Number**           |     🟢     | Math / Two Pointers     |   [Link](./Math/Easy/Happy_Number.js)    |
 | **Power of Two**           |     🟢     | Math / Bit Manipulation |   [Link](./Math/Easy/Power_of_Two.js)    |
 | **Complement of Base 10 Integer** |     🟢     | Math / Bit Manipulation | [Link](./Math/Easy/Complement_of_Base_10_Integer.js) |
+| **Add Binary**           |     🟢     | Math / Binary Arithmetic |   [Link](./Math/Easy/Add_Binary.js)    |
+| **Climbing Stairs**      |     🟢     | Math / DP / Fibonacci   |   [Link](./Math/Easy/Climbing_Stairs.js) |
+| **Excel Sheet Column Title** |     🟢     | Math / Base-26          |   [Link](./Math/Easy/Excel_Sheet_Column_Title.js) |
+| **Excel Sheet Column Number** |    🟢     | Math / Base-26          |   [Link](./Math/Easy/Excel_Sheet_Column_Number.js) |
+| **Add Digits**           |     🟢     | Math / Digital Root     |   [Link](./Math/Easy/Add_Digits.js)    |
+| **Ugly Number**          |     🟢     | Math / Factorization    |   [Link](./Math/Easy/Ugly_Number.js)   |
+| **Nim Game**             |     🟢     | Math / Game Theory      |   [Link](./Math/Easy/Nim_Game.js)      |
+| **Power of Three**       |     🟢     | Math / Logarithms       |   [Link](./Math/Easy/Power_of_Three.js) |
+| **Power of Four**        |     🟢     | Math / Bit Manipulation |   [Link](./Math/Easy/Power_of_Four.js)  |
+| **Valid Perfect Square** |     🟢     | Math / Binary Search    |   [Link](./Math/Easy/Valid_Perfect_Square.js) |
+| **Convert a Number to Hexadecimal** | 🟢   | Math / Bit Manipulation | [Link](./Math/Easy/Convert_a_Number_to_Hexadecimal.js) |
+| **Fizz Buzz**            |     🟢     | Math / Simulation       |   [Link](./Math/Easy/Fizz_Buzz.js)     |
+| **Add Strings**          |     🟢     | Math / BigInt Simulation |   [Link](./Math/Easy/Add_Strings.js)    |
+| **Arranging Coins**      |     🟢     | Math / Binary Search    |   [Link](./Math/Easy/Arranging_Coins.js) |
+| **Construct the Rectangle** |   🟢     | Math / Square Root      |   [Link](./Math/Easy/Construct_the_Rectangle.js) |
+| **Base 7**               |     🟢     | Math / Base Conversion   |   [Link](./Math/Easy/Base_7.js) |
+| **Perfect Number**       |     🟢     | Math / Divisors          |   [Link](./Math/Easy/Perfect_Number.js) |
+| **Range Addition II**    |     🟢     | Math / Matrix            |   [Link](./Math/Easy/Range_Addition_II.js) |
+| **Maximum Product of Three Numbers** | 🟢 | Math / Sorting |   [Link](./Math/Easy/Maximum_Product_of_Three_Numbers.js) |
+| **Self Dividing Numbers** |    🟢     | Math / Digit Extraction  |   [Link](./Math/Easy/Self_Dividing_Numbers.js) |
+| **Prime Number of Set Bits in Binary Representation** | 🟢 | Math / Bit Manipulation | [Link](./Math/Easy/Prime_Number_of_Set_Bits_in_Binary_Representation.js) |
+| **Largest Triangle Area** |    🟢     | Math / Geometry          |   [Link](./Math/Easy/Largest_Triangle_Area.js) |
+| **Rectangle Overlap**    |     🟢     | Math / Geometry          |   [Link](./Math/Easy/Rectangle_Overlap.js) |
+| **Projection Area of 3D Shapes** | 🟢   | Math / Matrix Projection | [Link](./Math/Easy/Projection_Area_of_3D_Shapes.js) |
+| **Surface Area of 3D Shapes** |  🟢     | Math / Geometry          |   [Link](./Math/Easy/Surface_Area_of_3D_Shapes.js) |
+| **Smallest Range I**     |     🟢     | Math / Min Max           |   [Link](./Math/Easy/Smallest_Range_I.js) |
+| **X of a Kind in a Deck of Cards** | 🟢   | Math / GCD               |   [Link](./Math/Easy/X_of_a_Kind_in_a_Deck_of_Cards.js) |
+| **Largest Perimeter Triangle** | 🟢   | Math / Geometry / Sorting| [Link](./Math/Easy/Largest_Perimeter_Triangle.js) |
+| **Add to Array-Form of Integer** | 🟢 | Math / Array Simulation  | [Link](./Math/Easy/Add_to_Array_Form_of_Integer.js) |
+| **Divisor Game**         |     🟢     | Math / Game Theory       |   [Link](./Math/Easy/Divisor_Game.js) |
+| **Matrix Cells in Distance Order** | 🟢 | Math / Sorting / BFS     | [Link](./Math/Easy/Matrix_Cells_in_Distance_Order.js) |
+| **Valid Boomerang**      |     🟢     | Math / Geometry / Collinear | [Link](./Math/Easy/Valid_Boomerang.js) |
+| **XOR Operation in an Array** | 🟢 | Math / Bit Manipulation | [Link](./Math/Easy/XOR_Operation_in_an_Array.js) |
+| **Number of Good Pairs** | 🟢 | Math / Counting | [Link](./Math/Easy/Number_of_Good_Pairs.js) |
+| **Water Bottles** | 🟢 | Math / Simulation | [Link](./Math/Easy/Water_Bottles.js) |
+| **Count Odd Numbers in an Interval Range** | 🟢 | Math / Formula | [Link](./Math/Easy/Count_Odd_Numbers_in_an_Interval_Range.js) |
+| **Sum of All Odd Length Subarrays** | 🟢 | Math / Array Sum | [Link](./Math/Easy/Sum_of_All_Odd_Length_Subarrays.js) |
+| **Count of Matches in Tournament** | 🟢 | Math / Formula | [Link](./Math/Easy/Count_of_Matches_in_Tournament.js) |
+| **Calculate Money in Leetcode Bank** | 🟢 | Math / Series | [Link](./Math/Easy/Calculate_Money_in_Leetcode_Bank.js) |
+| **Maximum Number of Balls in a Box** | 🟢 | Math / Digit Sum | [Link](./Math/Easy/Maximum_Number_of_Balls_in_a_Box.js) |
+| **Determine Color of a Chessboard Square** | 🟢 | Math / Modulo | [Link](./Math/Easy/Determine_Color_of_a_Chessboard_Square.js) |
+| **Sign of the Product of an Array** | 🟢 | Math / Counting | [Link](./Math/Easy/Sign_of_the_Product_of_an_Array.js) |
+| **Sum of Digits in Base K** | 🟢 | Math / Base Conversion | [Link](./Math/Easy/Sum_of_Digits_in_Base_K.js) |
+| **Sum of All Subset XOR Totals** | 🟢 | Math / Bitmasking | [Link](./Math/Easy/Sum_of_All_Subset_XOR_Totals.js) |
+| **Largest Odd Number in String** | 🟢 | Math / String | [Link](./Math/Easy/Largest_Odd_Number_in_String.js) |
+| **Count Square Sum Triples** | 🟢 | Math / Perfect Square | [Link](./Math/Easy/Count_Square_Sum_Triples.js) |
+| **Three Divisors** | 🟢 | Math / Prime Square | [Link](./Math/Easy/Three_Divisors.js) |
+| **Find Greatest Common Divisor of Array** | 🟢 | Math / GCD | [Link](./Math/Easy/Find_Greatest_Common_Divisor_of_Array.js) |
+| **A Number After a Double Reversal** | 🟢 | Math / Trailing Zeros | [Link](./Math/Easy/A_Number_After_a_Double_Reversal.js) |
+| **Minimum Sum of Four Digit Number After Splitting Digits** | 🟢 | Math / Greedy | [Link](./Math/Easy/Minimum_Sum_of_Four_Digit_Number_After_Splitting_Digits.js) |
+| **Count Operations to Obtain Zero** | 🟢 | Math / Euclidean | [Link](./Math/Easy/Count_Operations_to_Obtain_Zero.js) |
+| **Count Integers With Even Digit Sum** | 🟢 | Math / Formula | [Link](./Math/Easy/Count_Integers_With_Even_Digit_Sum.js) |
+| **Add Two Integers** | 🟢 | Math / Addition | [Link](./Math/Easy/Add_Two_Integers.js) |
+| **Find the K-Beauty of a Number** | 🟢 | Math / Sliding Window | [Link](./Math/Easy/Find_the_K_Beauty_of_a_Number.js) |
+| **Count Days Spent Together** | 🟢 | Math / Overlap | [Link](./Math/Easy/Count_Days_Spent_Together.js) |
+| **Smallest Even Multiple** | 🟢 | Math / LCM | [Link](./Math/Easy/Smallest_Even_Multiple.js) |
+| **Number of Common Factors** | 🟢 | Math / Factors | [Link](./Math/Easy/Number_of_Common_Factors.js) |
+| **Average Value of Even Numbers That Are Divisible by Three** | 🟢 | Math / Iteration | [Link](./Math/Easy/Average_Value_of_Even_Numbers_That_Are_Divisible_by_Three.js) |
+| **Convert the Temperature** | 🟢 | Math / Formula | [Link](./Math/Easy/Convert_the_Temperature.js) |
+| **Minimum Cuts to Divide a Circle** | 🟢 | Math / Divisibility | [Link](./Math/Easy/Minimum_Cuts_to_Divide_a_Circle.js) |
+| **Find the Pivot Integer** | 🟢 | Math / Series Sum | [Link](./Math/Easy/Find_the_Pivot_Integer.js) |
+| **Count the Digits That Divide a Number** | 🟢 | Math / Iteration | [Link](./Math/Easy/Count_the_Digits_That_Divide_a_Number.js) |
+| **Categorize Box According to Criteria** | 🟢 | Math / Conditional | [Link](./Math/Easy/Categorize_Box_According_to_Criteria.js) |
+| **Difference Between Element Sum and Digit Sum of an Array** | 🟢 | Math / Iteration | [Link](./Math/Easy/Difference_Between_Element_Sum_and_Digit_Sum_of_an_Array.js) |
 | **Reverse Integer**               |     🟡     | Math / Digit Reversal   | [Link](./Math/Medium/Reverse_Integer.js) |
 | **Minimum Number of Seconds to Make Mountain Height Zero** |     🟡     | Math / Binary Search / Greedy | [Link](./Math/Medium/Minimum_Number_of_Seconds_to_Make_Mountain_Height_Zero.js) |
 | **The k-th Lexicographical String of All Happy Strings of Length n** |     🟡     | Math / Deductive Logic | [Link](./Math/Medium/The_k-th_Lexicographical_String_of_All_Happy_Strings_of_Length_n.js) |
 | **Get Biggest Three Rhombus Sums in a Grid** |     🟡     | Math / Matrix Traversal | [Link](./Math/Medium/Get_Biggest_Three_Rhombus_Sums_in_a_Grid.js) |
+| **Add Two Numbers** | 🟡 | Math / Linked List | [Link](./Math/Medium/Add_Two_Numbers.js) |
+| **Integer to Roman** | 🟡 | Math / String | [Link](./Math/Medium/Integer_to_Roman.js) |
+| **Divide Two Integers** | 🟡 | Math / Bit Manipulation | [Link](./Math/Medium/Divide_Two_Integers.js) |
+| **Multiply Strings** | 🟡 | Math / String | [Link](./Math/Medium/Multiply_Strings.js) |
+| **Rotate Image** | 🟡 | Math / Matrix | [Link](./Math/Medium/Rotate_Image.js) |
+| **Pow(x, n)** | 🟡 | Math / Binary Exponentiation | [Link](./Math/Medium/Pow_x_n.js) |
+| **Unique Paths** | 🟡 | Math / Combinatorics | [Link](./Math/Medium/Unique_Paths.js) |
+| **Gray Code** | 🟡 | Math / Bit Manipulation | [Link](./Math/Medium/Gray_Code.js) |
+| **Unique Binary Search Trees** | 🟡 | Math / Catalan/DP | [Link](./Math/Medium/Unique_Binary_Search_Trees.js) |
+| **Evaluate Reverse Polish Notation** | 🟡 | Math / Stack | [Link](./Math/Medium/Evaluate_Reverse_Polish_Notation.js) |
+| **Fraction to Recurring Decimal** | 🟡 | Math / Map | [Link](./Math/Medium/Fraction_to_Recurring_Decimal.js) |
+| **Factorial Trailing Zeroes** | 🟡 | Math / Prime Factors | [Link](./Math/Medium/Factorial_Trailing_Zeroes.js) |
+| **Rotate Array** | 🟡 | Math / Reversal | [Link](./Math/Medium/Rotate_Array.js) |
+| **Count Primes** | 🟡 | Math / Sieve | [Link](./Math/Medium/Count_Primes.js) |
+| **Rectangle Area** | 🟡 | Math / Geometry | [Link](./Math/Medium/Rectangle_Area.js) |
 | **Super Palindromes** |     🔴     | Math / Palindrome       | [Link](./Math/Hard/Super_Palindromes.js) |
 | **Fancy Sequence** |     🔴     | Math / Modular Arithmetic / Design | [Link](./Math/Hard/Fancy_Sequence.js) |
 
