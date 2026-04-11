@@ -35,6 +35,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 08  | Minimum Distance Between Three Equal Elements I | LeetCode | ✅ Done |
 | 09  | LeetCode Hard Batch (Strings & DP) | LeetCode | ✅ Done |
 | 10  | Advanced DP Batch (Decoding, Interleaving, Bursting) | LeetCode | ✅ Done |
+| 11  | Minimum Distance Between Three Equal Elements II | LeetCode | ✅ Done |
 
 ---
 
@@ -184,6 +185,7 @@ A curated list of problems that significantly improved my understanding.
 | **Equal Sum Grid Partition I**                       |     🟡     | Array / Interval Merging        | [Link](./Array/Medium/Equal_Sum_Grid_Partition_I.js) |
 | **Walking Robot Simulation**                         |     🟡     | Array / Simulation              | [Link](./Array/Medium/Walking_Robot_Simulation.js) |
 | **XOR After Range Multiplication Queries I** |     🟡     | Array / Simulation / BigInt     | [Link](./Array/Medium/XOR_After_Range_Multiplication_Queries_I.js) |
+| **Minimum Distance Between Three Equal Elements II** |     🟡     | Array / Map / Memory Optimization | [Link](./Array/Medium/Minimum_Distance_Between_Three_Equal_Elements_II.js) |
 
 
 ### Asynchronous Programming
