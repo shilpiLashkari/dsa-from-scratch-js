@@ -41,6 +41,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 14  | Math Easy Batch 3 (Number of Good Pairs, Water Bottles, etc.) | LeetCode | ✅ Done |
 | 15  | Math Easy Batch 4 (Minimum Sum After Splitting, etc.) | LeetCode | ✅ Done |
 | 16  | Math Medium Batch 1 (Add Two Numbers, Rotate Image, Pow(x,n), etc.) | LeetCode | ✅ Done |
+| 17  | Minimum Distance to Type a Word Using Two Fingers | LeetCode | ✅ Done |
 
 ---
 
@@ -260,6 +261,7 @@ A curated list of problems that significantly improved my understanding.
 | **Decode Ways II**                            |     🔴     | DP / BigInt     | [Link](./Dynamic%20Programming/Hard/Decode_Ways_II.js) |
 | **Burst Balloons**                            |     🔴     | Range DP        | [Link](./Dynamic%20Programming/Hard/Burst_Balloons.js) |
 | **Distinct Subsequences**                     |     🔴     | 2D DP           | [Link](./Dynamic%20Programming/Hard/Distinct_Subsequences.js) |
+| **Minimum Distance to Type a Word Using Two Fingers** |     🔴     | DP              | [Link](./Dynamic%20Programming/Hard/Minimum_Distance_to_Type_a_Word_Using_Two_Fingers.js) |
 
 ### Trie
 
