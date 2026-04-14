@@ -43,6 +43,8 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 16  | Math Medium Batch 1 (Add Two Numbers, Rotate Image, Pow(x,n), etc.) | LeetCode | ✅ Done |
 | 17  | Minimum Distance to Type a Word Using Two Fingers | LeetCode | ✅ Done |
 | 18  | Minimum Distance to the Target Element | LeetCode | ✅ Done |
+| 19  | Minimum Total Distance Traveled          | LeetCode | ✅ Done |
+
 
 ---
 
@@ -264,6 +266,8 @@ A curated list of problems that significantly improved my understanding.
 | **Burst Balloons**                            |     🔴     | Range DP        | [Link](./Dynamic%20Programming/Hard/Burst_Balloons.js) |
 | **Distinct Subsequences**                     |     🔴     | 2D DP           | [Link](./Dynamic%20Programming/Hard/Distinct_Subsequences.js) |
 | **Minimum Distance to Type a Word Using Two Fingers** |     🔴     | DP              | [Link](./Dynamic%20Programming/Hard/Minimum_Distance_to_Type_a_Word_Using_Two_Fingers.js) |
+| **Minimum Total Distance Traveled** |     🔴     | DP / Sorting   | [Link](./Dynamic%20Programming/Hard/Minimum_Total_Distance_Traveled.js) |
+
 
 ### Trie
 
