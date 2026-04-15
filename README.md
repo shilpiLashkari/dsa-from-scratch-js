@@ -44,6 +44,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 17  | Minimum Distance to Type a Word Using Two Fingers | LeetCode | ✅ Done |
 | 18  | Minimum Distance to the Target Element | LeetCode | ✅ Done |
 | 19  | Minimum Total Distance Traveled          | LeetCode | ✅ Done |
+| 20  | Shortest Distance to Target String in a Circular Array | LeetCode | ✅ Done |
 
 
 ---
@@ -139,6 +140,7 @@ A curated list of problems that significantly improved my understanding.
 | **Remove Element**                                                |     🟢     | Two Pointers                |                          [Link](./Array/Easy/Remove_Element.js)                          |
 | **Minimum Distance Between Three Equal Elements I** |     🟢     | Array / Map / Logic | [Link](./Array/Easy/Minimum_Distance_Between_Three_Equal_Elements_I.js) |
 | **Minimum Distance to the Target Element** |     🟢     | Array / Linear Scan | [Link](./Array/Easy/Minimum_Distance_to_the_Target_Element.js) |
+| **Shortest Distance to Target String in a Circular Array** |     🟢     | Array / Circular Logic | [Link](./Array/Easy/Shortest_Distance_to_Target_String_in_a_Circular_Array.js) |
 | **Single Number**                                                 |     🟢     | Bit Manipulation / XOR      |                          [Link](./Array/Easy/Single_Number.js)                           |
 | **Reverse String**                                                |     🟢     | Two Pointers                |                         [Link](./String/Easy/Reverse_String.js)                          |
 | **Roman to Integer**                                              |     🟢     | Hash Map / Math             |                             [Link](./String/Easy/Roman_to_Integer.js)                           |
