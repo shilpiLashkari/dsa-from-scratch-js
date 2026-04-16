@@ -45,6 +45,8 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 18  | Minimum Distance to the Target Element | LeetCode | ✅ Done |
 | 19  | Minimum Total Distance Traveled          | LeetCode | ✅ Done |
 | 20  | Shortest Distance to Target String in a Circular Array | LeetCode | ✅ Done |
+| 21  | Closest Equal Element Queries | LeetCode | ✅ Done |
+
 
 
 ---
@@ -198,6 +200,8 @@ A curated list of problems that significantly improved my understanding.
 | **Walking Robot Simulation**                         |     🟡     | Array / Simulation              | [Link](./Array/Medium/Walking_Robot_Simulation.js) |
 | **XOR After Range Multiplication Queries I** |     🟡     | Array / Simulation / BigInt     | [Link](./Array/Medium/XOR_After_Range_Multiplication_Queries_I.js) |
 | **Minimum Distance Between Three Equal Elements II** |     🟡     | Array / Map / Memory Optimization | [Link](./Array/Medium/Minimum_Distance_Between_Three_Equal_Elements_II.js) |
+| **Closest Equal Element Queries** |     🟡     | Array / Binary Search / Hash Map | [Link](./Array/Medium/Closest_Equal_Element_Queries.js) |
+
 
 
 ### Asynchronous Programming
