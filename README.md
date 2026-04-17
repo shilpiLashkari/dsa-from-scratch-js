@@ -46,6 +46,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 19  | Minimum Total Distance Traveled          | LeetCode | ✅ Done |
 | 20  | Shortest Distance to Target String in a Circular Array | LeetCode | ✅ Done |
 | 21  | Closest Equal Element Queries | LeetCode | ✅ Done |
+| 22  | Minimum Absolute Distance Between Mirror Pairs | LeetCode | ✅ Done |
 
 
 
@@ -201,6 +202,7 @@ A curated list of problems that significantly improved my understanding.
 | **XOR After Range Multiplication Queries I** |     🟡     | Array / Simulation / BigInt     | [Link](./Array/Medium/XOR_After_Range_Multiplication_Queries_I.js) |
 | **Minimum Distance Between Three Equal Elements II** |     🟡     | Array / Map / Memory Optimization | [Link](./Array/Medium/Minimum_Distance_Between_Three_Equal_Elements_II.js) |
 | **Closest Equal Element Queries** |     🟡     | Array / Binary Search / Hash Map | [Link](./Array/Medium/Closest_Equal_Element_Queries.js) |
+| **Minimum Absolute Distance Between Mirror Pairs** |     🟡     | Array / Hash Map | [Link](./Array/Medium/Minimum_Absolute_Distance_Between_Mirror_Pairs.js) |
 
 
 
