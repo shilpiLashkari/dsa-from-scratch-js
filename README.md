@@ -47,6 +47,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 20  | Shortest Distance to Target String in a Circular Array | LeetCode | ✅ Done |
 | 21  | Closest Equal Element Queries | LeetCode | ✅ Done |
 | 22  | Minimum Absolute Distance Between Mirror Pairs | LeetCode | ✅ Done |
+| 23  | Mirror Distance of an Integer           | Internal | ✅ Done |
 
 
 
@@ -364,6 +365,7 @@ A curated list of problems that significantly improved my understanding.
 | **Count the Digits That Divide a Number** | 🟢 | Math / Iteration | [Link](./Math/Easy/Count_the_Digits_That_Divide_a_Number.js) |
 | **Categorize Box According to Criteria** | 🟢 | Math / Conditional | [Link](./Math/Easy/Categorize_Box_According_to_Criteria.js) |
 | **Difference Between Element Sum and Digit Sum of an Array** | 🟢 | Math / Iteration | [Link](./Math/Easy/Difference_Between_Element_Sum_and_Digit_Sum_of_an_Array.js) |
+| **Mirror Distance of an Integer** | 🟢 | Math / Digit Reversal | [Link](./Math/Easy/Mirror_Distance_of_an_Integer.js) |
 | **Reverse Integer**               |     🟡     | Math / Digit Reversal   | [Link](./Math/Medium/Reverse_Integer.js) |
 | **Minimum Number of Seconds to Make Mountain Height Zero** |     🟡     | Math / Binary Search / Greedy | [Link](./Math/Medium/Minimum_Number_of_Seconds_to_Make_Mountain_Height_Zero.js) |
 | **The k-th Lexicographical String of All Happy Strings of Length n** |     🟡     | Math / Deductive Logic | [Link](./Math/Medium/The_k-th_Lexicographical_String_of_All_Happy_Strings_of_Length_n.js) |
