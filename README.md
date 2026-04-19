@@ -48,6 +48,8 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 21  | Closest Equal Element Queries | LeetCode | ✅ Done |
 | 22  | Minimum Absolute Distance Between Mirror Pairs | LeetCode | ✅ Done |
 | 23  | Mirror Distance of an Integer           | Internal | ✅ Done |
+| 24  | Maximum Distance Between a Pair of Values | LeetCode | ✅ Done |
+
 
 
 
@@ -204,6 +206,8 @@ A curated list of problems that significantly improved my understanding.
 | **Minimum Distance Between Three Equal Elements II** |     🟡     | Array / Map / Memory Optimization | [Link](./Array/Medium/Minimum_Distance_Between_Three_Equal_Elements_II.js) |
 | **Closest Equal Element Queries** |     🟡     | Array / Binary Search / Hash Map | [Link](./Array/Medium/Closest_Equal_Element_Queries.js) |
 | **Minimum Absolute Distance Between Mirror Pairs** |     🟡     | Array / Hash Map | [Link](./Array/Medium/Minimum_Absolute_Distance_Between_Mirror_Pairs.js) |
+| **Maximum Distance Between a Pair of Values** |     🟡     | Two Pointers | [Link](./Array/Medium/Maximum_Distance_Between_a_Pair_of_Values.js) |
+
 
 
 
