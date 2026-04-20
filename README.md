@@ -49,6 +49,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 22  | Minimum Absolute Distance Between Mirror Pairs | LeetCode | ✅ Done |
 | 23  | Mirror Distance of an Integer           | Internal | ✅ Done |
 | 24  | Maximum Distance Between a Pair of Values | LeetCode | ✅ Done |
+| 25  | Two Furthest Houses With Different Colors | LeetCode | ✅ Done |
 
 
 
@@ -148,6 +149,7 @@ A curated list of problems that significantly improved my understanding.
 | **Minimum Distance to the Target Element** |     🟢     | Array / Linear Scan | [Link](./Array/Easy/Minimum_Distance_to_the_Target_Element.js) |
 | **Shortest Distance to Target String in a Circular Array** |     🟢     | Array / Circular Logic | [Link](./Array/Easy/Shortest_Distance_to_Target_String_in_a_Circular_Array.js) |
 | **Single Number**                                                 |     🟢     | Bit Manipulation / XOR      |                          [Link](./Array/Easy/Single_Number.js)                           |
+| **Two Furthest Houses With Different Colors**                     |     🟢     | Array / Greedy              |             [Link](./Array/Easy/Two_Furthest_Houses_With_Different_Colors.js)            |
 | **Reverse String**                                                |     🟢     | Two Pointers                |                         [Link](./String/Easy/Reverse_String.js)                          |
 | **Roman to Integer**                                              |     🟢     | Hash Map / Math             |                             [Link](./String/Easy/Roman_to_Integer.js)                           |
 | **Check if Strings Can be Made Equal With Operations I**          |     🟢     | String / Swap Logic         | [Link](./String/Easy/Check_if_Strings_Can_be_Made_Equal_With_Operations_I.js) |
