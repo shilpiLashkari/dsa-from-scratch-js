@@ -50,6 +50,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 23  | Mirror Distance of an Integer           | Internal | ✅ Done |
 | 24  | Maximum Distance Between a Pair of Values | LeetCode | ✅ Done |
 | 25  | Two Furthest Houses With Different Colors | LeetCode | ✅ Done |
+| 26  | Minimize Hamming Distance After Swap Operations | LeetCode | ✅ Done |
 
 
 
@@ -209,6 +210,7 @@ A curated list of problems that significantly improved my understanding.
 | **Closest Equal Element Queries** |     🟡     | Array / Binary Search / Hash Map | [Link](./Array/Medium/Closest_Equal_Element_Queries.js) |
 | **Minimum Absolute Distance Between Mirror Pairs** |     🟡     | Array / Hash Map | [Link](./Array/Medium/Minimum_Absolute_Distance_Between_Mirror_Pairs.js) |
 | **Maximum Distance Between a Pair of Values** |     🟡     | Two Pointers | [Link](./Array/Medium/Maximum_Distance_Between_a_Pair_of_Values.js) |
+| **Minimize Hamming Distance After Swap Operations** |     🟡     | Array / Union-Find | [Link](./Array/Medium/Minimize_Hamming_Distance_After_Swap_Operations.js) |
 
 
 
