@@ -53,6 +53,10 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 26  | Minimize Hamming Distance After Swap Operations | LeetCode | ✅ Done |
 | 27  | Words Within Two Edits of Dictionary | LeetCode | ✅ Done |
 | 28  | Sum of Distances | LeetCode | ✅ Done |
+| 29  | Basic Calculator II | LeetCode | ✅ Done |
+| 30  | Different Ways to Add Parentheses | LeetCode | ✅ Done |
+| 31  | Ugly Number II | LeetCode | ✅ Done |
+| 32  | Perfect Squares | LeetCode | ✅ Done |
 
 
 
@@ -394,6 +398,10 @@ A curated list of problems that significantly improved my understanding.
 | **Evaluate Reverse Polish Notation** | 🟡 | Math / Stack | [Link](./Math/Medium/Evaluate_Reverse_Polish_Notation.js) |
 | **Fraction to Recurring Decimal** | 🟡 | Math / Map | [Link](./Math/Medium/Fraction_to_Recurring_Decimal.js) |
 | **Factorial Trailing Zeroes** | 🟡 | Math / Prime Factors | [Link](./Math/Medium/Factorial_Trailing_Zeroes.js) |
+| **Basic Calculator II** | 🟡 | Math / Stack | [Link](./Math/Medium/Basic_Calculator_II.js) |
+| **Different Ways to Add Parentheses** | 🟡 | Math / Divide & Conquer | [Link](./Math/Medium/Different_Ways_to_Add_Parentheses.js) |
+| **Ugly Number II** | 🟡 | Math / DP | [Link](./Math/Medium/Ugly_Number_II.js) |
+| **Perfect Squares** | 🟡 | Math / DP | [Link](./Math/Medium/Perfect_Squares.js) |
 | **Rotate Array** | 🟡 | Math / Reversal | [Link](./Math/Medium/Rotate_Array.js) |
 | **Count Primes** | 🟡 | Math / Sieve | [Link](./Math/Medium/Count_Primes.js) |
 | **Rectangle Area** | 🟡 | Math / Geometry | [Link](./Math/Medium/Rectangle_Area.js) |

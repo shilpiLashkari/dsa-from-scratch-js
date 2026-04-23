@@ -512,6 +512,10 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Count Primes
 - [x] Rectangle Area
 - [x] Mirror Distance of an Integer
+- [x] Basic Calculator II
+- [x] Different Ways to Add Parentheses
+- [x] Ugly Number II
+- [x] Perfect Squares
 
 ## 🕸️ Graph Theory — Hard
 - [x] Maximize Spanning Tree Stability with Upgrades
