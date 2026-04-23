@@ -52,6 +52,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 25  | Two Furthest Houses With Different Colors | LeetCode | ✅ Done |
 | 26  | Minimize Hamming Distance After Swap Operations | LeetCode | ✅ Done |
 | 27  | Words Within Two Edits of Dictionary | LeetCode | ✅ Done |
+| 28  | Sum of Distances | LeetCode | ✅ Done |
 
 
 
@@ -213,6 +214,7 @@ A curated list of problems that significantly improved my understanding.
 | **Maximum Distance Between a Pair of Values** |     🟡     | Two Pointers | [Link](./Array/Medium/Maximum_Distance_Between_a_Pair_of_Values.js) |
 | **Minimize Hamming Distance After Swap Operations** |     🟡     | Array / Union-Find | [Link](./Array/Medium/Minimize_Hamming_Distance_After_Swap_Operations.js) |
 | **Words Within Two Edits of Dictionary** |     🟡     | Array / Comparison Logic | [Link](./Array/Medium/Words_Within_Two_Edits_of_Dictionary.js) |
+| **Sum of Distances** |     🟡     | Array / Prefix Sums | [Link](./Array/Medium/Sum_of_Distances.js) |
 
 
 
