@@ -68,6 +68,14 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 41  | Shuffle an Array | LeetCode | ✅ Done |
 | 42  | Elimination Game | LeetCode | ✅ Done |
 | 43  | Rotate Function | LeetCode | ✅ Done |
+| 44  | Random Pick Index | LeetCode | ✅ Done |
+| 45  | Nth Digit | LeetCode | ✅ Done |
+| 46  | Reconstruct Original Digits from English | LeetCode | ✅ Done |
+| 47  | Add Two Numbers II | LeetCode | ✅ Done |
+| 48  | Number of Boomerangs | LeetCode | ✅ Done |
+| 49  | Minimum Moves to Equal Array Elements | LeetCode | ✅ Done |
+| 50  | Minimum Moves to Equal Array Elements II | LeetCode | ✅ Done |
+| 51  | Can I Win | LeetCode | ✅ Done |
 
 
 
@@ -424,6 +432,14 @@ A curated list of problems that significantly improved my understanding.
 | **Shuffle an Array** | 🟡 | Math / Fisher-Yates | [Link](./Math/Medium/Shuffle_an_Array.js) |
 | **Elimination Game** | 🟡 | Math / Logic | [Link](./Math/Medium/Elimination_Game.js) |
 | **Rotate Function** | 🟡 | Math / Logic | [Link](./Math/Medium/Rotate_Function.js) |
+| **Random Pick Index** | 🟡 | Math / Reservoir Sampling | [Link](./Math/Medium/Random_Pick_Index.js) |
+| **Nth Digit** | 🟡 | Math / Logic | [Link](./Math/Medium/Nth_Digit.js) |
+| **Reconstruct Original Digits from English** | 🟡 | Math / Logic | [Link](./Math/Medium/Reconstruct_Original_Digits_from_English.js) |
+| **Add Two Numbers II** | 🟡 | Math / Linked List | [Link](./Math/Medium/Add_Two_Numbers_II.js) |
+| **Number of Boomerangs** | 🟡 | Math / Geometry | [Link](./Math/Medium/Number_of_Boomerangs.js) |
+| **Minimum Moves to Equal Array Elements** | 🟡 | Math / Logic | [Link](./Math/Medium/Minimum_Moves_to_Equal_Array_Elements.js) |
+| **Minimum Moves to Equal Array Elements II** | 🟡 | Math / Median | [Link](./Math/Medium/Minimum_Moves_to_Equal_Array_Elements_II.js) |
+| **Can I Win** | 🟡 | Math / Game Theory | [Link](./Math/Medium/Can_I_Win.js) |
 | **Rotate Array** | 🟡 | Math / Reversal | [Link](./Math/Medium/Rotate_Array.js) |
 | **Count Primes** | 🟡 | Math / Sieve | [Link](./Math/Medium/Count_Primes.js) |
 | **Rectangle Area** | 🟡 | Math / Geometry | [Link](./Math/Medium/Rectangle_Area.js) |

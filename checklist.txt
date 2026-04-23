@@ -527,6 +527,14 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Shuffle an Array
 - [x] Elimination Game
 - [x] Rotate Function
+- [x] Random Pick Index
+- [x] Nth Digit
+- [x] Reconstruct Original Digits from English
+- [x] Add Two Numbers II
+- [x] Number of Boomerangs
+- [x] Minimum Moves to Equal Array Elements
+- [x] Minimum Moves to Equal Array Elements II
+- [x] Can I Win
 
 ## 🕸️ Graph Theory — Hard
 - [x] Maximize Spanning Tree Stability with Upgrades
