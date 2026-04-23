@@ -76,6 +76,19 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 49  | Minimum Moves to Equal Array Elements | LeetCode | ✅ Done |
 | 50  | Minimum Moves to Equal Array Elements II | LeetCode | ✅ Done |
 | 51  | Can I Win | LeetCode | ✅ Done |
+| 52  | Swap Nodes in Pairs | LeetCode | ✅ Done |
+| 53  | Reorder List | LeetCode | ✅ Done |
+| 54  | Remove Nodes From Linked List | LeetCode | ✅ Done |
+| 55  | All Possible Full Binary Trees | LeetCode | ✅ Done |
+| 56  | K-th Symbol in Grammar | LeetCode | ✅ Done |
+| 57  | Decode String | LeetCode | ✅ Done |
+| 58  | Predict the Winner | LeetCode | ✅ Done |
+| 59  | Find Kth Bit in Nth Binary String | LeetCode | ✅ Done |
+| 60  | Find the Winner of the Circular Game | LeetCode | ✅ Done |
+| 61  | Count Good Numbers | LeetCode | ✅ Done |
+| 62  | Minimum Non-Zero Product of the Array Elements | LeetCode | ✅ Done |
+| 63  | Count Collisions of Monkeys on a Polygon | LeetCode | ✅ Done |
+| 64  | Partition Array into Two Equal Product Subsets | LeetCode | ✅ Done |
 
 
 
@@ -198,6 +211,8 @@ A curated list of problems that significantly improved my understanding.
 | **Flatten Nested Array**                                          |     🟡     | Recursion                   |                  [Link](./Array/Medium/Flatten_Deeply_Nested_Array.js)                   |
 | **Group By**                                                      |     🟡     | Prototype / Hash Map        |                            [Link](./Array/Medium/Group_By.js)                            |
 | **Container With Most Water**                                     |     🟡     | Two Pointers / Greedy       |                   [Link](./Array/Medium/Container_With_Most_Water.js)                    |
+| **Partition Array into Two Equal Product Subsets** | 🟡 | Array / DP | [Link](./Dynamic%20Programming/Medium/Partition_Array_into_Two_Equal_Product_Subsets.js) |
+| **Find Unique Binary String**                                     |     🟡     | Cantor's Diagonal Argument  |                   [Link](./Array/Medium/Find_Unique_Binary_String.js)                    |
 | **Find Unique Binary String**                                     |     🟡     | Cantor's Diagonal Argument  |                   [Link](./Array/Medium/Find_Unique_Binary_String.js)                    |
 | **Median of Two Sorted Arrays**                                   |     🔴     | Binary Search               |                    [Link](./Array/Hard/Median_Of_Two_Sorted_Array.js)                    |
 | **First Missing Positive**                                        |     🔴     | Index as Hash Map           |                      [Link](./Array/Hard/First_Missing_Positive.js)                      |
@@ -293,6 +308,7 @@ A curated list of problems that significantly improved my understanding.
 | **Maximum Non Negative Product in a Matrix**   |     🟡     | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Maximum_Non_Negative_Product_in_a_Matrix.js) |
 | **Maximum Amount of Money Robot Can Earn**   |     🟡     | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Maximum_Amount_of_Money_Robot_Can_Earn.js) |
 | **Interleaving String**                         |     🟡     | String Matching / DP | [Link](./Dynamic%20Programming/Medium/Interleaving_String.js) |
+| **Predict the Winner** | 🟡 | Game Theory / DP | [Link](./Dynamic%20Programming/Medium/Predict_the_Winner.js) |
 | **Best Time to Buy and Sell Stock III**       |     🔴     | DP              |    [Link](./Dynamic%20Programming/Hard/Best_Time_to_Buy_and_Sell_Stock_III.js)    |
 | **Dungeon Game**                              |     🔴     | DP              |               [Link](./Dynamic%20Programming/Hard/Dungeon_Game.js)                |
 | **Word Break II**                             |     🔴     | DP              |               [Link](./Dynamic%20Programming/Hard/Word_Break_II.js)               |
@@ -443,8 +459,28 @@ A curated list of problems that significantly improved my understanding.
 | **Rotate Array** | 🟡 | Math / Reversal | [Link](./Math/Medium/Rotate_Array.js) |
 | **Count Primes** | 🟡 | Math / Sieve | [Link](./Math/Medium/Count_Primes.js) |
 | **Rectangle Area** | 🟡 | Math / Geometry | [Link](./Math/Medium/Rectangle_Area.js) |
+| **Count Good Numbers** | 🟡 | Math / Combinatorics | [Link](./Math/Medium/Count_Good_Numbers.js) |
+| **Minimum Non-Zero Product of the Array Elements** | 🟡 | Math / Logic | [Link](./Math/Medium/Minimum_Non_Zero_Product.js) |
+| **Count Collisions of Monkeys on a Polygon** | 🟡 | Math / Logic | [Link](./Math/Medium/Count_Collisions_of_Monkeys.js) |
 | **Super Palindromes** |     🔴     | Math / Palindrome       | [Link](./Math/Hard/Super_Palindromes.js) |
 | **Fancy Sequence** |     🔴     | Math / Modular Arithmetic / Design | [Link](./Math/Hard/Fancy_Sequence.js) |
+
+### Linked List
+
+| Problem | Difficulty | Pattern/Concept | Solution Link |
+| :--- | :---: | :--- | :---: |
+| **Swap Nodes in Pairs** | 🟡 | Linked List / Recursion | [Link](./Linked_List/Medium/Swap_Nodes_in_Pairs.js) |
+| **Reorder List** | 🟡 | Linked List / Two Pointers | [Link](./Linked_List/Medium/Reorder_List.js) |
+| **Remove Nodes From Linked List** | 🟡 | Linked List / Recursion | [Link](./Linked_List/Medium/Remove_Nodes_From_Linked_List.js) |
+
+### Recursion
+
+| Problem | Difficulty | Pattern/Concept | Solution Link |
+| :--- | :---: | :--- | :---: |
+| **All Possible Full Binary Trees** | 🟡 | Recursion / Trees | [Link](./Recursion/Medium/All_Possible_Full_Binary_Trees.js) |
+| **K-th Symbol in Grammar** | 🟡 | Recursion / Logic | [Link](./Recursion/Medium/Kth_Symbol_in_Grammar.js) |
+| **Find Kth Bit in Nth Binary String** | 🟡 | Recursion / Logic | [Link](./Recursion/Medium/Find_Kth_Bit_in_Nth_Binary_String.js) |
+| **Find the Winner of the Circular Game** | 🟡 | Recursion / Josephus | [Link](./Recursion/Medium/Find_the_Winner_of_the_Circular_Game.js) |
 
 ---
 

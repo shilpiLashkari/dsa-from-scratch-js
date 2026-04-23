@@ -322,6 +322,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Minimize Hamming Distance After Swap Operations
 - [x] Words Within Two Edits of Dictionary
 - [x] Sum of Distances
+- [x] Decode String
 
 
 
@@ -394,6 +395,8 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Maximum Amount of Money Robot Can Earn
 - [x] Maximum Non Negative Product in a Matrix
 - [x] Interleaving String
+- [x] Predict the Winner
+- [x] Partition Array into Two Equal Product Subsets
 
 ## ⚡ Dynamic Programming — Hard
 - [x] Best Time to Buy and Sell Stock III
@@ -535,6 +538,20 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Minimum Moves to Equal Array Elements
 - [x] Minimum Moves to Equal Array Elements II
 - [x] Can I Win
+- [x] Count Good Numbers
+- [x] Minimum Non-Zero Product of the Array Elements
+- [x] Count Collisions of Monkeys on a Polygon
+
+## 🧬 Linked List — Medium
+- [x] Swap Nodes in Pairs
+- [x] Reorder List
+- [x] Remove Nodes From Linked List
+
+## 🔁 Recursion — Medium
+- [x] All Possible Full Binary Trees
+- [x] K-th Symbol in Grammar
+- [x] Find Kth Bit in Nth Binary String
+- [x] Find the Winner of the Circular Game
 
 ## 🕸️ Graph Theory — Hard
 - [x] Maximize Spanning Tree Stability with Upgrades
