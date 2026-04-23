@@ -516,6 +516,9 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Different Ways to Add Parentheses
 - [x] Ugly Number II
 - [x] Perfect Squares
+- [x] Super Ugly Number
+- [x] Bulb Switcher
+- [x] Integer Break
 
 ## 🕸️ Graph Theory — Hard
 - [x] Maximize Spanning Tree Stability with Upgrades

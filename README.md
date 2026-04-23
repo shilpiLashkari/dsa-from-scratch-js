@@ -57,6 +57,9 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 30  | Different Ways to Add Parentheses | LeetCode | ✅ Done |
 | 31  | Ugly Number II | LeetCode | ✅ Done |
 | 32  | Perfect Squares | LeetCode | ✅ Done |
+| 33  | Super Ugly Number | LeetCode | ✅ Done |
+| 34  | Bulb Switcher | LeetCode | ✅ Done |
+| 35  | Integer Break | LeetCode | ✅ Done |
 
 
 
@@ -402,6 +405,9 @@ A curated list of problems that significantly improved my understanding.
 | **Different Ways to Add Parentheses** | 🟡 | Math / Divide & Conquer | [Link](./Math/Medium/Different_Ways_to_Add_Parentheses.js) |
 | **Ugly Number II** | 🟡 | Math / DP | [Link](./Math/Medium/Ugly_Number_II.js) |
 | **Perfect Squares** | 🟡 | Math / DP | [Link](./Math/Medium/Perfect_Squares.js) |
+| **Super Ugly Number** | 🟡 | Math / DP | [Link](./Math/Medium/Super_Ugly_Number.js) |
+| **Bulb Switcher** | 🟡 | Math / Logic | [Link](./Math/Medium/Bulb_Switcher.js) |
+| **Integer Break** | 🟡 | Math / Logic | [Link](./Math/Medium/Integer_Break.js) |
 | **Rotate Array** | 🟡 | Math / Reversal | [Link](./Math/Medium/Rotate_Array.js) |
 | **Count Primes** | 🟡 | Math / Sieve | [Link](./Math/Medium/Count_Primes.js) |
 | **Rectangle Area** | 🟡 | Math / Geometry | [Link](./Math/Medium/Rectangle_Area.js) |
