@@ -60,6 +60,14 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 33  | Super Ugly Number | LeetCode | ✅ Done |
 | 34  | Bulb Switcher | LeetCode | ✅ Done |
 | 35  | Integer Break | LeetCode | ✅ Done |
+| 36  | Sum of Two Integers | LeetCode | ✅ Done |
+| 37  | Super Pow | LeetCode | ✅ Done |
+| 38  | Guess Number Higher or Lower II | LeetCode | ✅ Done |
+| 39  | Insert Delete GetRandom O(1) | LeetCode | ✅ Done |
+| 40  | Linked List Random Node | LeetCode | ✅ Done |
+| 41  | Shuffle an Array | LeetCode | ✅ Done |
+| 42  | Elimination Game | LeetCode | ✅ Done |
+| 43  | Rotate Function | LeetCode | ✅ Done |
 
 
 
@@ -408,6 +416,14 @@ A curated list of problems that significantly improved my understanding.
 | **Super Ugly Number** | 🟡 | Math / DP | [Link](./Math/Medium/Super_Ugly_Number.js) |
 | **Bulb Switcher** | 🟡 | Math / Logic | [Link](./Math/Medium/Bulb_Switcher.js) |
 | **Integer Break** | 🟡 | Math / Logic | [Link](./Math/Medium/Integer_Break.js) |
+| **Sum of Two Integers** | 🟡 | Math / Bitwise | [Link](./Math/Medium/Sum_of_Two_Integers.js) |
+| **Super Pow** | 🟡 | Math / Modulo | [Link](./Math/Medium/Super_Pow.js) |
+| **Guess Number Higher or Lower II** | 🟡 | Math / DP | [Link](./Math/Medium/Guess_Number_Higher_or_Lower_II.js) |
+| **Insert Delete GetRandom O(1)** | 🟡 | Math / Design | [Link](./Math/Medium/Insert_Delete_GetRandom_O1.js) |
+| **Linked List Random Node** | 🟡 | Math / Reservoir Sampling | [Link](./Math/Medium/Linked_List_Random_Node.js) |
+| **Shuffle an Array** | 🟡 | Math / Fisher-Yates | [Link](./Math/Medium/Shuffle_an_Array.js) |
+| **Elimination Game** | 🟡 | Math / Logic | [Link](./Math/Medium/Elimination_Game.js) |
+| **Rotate Function** | 🟡 | Math / Logic | [Link](./Math/Medium/Rotate_Function.js) |
 | **Rotate Array** | 🟡 | Math / Reversal | [Link](./Math/Medium/Rotate_Array.js) |
 | **Count Primes** | 🟡 | Math / Sieve | [Link](./Math/Medium/Count_Primes.js) |
 | **Rectangle Area** | 🟡 | Math / Geometry | [Link](./Math/Medium/Rectangle_Area.js) |

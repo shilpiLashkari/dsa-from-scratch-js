@@ -519,6 +519,14 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Super Ugly Number
 - [x] Bulb Switcher
 - [x] Integer Break
+- [x] Sum of Two Integers
+- [x] Super Pow
+- [x] Guess Number Higher or Lower II
+- [x] Insert Delete GetRandom O(1)
+- [x] Linked List Random Node
+- [x] Shuffle an Array
+- [x] Elimination Game
+- [x] Rotate Function
 
 ## 🕸️ Graph Theory — Hard
 - [x] Maximize Spanning Tree Stability with Upgrades
