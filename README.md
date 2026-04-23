@@ -89,6 +89,20 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 62  | Minimum Non-Zero Product of the Array Elements | LeetCode | ✅ Done |
 | 63  | Count Collisions of Monkeys on a Polygon | LeetCode | ✅ Done |
 | 64  | Partition Array into Two Equal Product Subsets | LeetCode | ✅ Done |
+| 65  | Longest Substring Without Repeating Characters | LeetCode | ✅ Done |
+| 66  | Longest Palindromic Substring | LeetCode | ✅ Done |
+| 67  | Zigzag Conversion | LeetCode | ✅ Done |
+| 68  | String to Integer (atoi) | LeetCode | ✅ Done |
+| 69  | Count and Say | LeetCode | ✅ Done |
+| 70  | Letter Combinations of a Phone Number | LeetCode | ✅ Done |
+| 71  | Generate Parentheses | LeetCode | ✅ Done |
+| 72  | Group Anagrams | LeetCode | ✅ Done |
+| 73  | Simplify Path | LeetCode | ✅ Done |
+| 74  | Reverse Words in a String | LeetCode | ✅ Done |
+| 75  | Word Search | LeetCode | ✅ Done |
+| 76  | Restore IP Addresses | LeetCode | ✅ Done |
+| 77  | Palindrome Partitioning | LeetCode | ✅ Done |
+| 78  | Word Break | LeetCode | ✅ Done |
 
 
 
@@ -253,6 +267,14 @@ A curated list of problems that significantly improved my understanding.
 | **Minimize Hamming Distance After Swap Operations** |     🟡     | Array / Union-Find | [Link](./Array/Medium/Minimize_Hamming_Distance_After_Swap_Operations.js) |
 | **Words Within Two Edits of Dictionary** |     🟡     | Array / Comparison Logic | [Link](./Array/Medium/Words_Within_Two_Edits_of_Dictionary.js) |
 | **Sum of Distances** |     🟡     | Array / Prefix Sums | [Link](./Array/Medium/Sum_of_Distances.js) |
+| **Longest Substring Without Repeating Characters** | 🟡 | String / Sliding Window | [Link](./String/Medium/Longest_Substring_Without_Repeating_Characters.js) |
+| **Zigzag Conversion** | 🟡 | String / Simulation | [Link](./String/Medium/Zigzag_Conversion.js) |
+| **String to Integer (atoi)** | 🟡 | String / Math | [Link](./String/Medium/String_to_Integer_atoi.js) |
+| **Count and Say** | 🟡 | String / Simulation | [Link](./String/Medium/Count_and_Say.js) |
+| **Group Anagrams** | 🟡 | String / Hash Map | [Link](./String/Medium/Group_Anagrams.js) |
+| **Simplify Path** | 🟡 | String / Stack | [Link](./String/Medium/Simplify_Path.js) |
+| **Reverse Words in a String** | 🟡 | String / Two Pointers | [Link](./String/Medium/Reverse_Words_in_a_String.js) |
+| **Longest Palindromic Substring** | 🟡 | String / DP | [Link](./String/Medium/Longest_Palindromic_Substring.js) |
 
 
 
@@ -299,6 +321,16 @@ A curated list of problems that significantly improved my understanding.
 | **Sudoku Solver** |     🔴     | Backtracking    | [Link](./Backtracking/Hard/Sudoku_Solver.js) |
 | **N-Queens**      |     🔴     | Backtracking    |   [Link](./Backtracking/Hard/N_Queens.js)    |
 
+### Backtracking
+
+| Problem | Difficulty | Pattern/Concept | Solution Link |
+| :--- | :---: | :--- | :---: |
+| **Letter Combinations of a Phone Number** | 🟡 | Backtracking / Recursion | [Link](./Backtracking/Medium/Letter_Combinations_of_a_Phone_Number.js) |
+| **Generate Parentheses** | 🟡 | Backtracking / Recursion | [Link](./Backtracking/Medium/Generate_Parentheses.js) |
+| **Word Search** | 🟡 | Backtracking / DFS | [Link](./Backtracking/Medium/Word_Search.js) |
+| **Restore IP Addresses** | 🟡 | Backtracking / Recursion | [Link](./Backtracking/Medium/Restore_IP_Addresses.js) |
+| **Palindrome Partitioning** | 🟡 | Backtracking / Recursion | [Link](./Backtracking/Medium/Palindrome_Partitioning.js) |
+
 ### Dynamic Programming
 
 | Problem                                       | Difficulty | Pattern/Concept |                                   Solution Link                                   |
@@ -309,6 +341,7 @@ A curated list of problems that significantly improved my understanding.
 | **Maximum Amount of Money Robot Can Earn**   |     🟡     | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Maximum_Amount_of_Money_Robot_Can_Earn.js) |
 | **Interleaving String**                         |     🟡     | String Matching / DP | [Link](./Dynamic%20Programming/Medium/Interleaving_String.js) |
 | **Predict the Winner** | 🟡 | Game Theory / DP | [Link](./Dynamic%20Programming/Medium/Predict_the_Winner.js) |
+| **Word Break** | 🟡 | DP / Hash Set | [Link](./Dynamic%20Programming/Medium/Word_Break.js) |
 | **Best Time to Buy and Sell Stock III**       |     🔴     | DP              |    [Link](./Dynamic%20Programming/Hard/Best_Time_to_Buy_and_Sell_Stock_III.js)    |
 | **Dungeon Game**                              |     🔴     | DP              |               [Link](./Dynamic%20Programming/Hard/Dungeon_Game.js)                |
 | **Word Break II**                             |     🔴     | DP              |               [Link](./Dynamic%20Programming/Hard/Word_Break_II.js)               |

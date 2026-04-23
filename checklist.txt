@@ -323,6 +323,14 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Words Within Two Edits of Dictionary
 - [x] Sum of Distances
 - [x] Decode String
+- [x] Longest Substring Without Repeating Characters
+- [x] Longest Palindromic Substring
+- [x] Zigzag Conversion
+- [x] String to Integer (atoi)
+- [x] Count and Say
+- [x] Group Anagrams
+- [x] Simplify Path
+- [x] Reverse Words in a String
 
 
 
@@ -397,6 +405,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Interleaving String
 - [x] Predict the Winner
 - [x] Partition Array into Two Equal Product Subsets
+- [x] Word Break
 
 ## ⚡ Dynamic Programming — Hard
 - [x] Best Time to Buy and Sell Stock III
@@ -552,6 +561,13 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] K-th Symbol in Grammar
 - [x] Find Kth Bit in Nth Binary String
 - [x] Find the Winner of the Circular Game
+
+## 🧬 Backtracking — Medium
+- [x] Letter Combinations of a Phone Number
+- [x] Generate Parentheses
+- [x] Word Search
+- [x] Restore IP Addresses
+- [x] Palindrome Partitioning
 
 ## 🕸️ Graph Theory — Hard
 - [x] Maximize Spanning Tree Stability with Upgrades
