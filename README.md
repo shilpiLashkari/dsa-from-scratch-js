@@ -103,6 +103,8 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 76  | Restore IP Addresses | LeetCode | ✅ Done |
 | 77  | Palindrome Partitioning | LeetCode | ✅ Done |
 | 78  | Word Break | LeetCode | ✅ Done |
+| 79  | Furthest Point From Origin | LeetCode | ✅ Done |
+
 
 
 
@@ -208,6 +210,8 @@ A curated list of problems that significantly improved my understanding.
 | **Check if Strings Can be Made Equal With Operations I**          |     🟢     | String / Swap Logic         | [Link](./String/Easy/Check_if_Strings_Can_be_Made_Equal_With_Operations_I.js) |
 | **Check if Binary String Has at Most One Segment of Ones**        |     🟢     | String / Greedy             |         [Link](./String/Easy/Check_If_Binary_Has_At_Most_One_Segment_Of_Ones.js)         |
 | **Robot Return to Origin**                                        |     🟢     | String / Simulation         |         [Link](./String/Easy/Robot_Return_to_Origin.js)                         |
+| **Furthest Point From Origin**                                  |     🟢     | String / Counting           |         [Link](./String/Easy/Furthest_Point_From_Origin.js)                    |
+
 | **Substring with Concatenation of Words**                         |     🔴     | Sliding Window / Hash Map   | [Link](./String/Hard/Substring_with_Concatenation_of_Words.js)          |
 | **Valid Number**                                                  |     🔴     | String / State Machine      | [Link](./String/Hard/Valid_Number.js)                                  |
 | **Check if Strings Can be Made Equal With Operations II**         |     🟡     | String / Swap Logic / Freq  | [Link](./String/Medium/Check_if_Strings_Can_be_Made_Equal_With_Operations_II.js) |
