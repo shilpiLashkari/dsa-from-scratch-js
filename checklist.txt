@@ -362,6 +362,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Self Crossing
 - [x] Median of Two Sorted Arrays
 - [x] Trapping Rain Water
+- [x] Maximize the Distance Between Points on a Square
 
 ## ⏱ Asynchronous_Programming — Easy
 - [x] Sleep

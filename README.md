@@ -104,6 +104,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 77  | Palindrome Partitioning | LeetCode | ✅ Done |
 | 78  | Word Break | LeetCode | ✅ Done |
 | 79  | Furthest Point From Origin | LeetCode | ✅ Done |
+| 80  | Maximize the Distance Between Points on a Square | LeetCode | ✅ Done |
 
 
 
@@ -255,6 +256,7 @@ A curated list of problems that significantly improved my understanding.
 | **Find Minimum in Rotated Sorted Array II**                       |     🔴     | Binary Search               |             [Link](./Array/Hard/Find_Minimum_in_Rotated_Sorted_Array_II.js)              |
 | **Reverse Pairs**                                                 |     🔴     | Merge Sort                  |                          [Link](./Array/Hard/Reverse_Pairs.js)                           |
 | **XOR After Range Multiplication Queries II** |     🔴     | Sqrt Decomposition / BigInt | [Link](./Array/Hard/XOR_After_Range_Multiplication_Queries_II.js) |
+| **Maximize the Distance Between Points on a Square** | 🔴 | Binary Search / Geometry / Greedy | [Link](./Array/Hard/Maximize_the_Distance_Between_Points_on_a_Square.js) |
 | **Contains Duplicate III**                                        |     🔴     | Bucket Sort                 |                      [Link](./Array/Hard/Contains_Duplicate_III.js)                      |
 | **Largest Submatrix With Rearrangements** |     🟡     | Array / Sorting / Greedy | [Link](./Array/Medium/Largest_Submatrix_With_Rearrangements.js) |
 | **Count Submatrices with Top-Left Element and Sum Less Than k** |     🟡     | Array / 2D Prefix Sum | [Link](./Array/Medium/Count_Submatrices_with_Top_Left_Element_and_Sum_Less_Than_k.js) |
