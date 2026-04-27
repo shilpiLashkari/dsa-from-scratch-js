@@ -327,6 +327,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Words Within Two Edits of Dictionary
 - [x] Sum of Distances
 - [x] Detect Cycles in 2D Grid
+- [x] Check if There is a Valid Path in a Grid
 - [x] Decode String
 - [x] Longest Substring Without Repeating Characters
 - [x] Longest Palindromic Substring

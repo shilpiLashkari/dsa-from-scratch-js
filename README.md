@@ -106,6 +106,8 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 79  | Furthest Point From Origin | LeetCode | ✅ Done |
 | 80  | Maximize the Distance Between Points on a Square | LeetCode | ✅ Done |
 | 81  | Detect Cycles in 2D Grid       | LeetCode | ✅ Done |
+| 82  | Check if There is a Valid Path in a Grid | LeetCode | ✅ Done |
+
 
 
 
@@ -275,6 +277,8 @@ A curated list of problems that significantly improved my understanding.
 | **Words Within Two Edits of Dictionary** |     🟡     | Array / Comparison Logic | [Link](./Array/Medium/Words_Within_Two_Edits_of_Dictionary.js) |
 | **Sum of Distances** |     🟡     | Array / Prefix Sums | [Link](./Array/Medium/Sum_of_Distances.js) |
 | **Detect Cycles in 2D Grid** |     🟡     | Array / DFS | [Link](./Array/Medium/Detect_Cycles_in_2D_Grid.js) |
+| **Check if There is a Valid Path in a Grid** | 🟡 | Array / BFS | [Link](./Array/Medium/Check_if_There_is_a_Valid_Path_in_a_Grid.js) |
+
 | **Longest Substring Without Repeating Characters** | 🟡 | String / Sliding Window | [Link](./String/Medium/Longest_Substring_Without_Repeating_Characters.js) |
 | **Zigzag Conversion** | 🟡 | String / Simulation | [Link](./String/Medium/Zigzag_Conversion.js) |
 | **String to Integer (atoi)** | 🟡 | String / Math | [Link](./String/Medium/String_to_Integer_atoi.js) |
