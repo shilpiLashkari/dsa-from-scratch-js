@@ -328,6 +328,8 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Sum of Distances
 - [x] Detect Cycles in 2D Grid
 - [x] Check if There is a Valid Path in a Grid
+- [x] Minimum Operations to Make a Uni-Value Grid
+
 - [x] Decode String
 - [x] Longest Substring Without Repeating Characters
 - [x] Longest Palindromic Substring
