@@ -43,7 +43,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 16  | Math Medium Batch 1 (Add Two Numbers, Rotate Image, Pow(x,n), etc.) | LeetCode | ✅ Done |
 | 17  | Minimum Distance to Type a Word Using Two Fingers | LeetCode | ✅ Done |
 | 18  | Minimum Distance to the Target Element | LeetCode | ✅ Done |
-| 19  | Minimum Total Distance Traveled          | LeetCode | ✅ Done |
+| 19  | - [x] Minimum Total Distance Traveled <br> - [x] Maximum Score From Grid Operations | LeetCode | ✅ Done |
 | 20  | Shortest Distance to Target String in a Circular Array | LeetCode | ✅ Done |
 | 21  | Closest Equal Element Queries | LeetCode | ✅ Done |
 | 22  | Minimum Absolute Distance Between Mirror Pairs | LeetCode | ✅ Done |
@@ -144,7 +144,7 @@ I have organized my solutions by difficulty level to track my progression from f
 
 ---
 
-## �️ Tech Stack & Tools
+## ️ Tech Stack & Tools
 
 My development environment matches modern industry standards:
 
@@ -155,7 +155,7 @@ My development environment matches modern industry standards:
 
 ---
 
-## �📚 Topics Covered
+## 📚 Topics Covered
 
 <details open>
 <summary><strong>Click to collapse topics</strong></summary>
@@ -356,6 +356,7 @@ A curated list of problems that significantly improved my understanding.
 | **Maximum Amount of Money Robot Can Earn**   |     🟡     | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Maximum_Amount_of_Money_Robot_Can_Earn.js) |
 | **Interleaving String**                         |     🟡     | String Matching / DP | [Link](./Dynamic%20Programming/Medium/Interleaving_String.js) |
 | **Predict the Winner** | 🟡 | Game Theory / DP | [Link](./Dynamic%20Programming/Medium/Predict_the_Winner.js) |
+| **Maximum Score From Grid Operations** | 🔴 | DP / Grid | [Link](./Dynamic%20Programming/Hard/Maximum_Score_From_Grid_Operations.js) |
 | **Word Break** | 🟡 | DP / Hash Set | [Link](./Dynamic%20Programming/Medium/Word_Break.js) |
 | **Best Time to Buy and Sell Stock III**       |     🔴     | DP              |    [Link](./Dynamic%20Programming/Hard/Best_Time_to_Buy_and_Sell_Stock_III.js)    |
 | **Dungeon Game**                              |     🔴     | DP              |               [Link](./Dynamic%20Programming/Hard/Dungeon_Game.js)                |
