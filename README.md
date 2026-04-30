@@ -108,8 +108,8 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 81  | Detect Cycles in 2D Grid       | LeetCode | ✅ Done |
 | 82  | Check if There is a Valid Path in a Grid | LeetCode | ✅ Done |
 | 83  | Minimum Operations to Make a Uni-Value Grid | LeetCode | ✅ Done |
-
-
+| 84  | Maximum Path Score in a Grid | LeetCode | ✅ Done |
+| 85  | Unique Paths II | LeetCode | ✅ Done |
 
 
 
@@ -354,6 +354,8 @@ A curated list of problems that significantly improved my understanding.
 | **Decode Ways**                                |     🟡     | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Decode_Ways.js) |
 | **Maximum Non Negative Product in a Matrix**   |     🟡     | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Maximum_Non_Negative_Product_in_a_Matrix.js) |
 | **Maximum Amount of Money Robot Can Earn**   |     🟡     | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Maximum_Amount_of_Money_Robot_Can_Earn.js) |
+| **Maximum Path Score in a Grid** | 🟡 | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Maximum_Path_Score_in_a_Grid.js) |
+
 | **Interleaving String**                         |     🟡     | String Matching / DP | [Link](./Dynamic%20Programming/Medium/Interleaving_String.js) |
 | **Predict the Winner** | 🟡 | Game Theory / DP | [Link](./Dynamic%20Programming/Medium/Predict_the_Winner.js) |
 | **Maximum Score From Grid Operations** | 🔴 | DP / Grid | [Link](./Dynamic%20Programming/Hard/Maximum_Score_From_Grid_Operations.js) |
@@ -477,6 +479,8 @@ A curated list of problems that significantly improved my understanding.
 | **Rotate Image** | 🟡 | Math / Matrix | [Link](./Math/Medium/Rotate_Image.js) |
 | **Pow(x, n)** | 🟡 | Math / Binary Exponentiation | [Link](./Math/Medium/Pow_x_n.js) |
 | **Unique Paths** | 🟡 | Math / Combinatorics | [Link](./Math/Medium/Unique_Paths.js) |
+| **Unique Paths II** | 🟡 | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Unique_Paths_II.js) |
+
 | **Gray Code** | 🟡 | Math / Bit Manipulation | [Link](./Math/Medium/Gray_Code.js) |
 | **Unique Binary Search Trees** | 🟡 | Math / Catalan/DP | [Link](./Math/Medium/Unique_Binary_Search_Trees.js) |
 | **Evaluate Reverse Polish Notation** | 🟡 | Math / Stack | [Link](./Math/Medium/Evaluate_Reverse_Polish_Notation.js) |

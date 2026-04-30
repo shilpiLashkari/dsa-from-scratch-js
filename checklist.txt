@@ -193,8 +193,9 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [ ] Longest Increasing Subsequence
 - [ ] Partition Equal Subset Sum
 - [ ] Target Sum
-- [ ] Unique Paths
-- [ ] Unique Paths II
+- [x] Unique Paths
+- [x] Unique Paths II
+
 
 ## 🟢 DP (Advanced – FAANG)
 - [x] Edit Distance
@@ -416,6 +417,8 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Predict the Winner
 - [x] Partition Array into Two Equal Product Subsets
 - [x] Word Break
+- [x] Maximum Path Score in a Grid
+
 
 ## ⚡ Dynamic Programming — Hard
 - [x] Best Time to Buy and Sell Stock III
