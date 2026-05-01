@@ -110,6 +110,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 83  | Minimum Operations to Make a Uni-Value Grid | LeetCode | ✅ Done |
 | 84  | Maximum Path Score in a Grid | LeetCode | ✅ Done |
 | 85  | Unique Paths II | LeetCode | ✅ Done |
+| 86  | Permutation Sequence | LeetCode | ✅ Done |
 
 
 
@@ -534,6 +535,7 @@ A curated list of problems that significantly improved my understanding.
 | **K-th Symbol in Grammar** | 🟡 | Recursion / Logic | [Link](./Recursion/Medium/Kth_Symbol_in_Grammar.js) |
 | **Find Kth Bit in Nth Binary String** | 🟡 | Recursion / Logic | [Link](./Recursion/Medium/Find_Kth_Bit_in_Nth_Binary_String.js) |
 | **Find the Winner of the Circular Game** | 🟡 | Recursion / Josephus | [Link](./Recursion/Medium/Find_the_Winner_of_the_Circular_Game.js) |
+| **Permutation Sequence** | 🔴 | Math / Recursion | [Link](./Recursion/Hard/Permutation_Sequence.js) |
 
 ---
 
