@@ -111,6 +111,8 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 84  | Maximum Path Score in a Grid | LeetCode | ✅ Done |
 | 85  | Unique Paths II | LeetCode | ✅ Done |
 | 86  | Permutation Sequence | LeetCode | ✅ Done |
+| 87  | Rotated Digits | LeetCode | ✅ Done |
+
 
 
 
@@ -356,6 +358,8 @@ A curated list of problems that significantly improved my understanding.
 | **Maximum Non Negative Product in a Matrix**   |     🟡     | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Maximum_Non_Negative_Product_in_a_Matrix.js) |
 | **Maximum Amount of Money Robot Can Earn**   |     🟡     | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Maximum_Amount_of_Money_Robot_Can_Earn.js) |
 | **Maximum Path Score in a Grid** | 🟡 | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Maximum_Path_Score_in_a_Grid.js) |
+| **Rotated Digits** | 🟡 | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Rotated_Digits.js) |
+
 
 | **Interleaving String**                         |     🟡     | String Matching / DP | [Link](./Dynamic%20Programming/Medium/Interleaving_String.js) |
 | **Predict the Winner** | 🟡 | Game Theory / DP | [Link](./Dynamic%20Programming/Medium/Predict_the_Winner.js) |
