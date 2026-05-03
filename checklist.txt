@@ -48,6 +48,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Decode the Slanted Ciphertext
 - [x] Robot Return to Origin
 - [x] Furthest Point From Origin
+- [x] Rotate String
 
 - [ ] Implement strStr()
 - [ ] Longest Common Prefix
@@ -305,6 +306,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Minimum Distance to the Target Element
 - [x] Shortest Distance to Target String in a Circular Array
 - [x] Two Furthest Houses With Different Colors
+- [x] Rotate String
 
 ## 🧮 Array — Medium
 - [x] Equal Sum Grid Partition I
@@ -418,6 +420,8 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Partition Array into Two Equal Product Subsets
 - [x] Word Break
 - [x] Maximum Path Score in a Grid
+- [x] Rotated Digits
+
 
 
 ## ⚡ Dynamic Programming — Hard
@@ -575,6 +579,9 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] K-th Symbol in Grammar
 - [x] Find Kth Bit in Nth Binary String
 - [x] Find the Winner of the Circular Game
+
+## 🔁 Recursion — Hard
+- [x] Permutation Sequence
 
 ## 🧬 Backtracking — Medium
 - [x] Letter Combinations of a Phone Number
