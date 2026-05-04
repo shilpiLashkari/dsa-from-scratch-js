@@ -1,14 +1,4 @@
-/**
- * Problem: Rotate String (LeetCode 796)
- * Difficulty: Easy
- * 
- * Given two strings s and goal, return true if and only if s can become goal after some number of shifts on s.
- * A shift on s consists of moving the leftmost character of s to the rightmost position.
- * 
- * Example:
- * s = "abcde", goal = "cdeab" -> true
- * s = "abcde", goal = "abced" -> false
- */
+
 
 /**
  * @param {string} s
@@ -16,12 +6,8 @@
  * @return {boolean}
  */
 const rotateString = (s, goal) => {
-    // If lengths are different, s can never become goal
     if (s.length !== goal.length) return false;
 
-    // A rotated string will always be a substring of the original string concatenated with itself
-    // Example: s = "abcde", s + s = "abcdeabcde"
-    // All possible rotations: "abcde", "bcdea", "cdeab", "deabc", "eabcd"
     return (s + s).includes(goal);
 };
 
