@@ -113,6 +113,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 86  | Permutation Sequence | LeetCode | ✅ Done |
 | 87  | Rotated Digits | LeetCode | ✅ Done |
 | 88  | Rotate String | LeetCode | ✅ Done |
+| 89  | Rotate List | LeetCode | ✅ Done |
 
 
 
@@ -532,6 +533,7 @@ A curated list of problems that significantly improved my understanding.
 | **Swap Nodes in Pairs** | 🟡 | Linked List / Recursion | [Link](./Linked_List/Medium/Swap_Nodes_in_Pairs.js) |
 | **Reorder List** | 🟡 | Linked List / Two Pointers | [Link](./Linked_List/Medium/Reorder_List.js) |
 | **Remove Nodes From Linked List** | 🟡 | Linked List / Recursion | [Link](./Linked_List/Medium/Remove_Nodes_From_Linked_List.js) |
+| **Rotate List** | 🟡 | Linked List / Two Pointers | [Link](./Linked%20List/Medium/Rotate_List.js) |
 
 ### Recursion
 

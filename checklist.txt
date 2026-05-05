@@ -573,6 +573,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Swap Nodes in Pairs
 - [x] Reorder List
 - [x] Remove Nodes From Linked List
+- [x] Rotate List
 
 ## 🔁 Recursion — Medium
 - [x] All Possible Full Binary Trees
