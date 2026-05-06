@@ -114,6 +114,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 87  | Rotated Digits | LeetCode | ✅ Done |
 | 88  | Rotate String | LeetCode | ✅ Done |
 | 89  | Rotate List | LeetCode | ✅ Done |
+| 90  | Rotating the Box | LeetCode | ✅ Done |
 
 
 
@@ -287,6 +288,7 @@ A curated list of problems that significantly improved my understanding.
 | **Detect Cycles in 2D Grid** |     🟡     | Array / DFS | [Link](./Array/Medium/Detect_Cycles_in_2D_Grid.js) |
 | **Check if There is a Valid Path in a Grid** | 🟡 | Array / BFS | [Link](./Array/Medium/Check_if_There_is_a_Valid_Path_in_a_Grid.js) |
 | **Minimum Operations to Make a Uni-Value Grid** | 🟡 | Array / Median | [Link](./Array/Medium/Minimum_Operations_to_Make_a_Uni-Value_Grid.js) |
+| **Rotating the Box** | 🟡 | Array / Gravity Simulation | [Link](./Array/Medium/Rotating_the_Box.js) |
 
 | **Longest Substring Without Repeating Characters** | 🟡 | String / Sliding Window | [Link](./String/Medium/Longest_Substring_Without_Repeating_Characters.js) |
 | **Zigzag Conversion** | 🟡 | String / Simulation | [Link](./String/Medium/Zigzag_Conversion.js) |
