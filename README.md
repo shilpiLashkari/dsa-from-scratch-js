@@ -115,11 +115,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 88  | Rotate String | LeetCode | ✅ Done |
 | 89  | Rotate List | LeetCode | ✅ Done |
 | 90  | Rotating the Box | LeetCode | ✅ Done |
-
-
-
-
-
+| 91  | Jump Game IX | LeetCode | ✅ Done |
 
 ---
 
@@ -364,6 +360,7 @@ A curated list of problems that significantly improved my understanding.
 | **Maximum Amount of Money Robot Can Earn**   |     🟡     | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Maximum_Amount_of_Money_Robot_Can_Earn.js) |
 | **Maximum Path Score in a Grid** | 🟡 | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Maximum_Path_Score_in_a_Grid.js) |
 | **Rotated Digits** | 🟡 | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Rotated_Digits.js) |
+| **Jump Game IX** | 🟡 | DP / Monotonic Stack | [Link](./Dynamic%20Programming/Medium/Jump_Game_IX.js) |
 
 
 | **Interleaving String**                         |     🟡     | String Matching / DP | [Link](./Dynamic%20Programming/Medium/Interleaving_String.js) |
