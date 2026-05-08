@@ -116,6 +116,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 89  | Rotate List | LeetCode | ✅ Done |
 | 90  | Rotating the Box | LeetCode | ✅ Done |
 | 91  | Jump Game IX | LeetCode | ✅ Done |
+| 92  | Minimum Jumps to Reach End via Prime Teleportation | LeetCode | ✅ Done |
 
 ---
 
@@ -518,6 +519,7 @@ A curated list of problems that significantly improved my understanding.
 | **Can I Win** | 🟡 | Math / Game Theory | [Link](./Math/Medium/Can_I_Win.js) |
 | **Rotate Array** | 🟡 | Math / Reversal | [Link](./Math/Medium/Rotate_Array.js) |
 | **Count Primes** | 🟡 | Math / Sieve | [Link](./Math/Medium/Count_Primes.js) |
+| **Minimum Jumps to Reach End via Prime Teleportation** | 🟡 | Math / BFS / Sieve | [Link](./Math/Medium/Minimum_Jumps_to_Reach_End_via_Prime_Teleportation.js) |
 | **Rectangle Area** | 🟡 | Math / Geometry | [Link](./Math/Medium/Rectangle_Area.js) |
 | **Count Good Numbers** | 🟡 | Math / Combinatorics | [Link](./Math/Medium/Count_Good_Numbers.js) |
 | **Minimum Non-Zero Product of the Array Elements** | 🟡 | Math / Logic | [Link](./Math/Medium/Minimum_Non_Zero_Product.js) |
