@@ -118,6 +118,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 91  | Jump Game IX | LeetCode | ✅ Done |
 | 92  | Minimum Jumps to Reach End via Prime Teleportation | LeetCode | ✅ Done |
 | 93  | Cyclically Rotating a Grid | LeetCode | ✅ Done |
+| 94  | Maximum Number of Jumps to Reach the Last Index | LeetCode | ✅ Done |
 
 ---
 
@@ -364,6 +365,7 @@ A curated list of problems that significantly improved my understanding.
 | **Maximum Path Score in a Grid** | 🟡 | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Maximum_Path_Score_in_a_Grid.js) |
 | **Rotated Digits** | 🟡 | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Rotated_Digits.js) |
 | **Jump Game IX** | 🟡 | DP / Monotonic Stack | [Link](./Dynamic%20Programming/Medium/Jump_Game_IX.js) |
+| **Maximum Number of Jumps to Reach the Last Index** | 🟡 | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Maximum_Number_of_Jumps_to_Reach_the_Last_Index.js) |
 
 
 | **Interleaving String**                         |     🟡     | String Matching / DP | [Link](./Dynamic%20Programming/Medium/Interleaving_String.js) |
