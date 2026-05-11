@@ -119,6 +119,8 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 92  | Minimum Jumps to Reach End via Prime Teleportation | LeetCode | ✅ Done |
 | 93  | Cyclically Rotating a Grid | LeetCode | ✅ Done |
 | 94  | Maximum Number of Jumps to Reach the Last Index | LeetCode | ✅ Done |
+| 95  | Separate the Digits in an Array | LeetCode | ✅ Done |
+
 
 ---
 
@@ -223,6 +225,8 @@ A curated list of problems that significantly improved my understanding.
 | **Robot Return to Origin**                                        |     🟢     | String / Simulation         |         [Link](./String/Easy/Robot_Return_to_Origin.js)                         |
 | **Furthest Point From Origin**                                  |     🟢     | String / Counting           |         [Link](./String/Easy/Furthest_Point_From_Origin.js)                    |
 | **Rotate String**                                                 |     🟢     | String / Substring Search   |         [Link](./String/Easy/Rotate_String.js)                                 |
+| **Separate the Digits in an Array**                               |     🟢     | Array / Iteration           | [Link](./Array/Easy/Separate_the_Digits_in_an_Array.js) |
+
 
 | **Substring with Concatenation of Words**                         |     🔴     | Sliding Window / Hash Map   | [Link](./String/Hard/Substring_with_Concatenation_of_Words.js)          |
 | **Valid Number**                                                  |     🔴     | String / State Machine      | [Link](./String/Hard/Valid_Number.js)                                  |
