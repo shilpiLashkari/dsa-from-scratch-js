@@ -120,6 +120,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 93  | Cyclically Rotating a Grid | LeetCode | ✅ Done |
 | 94  | Maximum Number of Jumps to Reach the Last Index | LeetCode | ✅ Done |
 | 95  | Separate the Digits in an Array | LeetCode | ✅ Done |
+| 96  | Minimum Initial Energy to Finish Tasks | LeetCode | ✅ Done |
 
 
 ---
@@ -273,6 +274,7 @@ A curated list of problems that significantly improved my understanding.
 | **XOR After Range Multiplication Queries II** |     🔴     | Sqrt Decomposition / BigInt | [Link](./Array/Hard/XOR_After_Range_Multiplication_Queries_II.js) |
 | **Maximize the Distance Between Points on a Square** | 🔴 | Binary Search / Geometry / Greedy | [Link](./Array/Hard/Maximize_the_Distance_Between_Points_on_a_Square.js) |
 | **Contains Duplicate III**                                        |     🔴     | Bucket Sort                 |                      [Link](./Array/Hard/Contains_Duplicate_III.js)                      |
+| **Minimum Initial Energy to Finish Tasks** | 🔴 | Greedy / Sorting | [Link](./Array/Hard/Minimum_Initial_Energy_to_Finish_Tasks.js) |
 | **Largest Submatrix With Rearrangements** |     🟡     | Array / Sorting / Greedy | [Link](./Array/Medium/Largest_Submatrix_With_Rearrangements.js) |
 | **Count Submatrices with Top-Left Element and Sum Less Than k** |     🟡     | Array / 2D Prefix Sum | [Link](./Array/Medium/Count_Submatrices_with_Top_Left_Element_and_Sum_Less_Than_k.js) |
 | **Count Submatrices With Equal Frequency of X and Y** |     🟡     | Array / 2D Prefix Sum | [Link](./Array/Medium/Count_Submatrices_With_Equal_Frequency_of_X_and_Y.js) |
