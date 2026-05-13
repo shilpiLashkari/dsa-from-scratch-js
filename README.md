@@ -121,6 +121,8 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 94  | Maximum Number of Jumps to Reach the Last Index | LeetCode | ✅ Done |
 | 95  | Separate the Digits in an Array | LeetCode | ✅ Done |
 | 96  | Minimum Initial Energy to Finish Tasks | LeetCode | ✅ Done |
+| 97  | Minimum Moves to Make Array Complementary | LeetCode | ✅ Done |
+
 
 
 ---
@@ -295,6 +297,8 @@ A curated list of problems that significantly improved my understanding.
 | **Minimum Operations to Make a Uni-Value Grid** | 🟡 | Array / Median | [Link](./Array/Medium/Minimum_Operations_to_Make_a_Uni-Value_Grid.js) |
 | **Rotating the Box** | 🟡 | Array / Gravity Simulation | [Link](./Array/Medium/Rotating_the_Box.js) |
 | **Cyclically Rotating a Grid** | 🟡 | Array / Layer Simulation | [Link](./Array/Medium/Cyclically_Rotating_a_Grid.js) |
+| **Minimum Moves to Make Array Complementary** | 🟡 | Array / Difference Array | [Link](./Array/Medium/Minimum_Moves_to_Make_Array_Complementary.js) |
+
 
 | **Longest Substring Without Repeating Characters** | 🟡 | String / Sliding Window | [Link](./String/Medium/Longest_Substring_Without_Repeating_Characters.js) |
 | **Zigzag Conversion** | 🟡 | String / Simulation | [Link](./String/Medium/Zigzag_Conversion.js) |
