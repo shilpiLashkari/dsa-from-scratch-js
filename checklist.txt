@@ -36,6 +36,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Closest Equal Element Queries
 - [x] Minimum Absolute Distance Between Mirror Pairs
 - [x] Two Furthest Houses With Different Colors
+- [x] Check if Array is Good
 
 
 ## 🟢 Strings
@@ -310,6 +311,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Two Furthest Houses With Different Colors
 - [x] Rotate String
 - [x] Separate the Digits in an Array
+- [x] Check if Array is Good
 
 ## 🧮 Array — Medium
 - [x] Equal Sum Grid Partition I
