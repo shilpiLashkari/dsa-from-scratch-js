@@ -91,7 +91,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Complement of Base 10 Integer
 
 ## 🟢 Search in Rotated Array
-- [ ] Find Minimum in Rotated Sorted Array
+- [x] Find Minimum in Rotated Sorted Array
 - [ ] Search in Rotated Sorted Array
 - [x] Find Minimum in Rotated Sorted Array II
 

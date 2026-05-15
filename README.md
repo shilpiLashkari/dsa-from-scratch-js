@@ -123,6 +123,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 96  | Minimum Initial Energy to Finish Tasks | LeetCode | ✅ Done |
 | 97  | Minimum Moves to Make Array Complementary | LeetCode | ✅ Done |
 | 98  | Check if Array is Good         | LeetCode | ✅ Done |
+| 99  | Find Minimum in Rotated Sorted Array | LeetCode | ✅ Done |
 
 
 
@@ -310,6 +311,7 @@ A curated list of problems that significantly improved my understanding.
 | **Simplify Path** | 🟡 | String / Stack | [Link](./String/Medium/Simplify_Path.js) |
 | **Reverse Words in a String** | 🟡 | String / Two Pointers | [Link](./String/Medium/Reverse_Words_in_a_String.js) |
 | **Longest Palindromic Substring** | 🟡 | String / DP | [Link](./String/Medium/Longest_Palindromic_Substring.js) |
+| **Find Minimum in Rotated Sorted Array** | 🟡 | Binary Search | [Link](./Array/Medium/Find_Minimum_in_Rotated_Sorted_Array.js) |
 
 
 
