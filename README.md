@@ -124,6 +124,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 97  | Minimum Moves to Make Array Complementary | LeetCode | ✅ Done |
 | 98  | Check if Array is Good         | LeetCode | ✅ Done |
 | 99  | Find Minimum in Rotated Sorted Array | LeetCode | ✅ Done |
+| 100 | Longest Common Prefix         | LeetCode | ✅ Done |
 
 
 
@@ -230,6 +231,7 @@ A curated list of problems that significantly improved my understanding.
 | **Robot Return to Origin**                                        |     🟢     | String / Simulation         |         [Link](./String/Easy/Robot_Return_to_Origin.js)                         |
 | **Furthest Point From Origin**                                  |     🟢     | String / Counting           |         [Link](./String/Easy/Furthest_Point_From_Origin.js)                    |
 | **Rotate String**                                                 |     🟢     | String / Substring Search   |         [Link](./String/Easy/Rotate_String.js)                                 |
+| **Longest Common Prefix**                                         |     🟢     | String / Vertical Scanning  | [Link](./String/Easy/Longest_Common_Prefix.js)                         |
 | **Separate the Digits in an Array**                               |     🟢     | Array / Iteration           | [Link](./Array/Easy/Separate_the_Digits_in_an_Array.js) |
 | **Check if Array is Good**                                        |     🟢     | Array / Frequency Map       | [Link](./Array/Easy/Check_if_Array%20_is_Good.js)       |
 

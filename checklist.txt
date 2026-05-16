@@ -52,7 +52,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Rotate String
 
 - [ ] Implement strStr()
-- [ ] Longest Common Prefix
+- [x] Longest Common Prefix
 
 ## 🟢 Binary Search
 - [ ] Binary Search
@@ -310,6 +310,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Shortest Distance to Target String in a Circular Array
 - [x] Two Furthest Houses With Different Colors
 - [x] Rotate String
+- [x] Longest Common Prefix
 - [x] Separate the Digits in an Array
 - [x] Check if Array is Good
 
