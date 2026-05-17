@@ -125,7 +125,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 98  | Check if Array is Good         | LeetCode | ✅ Done |
 | 99  | Find Minimum in Rotated Sorted Array | LeetCode | ✅ Done |
 | 100 | Longest Common Prefix         | LeetCode | ✅ Done |
-
+| 101 | Jump Game III | LeetCode | ✅ Done |
 
 
 ---
@@ -314,6 +314,7 @@ A curated list of problems that significantly improved my understanding.
 | **Reverse Words in a String** | 🟡 | String / Two Pointers | [Link](./String/Medium/Reverse_Words_in_a_String.js) |
 | **Longest Palindromic Substring** | 🟡 | String / DP | [Link](./String/Medium/Longest_Palindromic_Substring.js) |
 | **Find Minimum in Rotated Sorted Array** | 🟡 | Binary Search | [Link](./Array/Medium/Find_Minimum_in_Rotated_Sorted_Array.js) |
+| **Jump Game III** | 🟡 | BFS / DFS | [Link](./Array/Medium/Jump_Game_III.js) |
 
 
 
