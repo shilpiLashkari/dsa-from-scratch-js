@@ -126,6 +126,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 99  | Find Minimum in Rotated Sorted Array | LeetCode | ✅ Done |
 | 100 | Longest Common Prefix         | LeetCode | ✅ Done |
 | 101 | Jump Game III | LeetCode | ✅ Done |
+| 102 | Jump Game IV | LeetCode | ✅ Done |
 
 
 ---
@@ -315,6 +316,7 @@ A curated list of problems that significantly improved my understanding.
 | **Longest Palindromic Substring** | 🟡 | String / DP | [Link](./String/Medium/Longest_Palindromic_Substring.js) |
 | **Find Minimum in Rotated Sorted Array** | 🟡 | Binary Search | [Link](./Array/Medium/Find_Minimum_in_Rotated_Sorted_Array.js) |
 | **Jump Game III** | 🟡 | BFS / DFS | [Link](./Array/Medium/Jump_Game_III.js) |
+| **Jump Game IV** | 🔴 | BFS | [Link](./Array/Hard/Jump_Game_IV.js) |
 
 
 
