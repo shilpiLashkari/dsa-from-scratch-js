@@ -129,6 +129,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 102 | Jump Game IV | LeetCode | ✅ Done |
 | 103 | Minimum Common Value | LeetCode | ✅ Done |
 | 104 | Find the Prefix Common Array of Two Arrays | LeetCode | ✅ Done |
+| 104 | Find the Prefix Common Array of Two Arrays | LeetCode | ✅ Done |
 
 
 ---
