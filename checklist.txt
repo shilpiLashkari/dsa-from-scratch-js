@@ -346,6 +346,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Cyclically Rotating a Grid
 - [x] Minimum Moves to Make Array Complementary
 - [x] Jump Game III
+- [x] Find the Prefix Common Array of Two Arrays
 
 - [x] Decode String
 - [x] Longest Substring Without Repeating Characters
