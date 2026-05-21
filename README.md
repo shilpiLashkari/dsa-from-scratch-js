@@ -129,7 +129,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 102 | Jump Game IV | LeetCode | ✅ Done |
 | 103 | Minimum Common Value | LeetCode | ✅ Done |
 | 104 | Find the Prefix Common Array of Two Arrays | LeetCode | ✅ Done |
-| 104 | Find the Prefix Common Array of Two Arrays | LeetCode | ✅ Done |
+| 105 | Find the Length of the Longest Common Prefix | LeetCode | ✅ Done |
 
 
 ---
@@ -321,6 +321,7 @@ A curated list of problems that significantly improved my understanding.
 | **Find Minimum in Rotated Sorted Array** | 🟡 | Binary Search | [Link](./Array/Medium/Find_Minimum_in_Rotated_Sorted_Array.js) |
 | **Jump Game III** | 🟡 | BFS / DFS | [Link](./Array/Medium/Jump_Game_III.js) |
 | **Find the Prefix Common Array of Two Arrays** | 🟡 | Array / Frequency | [Link](./Array/Medium/Find_the_Prefix_Common_Array_of_Two_Arrays.js) |
+| **Find the Length of the Longest Common Prefix** | 🟡 | Array / Hash Set | [Link](./Array/Medium/Find_the_Length_of_the_Longest_Common_Prefix.js) |
 | **Jump Game IV** | 🔴 | BFS | [Link](./Array/Hard/Jump_Game_IV.js) |
 
 
