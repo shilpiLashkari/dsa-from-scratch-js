@@ -93,7 +93,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 
 ## 🟢 Search in Rotated Array
 - [x] Find Minimum in Rotated Sorted Array
-- [ ] Search in Rotated Sorted Array
+- [x] Search in Rotated Sorted Array
 - [x] Find Minimum in Rotated Sorted Array II
 
 ## 🟢 Sliding Window (Core)
@@ -348,6 +348,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Jump Game III
 - [x] Find the Prefix Common Array of Two Arrays
 - [x] Find the Length of the Longest Common Prefix
+- [x] Search in Rotated Sorted Array
 
 - [x] Decode String
 - [x] Longest Substring Without Repeating Characters
