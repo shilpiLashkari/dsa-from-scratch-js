@@ -131,6 +131,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 104 | Find the Prefix Common Array of Two Arrays | LeetCode | ✅ Done |
 | 105 | Find the Length of the Longest Common Prefix | LeetCode | ✅ Done |
 | 106 | Search in Rotated Sorted Array | LeetCode | ✅ Done |
+| 107 | Jump Game VII | LeetCode | ✅ Done |
 
 
 ---
@@ -392,6 +393,7 @@ A curated list of problems that significantly improved my understanding.
 | **Maximum Path Score in a Grid** | 🟡 | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Maximum_Path_Score_in_a_Grid.js) |
 | **Rotated Digits** | 🟡 | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Rotated_Digits.js) |
 | **Jump Game IX** | 🟡 | DP / Monotonic Stack | [Link](./Dynamic%20Programming/Medium/Jump_Game_IX.js) |
+| **Jump Game VII** | 🟡 | DP / Sliding Window | [Link](./Dynamic%20Programming/Medium/Jump_Game_VII.js) |
 | **Maximum Number of Jumps to Reach the Last Index** | 🟡 | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Maximum_Number_of_Jumps_to_Reach_the_Last_Index.js) |
 
 
