@@ -132,6 +132,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 105 | Find the Length of the Longest Common Prefix | LeetCode | ✅ Done |
 | 106 | Search in Rotated Sorted Array | LeetCode | ✅ Done |
 | 107 | Jump Game VII | LeetCode | ✅ Done |
+| 108 | Count the Number of Special Characters I | LeetCode | ✅ Done |
 
 
 ---
@@ -238,6 +239,7 @@ A curated list of problems that significantly improved my understanding.
 | **Furthest Point From Origin**                                  |     🟢     | String / Counting           |         [Link](./String/Easy/Furthest_Point_From_Origin.js)                    |
 | **Rotate String**                                                 |     🟢     | String / Substring Search   |         [Link](./String/Easy/Rotate_String.js)                                 |
 | **Longest Common Prefix**                                         |     🟢     | String / Vertical Scanning  | [Link](./String/Easy/Longest_Common_Prefix.js)                         |
+| **Count the Number of Special Characters I**                    |     🟢     | String / Hash Set           | [Link](./String/Easy/Count_the_Number_of_Special_Characters_I.js) |
 | **Separate the Digits in an Array**                               |     🟢     | Array / Iteration           | [Link](./Array/Easy/Separate_the_Digits_in_an_Array.js) |
 | **Check if Array is Good**                                        |     🟢     | Array / Frequency Map       | [Link](./Array/Easy/Check_if_Array%20_is_Good.js)       |
 | **Minimum Common Value**                                          |     🟢     | Two Pointers                | [Link](./Array/Easy/Minimum_Common_Value.js)            |
