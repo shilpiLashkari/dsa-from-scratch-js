@@ -55,6 +55,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [ ] Implement strStr()
 - [x] Longest Common Prefix
 - [x] Count the Number of Special Characters I
+- [x] Count the Number of Special Characters II
 
 ## 🟢 Binary Search
 - [ ] Binary Search
@@ -319,6 +320,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Check if Array is Good
 - [x] Minimum Common Value
 - [x] Count the Number of Special Characters I
+- [x] Count the Number of Special Characters II
 
 ## 🧮 Array — Medium
 - [x] Equal Sum Grid Partition I

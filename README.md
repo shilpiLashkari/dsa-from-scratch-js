@@ -133,6 +133,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 106 | Search in Rotated Sorted Array | LeetCode | ✅ Done |
 | 107 | Jump Game VII | LeetCode | ✅ Done |
 | 108 | Count the Number of Special Characters I | LeetCode | ✅ Done |
+| 109 | Count the Number of Special Characters II | LeetCode | ✅ Done |
 
 
 ---
@@ -322,6 +323,7 @@ A curated list of problems that significantly improved my understanding.
 | **Simplify Path** | 🟡 | String / Stack | [Link](./String/Medium/Simplify_Path.js) |
 | **Reverse Words in a String** | 🟡 | String / Two Pointers | [Link](./String/Medium/Reverse_Words_in_a_String.js) |
 | **Longest Palindromic Substring** | 🟡 | String / DP | [Link](./String/Medium/Longest_Palindromic_Substring.js) |
+| **Count the Number of Special Characters II** | 🟡 | String / Maps | [Link](./String/Medium/Count_the_Number_of_Special_Characters_II.js) |
 | **Find Minimum in Rotated Sorted Array** | 🟡 | Binary Search | [Link](./Array/Medium/Find_Minimum_in_Rotated_Sorted_Array.js) |
 | **Search in Rotated Sorted Array** | 🟡 | Binary Search | [Link](./Array/Medium/Search_in_Rotated_Sorted_Array.js) |
 | **Jump Game III** | 🟡 | BFS / DFS | [Link](./Array/Medium/Jump_Game_III.js) |
