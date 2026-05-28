@@ -273,6 +273,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [ ] Binary Tree Maximum Path Sum
 - [x] Reverse Pairs
 - [x] XOR After Range Multiplication Queries II
+- [x] Longest Common Suffix Queries
 
 ---
 ---
@@ -379,6 +380,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Find Minimum in Rotated Sorted Array II
 - [x] Reverse Pairs
 - [x] XOR After Range Multiplication Queries II
+- [x] Longest Common Suffix Queries
 - [x] Equal Sum Grid Partition II
 - [x] Contains Duplicate III
 - [x] First Missing Positive
