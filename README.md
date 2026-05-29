@@ -135,6 +135,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 108 | Count the Number of Special Characters I | LeetCode | ✅ Done |
 | 109 | Count the Number of Special Characters II | LeetCode | ✅ Done |
 | 110 | Longest Common Suffix Queries | LeetCode | ✅ Done |
+| 111 | Minimum Element After Replacement With Digit Sum | LeetCode | ✅ Done |
 
 
 ---
@@ -245,6 +246,7 @@ A curated list of problems that significantly improved my understanding.
 | **Separate the Digits in an Array**                               |     🟢     | Array / Iteration           | [Link](./Array/Easy/Separate_the_Digits_in_an_Array.js) |
 | **Check if Array is Good**                                        |     🟢     | Array / Frequency Map       | [Link](./Array/Easy/Check_if_Array%20_is_Good.js)       |
 | **Minimum Common Value**                                          |     🟢     | Two Pointers                | [Link](./Array/Easy/Minimum_Common_Value.js)            |
+| **Minimum Element After Replacement With Digit Sum**              |     🟢     | Array / Math                | [Link](./Array/Easy/Minimum_Element_After_Replacement_With_Digit_Sum.js) |
 
 
 | **Substring with Concatenation of Words**                         |     🔴     | Sliding Window / Hash Map   | [Link](./String/Hard/Substring_with_Concatenation_of_Words.js)          |

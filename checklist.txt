@@ -38,6 +38,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Two Furthest Houses With Different Colors
 - [x] Check if Array is Good
 - [x] Minimum Common Value
+- [x] Minimum Element After Replacement With Digit Sum
 
 
 ## 🟢 Strings
@@ -322,6 +323,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Minimum Common Value
 - [x] Count the Number of Special Characters I
 - [x] Count the Number of Special Characters II
+- [x] Minimum Element After Replacement With Digit Sum
 
 ## 🧮 Array — Medium
 - [x] Equal Sum Grid Partition I
