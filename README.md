@@ -136,6 +136,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 109 | Count the Number of Special Characters II | LeetCode | ✅ Done |
 | 110 | Longest Common Suffix Queries | LeetCode | ✅ Done |
 | 111 | Minimum Element After Replacement With Digit Sum | LeetCode | ✅ Done |
+| 112 | Block Placement Queries | LeetCode | ✅ Done |
 
 
 ---
@@ -334,6 +335,7 @@ A curated list of problems that significantly improved my understanding.
 | **Find the Length of the Longest Common Prefix** | 🟡 | Array / Hash Set | [Link](./Array/Medium/Find_the_Length_of_the_Longest_Common_Prefix.js) |
 | **Jump Game IV** | 🔴 | BFS | [Link](./Array/Hard/Jump_Game_IV.js) |
 | **Longest Common Suffix Queries** | 🔴 | Suffix Trie / String | [Link](./Array/Hard/Longest_Common_Suffix_Queries.js) |
+| **Block Placement Queries** | 🔴 | Segment Tree / Fenwick Tree | [Link](./Array/Hard/Block_Placement_Queries.js) |
 
 
 

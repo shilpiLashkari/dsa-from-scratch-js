@@ -39,6 +39,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Check if Array is Good
 - [x] Minimum Common Value
 - [x] Minimum Element After Replacement With Digit Sum
+- [x] Block Placement Queries
 
 
 ## 🟢 Strings
@@ -275,6 +276,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Reverse Pairs
 - [x] XOR After Range Multiplication Queries II
 - [x] Longest Common Suffix Queries
+- [x] Block Placement Queries
 
 ---
 ---
@@ -383,6 +385,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Reverse Pairs
 - [x] XOR After Range Multiplication Queries II
 - [x] Longest Common Suffix Queries
+- [x] Block Placement Queries
 - [x] Equal Sum Grid Partition II
 - [x] Contains Duplicate III
 - [x] First Missing Positive
