@@ -39,6 +39,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Check if Array is Good
 - [x] Minimum Common Value
 - [x] Minimum Element After Replacement With Digit Sum
+- [x] Minimum Cost of Buying Candies With Discount
 - [x] Block Placement Queries
 
 
@@ -326,6 +327,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Count the Number of Special Characters I
 - [x] Count the Number of Special Characters II
 - [x] Minimum Element After Replacement With Digit Sum
+- [x] Minimum Cost of Buying Candies With Discount
 
 ## 🧮 Array — Medium
 - [x] Equal Sum Grid Partition I
