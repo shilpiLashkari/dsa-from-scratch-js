@@ -138,6 +138,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 111 | Minimum Element After Replacement With Digit Sum | LeetCode | ✅ Done |
 | 112 | Block Placement Queries | LeetCode | ✅ Done |
 | 113 | Minimum Cost of Buying Candies With Discount | LeetCode | ✅ Done |
+| 114 | Earliest Finish Time for Land and Water Rides I | LeetCode | ✅ Done |
 
 
 ---
@@ -250,6 +251,7 @@ A curated list of problems that significantly improved my understanding.
 | **Minimum Common Value**                                          |     🟢     | Two Pointers                | [Link](./Array/Easy/Minimum_Common_Value.js)            |
 | **Minimum Element After Replacement With Digit Sum**              |     🟢     | Array / Math                | [Link](./Array/Easy/Minimum_Element_After_Replacement_With_Digit_Sum.js) |
 | **Minimum Cost of Buying Candies With Discount**                  |     🟢     | Array / Greedy              | [Link](./Array/Easy/Minimum_Cost_of_Buying_Candies_With_Discount.js) |
+| **Earliest Finish Time for Land and Water Rides I**               |     🟢     | Array / Greedy              | [Link](./Array/Easy/Earliest_Finish_Time_for_Land_and_Water_Rides_I.js) |
 
 
 | **Substring with Concatenation of Words**                         |     🔴     | Sliding Window / Hash Map   | [Link](./String/Hard/Substring_with_Concatenation_of_Words.js)          |
