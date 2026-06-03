@@ -41,6 +41,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Minimum Element After Replacement With Digit Sum
 - [x] Minimum Cost of Buying Candies With Discount
 - [x] Earliest Finish Time for Land and Water Rides I
+- [x] Earliest Finish Time for Land and Water Rides II
 - [x] Block Placement Queries
 
 
@@ -363,6 +364,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Find the Prefix Common Array of Two Arrays
 - [x] Find the Length of the Longest Common Prefix
 - [x] Search in Rotated Sorted Array
+- [x] Earliest Finish Time for Land and Water Rides II
 
 - [x] Decode String
 - [x] Longest Substring Without Repeating Characters
