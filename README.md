@@ -140,6 +140,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 113 | Minimum Cost of Buying Candies With Discount | LeetCode | ✅ Done |
 | 114 | Earliest Finish Time for Land and Water Rides I | LeetCode | ✅ Done |
 | 115 | Earliest Finish Time for Land and Water Rides II | LeetCode | ✅ Done |
+| 116 | Total Waviness of Numbers in Range I | LeetCode | ✅ Done |
 
 
 ---
@@ -411,6 +412,7 @@ A curated list of problems that significantly improved my understanding.
 | **Jump Game IX** | 🟡 | DP / Monotonic Stack | [Link](./Dynamic%20Programming/Medium/Jump_Game_IX.js) |
 | **Jump Game VII** | 🟡 | DP / Sliding Window | [Link](./Dynamic%20Programming/Medium/Jump_Game_VII.js) |
 | **Maximum Number of Jumps to Reach the Last Index** | 🟡 | Dynamic Programming | [Link](./Dynamic%20Programming/Medium/Maximum_Number_of_Jumps_to_Reach_the_Last_Index.js) |
+| **Total Waviness of Numbers in Range I** | 🟡 | Array / Math | [Link](./Dynamic%20Programming/Medium/Total_Waviness_of_Numbers_in_Range_I.js) |
 
 
 | **Interleaving String**                         |     🟡     | String Matching / DP | [Link](./Dynamic%20Programming/Medium/Interleaving_String.js) |

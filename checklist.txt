@@ -233,6 +233,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Jump Game VII
 - [x] Jump Game IV
 - [ ] Jump Game
+- [x] Total Waviness of Numbers in Range I
 
 ## 🟢 Greedy
 - [ ] Jump Game
@@ -460,6 +461,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Jump Game IX
 - [x] Jump Game VII
 - [x] Maximum Number of Jumps to Reach the Last Index
+- [x] Total Waviness of Numbers in Range I
 
 
 
