@@ -141,6 +141,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 114 | Earliest Finish Time for Land and Water Rides I | LeetCode | ✅ Done |
 | 115 | Earliest Finish Time for Land and Water Rides II | LeetCode | ✅ Done |
 | 116 | Total Waviness of Numbers in Range I | LeetCode | ✅ Done |
+| 117 | Total Waviness of Numbers in Range II | LeetCode | ✅ Done |
 
 
 ---
@@ -437,6 +438,7 @@ A curated list of problems that significantly improved my understanding.
 | **Distinct Subsequences**                     |     🔴     | 2D DP           | [Link](./Dynamic%20Programming/Hard/Distinct_Subsequences.js) |
 | **Minimum Distance to Type a Word Using Two Fingers** |     🔴     | DP              | [Link](./Dynamic%20Programming/Hard/Minimum_Distance_to_Type_a_Word_Using_Two_Fingers.js) |
 | **Minimum Total Distance Traveled** |     🔴     | DP / Sorting   | [Link](./Dynamic%20Programming/Hard/Minimum_Total_Distance_Traveled.js) |
+| **Total Waviness of Numbers in Range II** | 🔴 | Digit DP | [Link](./Dynamic%20Programming/Hard/Total_Waviness_of_Numbers_in_Range_II.js) |
 
 
 ### Trie

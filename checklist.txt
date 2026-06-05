@@ -234,6 +234,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Jump Game IV
 - [ ] Jump Game
 - [x] Total Waviness of Numbers in Range I
+- [x] Total Waviness of Numbers in Range II
 
 ## 🟢 Greedy
 - [ ] Jump Game
@@ -486,6 +487,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Minimum Distance to Type a Word Using Two Fingers
 - [x] Minimum Total Distance Traveled
 - [x] Maximum Score From Grid Operations
+- [x] Total Waviness of Numbers in Range II
 
 ## 🌳 Trie — Hard
 - [x] Palindrome Pairs
