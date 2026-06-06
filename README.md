@@ -142,6 +142,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 115 | Earliest Finish Time for Land and Water Rides II | LeetCode | ✅ Done |
 | 116 | Total Waviness of Numbers in Range I | LeetCode | ✅ Done |
 | 117 | Total Waviness of Numbers in Range II | LeetCode | ✅ Done |
+| 118 | Left and Right Sum Differences | LeetCode | ✅ Done |
 
 
 ---
@@ -255,6 +256,7 @@ A curated list of problems that significantly improved my understanding.
 | **Minimum Element After Replacement With Digit Sum**              |     🟢     | Array / Math                | [Link](./Array/Easy/Minimum_Element_After_Replacement_With_Digit_Sum.js) |
 | **Minimum Cost of Buying Candies With Discount**                  |     🟢     | Array / Greedy              | [Link](./Array/Easy/Minimum_Cost_of_Buying_Candies_With_Discount.js) |
 | **Earliest Finish Time for Land and Water Rides I**               |     🟢     | Array / Greedy              | [Link](./Array/Easy/Earliest_Finish_Time_for_Land_and_Water_Rides_I.js) |
+| **Left and Right Sum Differences** | 🟢 | Array / Prefix Sum | [Link](./Array/Easy/Left_and_Right_Sum_Differences.js) |
 | **Earliest Finish Time for Land and Water Rides II**              |     🟡     | Array / Greedy              | [Link](./Array/Medium/Earliest_Finish_Time_for_Land_and_Water_Rides_II.js) |
 
 
