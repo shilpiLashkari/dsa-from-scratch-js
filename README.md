@@ -143,6 +143,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 116 | Total Waviness of Numbers in Range I | LeetCode | ✅ Done |
 | 117 | Total Waviness of Numbers in Range II | LeetCode | ✅ Done |
 | 118 | Left and Right Sum Differences | LeetCode | ✅ Done |
+| 119 | Create Binary Tree From Descriptions | LeetCode | ✅ Done |
 
 
 ---
@@ -258,6 +259,7 @@ A curated list of problems that significantly improved my understanding.
 | **Earliest Finish Time for Land and Water Rides I**               |     🟢     | Array / Greedy              | [Link](./Array/Easy/Earliest_Finish_Time_for_Land_and_Water_Rides_I.js) |
 | **Left and Right Sum Differences** | 🟢 | Array / Prefix Sum | [Link](./Array/Easy/Left_and_Right_Sum_Differences.js) |
 | **Earliest Finish Time for Land and Water Rides II**              |     🟡     | Array / Greedy              | [Link](./Array/Medium/Earliest_Finish_Time_for_Land_and_Water_Rides_II.js) |
+| **Create Binary Tree From Descriptions** | 🟡 | Array / Hash Map / Tree | [Link](./Array/Medium/Create_Binary_Tree_From_Descriptions.js) |
 
 
 | **Substring with Concatenation of Words**                         |     🔴     | Sliding Window / Hash Map   | [Link](./String/Hard/Substring_with_Concatenation_of_Words.js)          |

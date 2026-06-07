@@ -145,6 +145,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [ ] Construct Binary Tree from Preorder and Inorder Traversal
 - [ ] Binary Tree Zigzag Level Order Traversal
 - [ ] Recover Binary Search Tree
+- [x] Create Binary Tree From Descriptions
 
 ## 🟢 Binary Search Tree
 - [ ] Lowest Common Ancestor of a BST
@@ -369,6 +370,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Find the Length of the Longest Common Prefix
 - [x] Search in Rotated Sorted Array
 - [x] Earliest Finish Time for Land and Water Rides II
+- [x] Create Binary Tree From Descriptions
 
 - [x] Decode String
 - [x] Longest Substring Without Repeating Characters
