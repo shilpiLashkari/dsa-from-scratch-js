@@ -45,6 +45,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Block Placement Queries
 - [x] Left and Right Sum Differences
 - [x] Partition Array According to Given Pivot
+- [x] Maximum Total Subarray Value I
 
 
 ## 🟢 Strings
@@ -373,6 +374,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Earliest Finish Time for Land and Water Rides II
 - [x] Create Binary Tree From Descriptions
 - [x] Partition Array According to Given Pivot
+- [x] Maximum Total Subarray Value I
 
 - [x] Decode String
 - [x] Longest Substring Without Repeating Characters

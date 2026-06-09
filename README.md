@@ -145,6 +145,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 118 | Left and Right Sum Differences | LeetCode | ✅ Done |
 | 119 | Create Binary Tree From Descriptions | LeetCode | ✅ Done |
 | 120 | Partition Array According to Given Pivot | LeetCode | ✅ Done |
+| 121 | Maximum Total Subarray Value I | LeetCode | ✅ Done |
 
 
 ---
@@ -262,6 +263,7 @@ A curated list of problems that significantly improved my understanding.
 | **Earliest Finish Time for Land and Water Rides II**              |     🟡     | Array / Greedy              | [Link](./Array/Medium/Earliest_Finish_Time_for_Land_and_Water_Rides_II.js) |
 | **Create Binary Tree From Descriptions** | 🟡 | Array / Hash Map / Tree | [Link](./Array/Medium/Create_Binary_Tree_From_Descriptions.js) |
 | **Partition Array According to Given Pivot** | 🟡 | Array / Two Pointers | [Link](./Array/Medium/Partition_Array_According_to_Given_Pivot.js) |
+| **Maximum Total Subarray Value I** | 🟡 | Array / Math / Greedy | [Link](./Array/Medium/Maximum_Total_Subarray_Value_I.js) |
 
 
 | **Substring with Concatenation of Words**                         |     🔴     | Sliding Window / Hash Map   | [Link](./String/Hard/Substring_with_Concatenation_of_Words.js)          |
