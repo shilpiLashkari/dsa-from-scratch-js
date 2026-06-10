@@ -46,6 +46,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Left and Right Sum Differences
 - [x] Partition Array According to Given Pivot
 - [x] Maximum Total Subarray Value I
+- [x] Maximum Total Subarray Value II
 
 
 ## 🟢 Strings
@@ -286,6 +287,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] XOR After Range Multiplication Queries II
 - [x] Longest Common Suffix Queries
 - [x] Block Placement Queries
+- [x] Maximum Total Subarray Value II
 
 ---
 ---
@@ -417,6 +419,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Maximize the Distance Between Points on a Square
 - [x] Minimum Initial Energy to Finish Tasks
 - [x] Jump Game IV
+- [x] Maximum Total Subarray Value II
 
 ## ⏱ Asynchronous_Programming — Easy
 - [x] Sleep

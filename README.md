@@ -146,6 +146,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 119 | Create Binary Tree From Descriptions | LeetCode | ✅ Done |
 | 120 | Partition Array According to Given Pivot | LeetCode | ✅ Done |
 | 121 | Maximum Total Subarray Value I | LeetCode | ✅ Done |
+| 122 | Maximum Total Subarray Value II | LeetCode | ✅ Done |
 
 
 ---
@@ -352,6 +353,7 @@ A curated list of problems that significantly improved my understanding.
 | **Jump Game IV** | 🔴 | BFS | [Link](./Array/Hard/Jump_Game_IV.js) |
 | **Longest Common Suffix Queries** | 🔴 | Suffix Trie / String | [Link](./Array/Hard/Longest_Common_Suffix_Queries.js) |
 | **Block Placement Queries** | 🔴 | Segment Tree / Fenwick Tree | [Link](./Array/Hard/Block_Placement_Queries.js) |
+| **Maximum Total Subarray Value II** | 🔴 | Array / Heap / Sparse Table | [Link](./Array/Hard/Maximum_Total_Subarray_Value_II.js) |
 
 
 
