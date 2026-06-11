@@ -147,6 +147,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 120 | Partition Array According to Given Pivot | LeetCode | ✅ Done |
 | 121 | Maximum Total Subarray Value I | LeetCode | ✅ Done |
 | 122 | Maximum Total Subarray Value II | LeetCode | ✅ Done |
+| 123 | Number of Ways to Assign Edge Weights I | LeetCode | ✅ Done |
 
 
 ---
@@ -587,6 +588,7 @@ A curated list of problems that significantly improved my understanding.
 | **Count Good Numbers** | 🟡 | Math / Combinatorics | [Link](./Math/Medium/Count_Good_Numbers.js) |
 | **Minimum Non-Zero Product of the Array Elements** | 🟡 | Math / Logic | [Link](./Math/Medium/Minimum_Non_Zero_Product.js) |
 | **Count Collisions of Monkeys on a Polygon** | 🟡 | Math / Logic | [Link](./Math/Medium/Count_Collisions_of_Monkeys.js) |
+| **Number of Ways to Assign Edge Weights I** | 🟡 | Math / BFS / Combinatorics | [Link](./Math/Medium/Number_of_Ways_to_Assign_Edge_Weights_I.js) |
 | **Super Palindromes** |     🔴     | Math / Palindrome       | [Link](./Math/Hard/Super_Palindromes.js) |
 | **Fancy Sequence** |     🔴     | Math / Modular Arithmetic / Design | [Link](./Math/Hard/Fancy_Sequence.js) |
 

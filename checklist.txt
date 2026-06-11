@@ -623,6 +623,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Count Good Numbers
 - [x] Minimum Non-Zero Product of the Array Elements
 - [x] Count Collisions of Monkeys on a Polygon
+- [x] Number of Ways to Assign Edge Weights I
 
 ## 🧬 Linked List — Medium
 - [x] Swap Nodes in Pairs
