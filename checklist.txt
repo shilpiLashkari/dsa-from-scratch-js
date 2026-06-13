@@ -47,6 +47,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Partition Array According to Given Pivot
 - [x] Maximum Total Subarray Value I
 - [x] Maximum Total Subarray Value II
+- [x] Weighted Word Mapping
 
 
 ## 🟢 Strings
@@ -340,6 +341,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Minimum Cost of Buying Candies With Discount
 - [x] Earliest Finish Time for Land and Water Rides I
 - [x] Left and Right Sum Differences
+- [x] Weighted Word Mapping
 
 ## 🧮 Array — Medium
 - [x] Equal Sum Grid Partition I
