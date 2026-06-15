@@ -150,6 +150,8 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 123 | Number of Ways to Assign Edge Weights I | LeetCode | ✅ Done |
 | 124 | Weighted Word Mapping         | LeetCode | ✅ Done |
 | 125 | Maximum Twin Sum of a Linked List | LeetCode | ✅ Done |
+| 126 | Delete the Middle Node of a Linked List | LeetCode | ✅ Done |
+
 
 
 ---
@@ -604,6 +606,7 @@ A curated list of problems that significantly improved my understanding.
 | **Remove Nodes From Linked List** | 🟡 | Linked List / Recursion | [Link](./Linked_List/Medium/Remove_Nodes_From_Linked_List.js) |
 | **Rotate List** | 🟡 | Linked List / Two Pointers | [Link](./Linked%20List/Medium/Rotate_List.js) |
 | **Maximum Twin Sum of a Linked List** | 🟡 | Linked List / Two Pointers | [Link](./Linked%20List/Medium/Maximum_Twin_Sum_of_a_Linked_List.js) |
+| **Delete the Middle Node of a Linked List** | 🟡 | Linked List / Two Pointers | [Link](./Linked%20List/Medium/Delete_the_Middle_Node_of_a_Linked_List.js) |
 
 ### Recursion
 

@@ -633,6 +633,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Remove Nodes From Linked List
 - [x] Rotate List
 - [x] Maximum Twin Sum of a Linked List
+- [x] Delete the Middle Node of a Linked List
 
 ## 🔁 Recursion — Medium
 - [x] All Possible Full Binary Trees
