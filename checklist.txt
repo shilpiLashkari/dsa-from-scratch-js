@@ -66,6 +66,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Longest Common Prefix
 - [x] Count the Number of Special Characters I
 - [x] Count the Number of Special Characters II
+ - [x] Process String with Special Operations I
 
 ## 🟢 Binary Search
 - [ ] Binary Search

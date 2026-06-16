@@ -199,6 +199,9 @@ My development environment matches modern industry standards:
 <details open>
 <summary><strong>Click to collapse topics</strong></summary>
 
+### Recent additions
+- Implemented `String/Medium/Process_String_with_Special_Operations_I.js` (String - Medium)
+
 <br>
 
 ### Data Structures & Concepts
