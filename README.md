@@ -196,10 +196,8 @@ My development environment matches modern industry standards:
 
 ## 📚 Topics Covered
 
-<details open>
-<summary><strong>Click to collapse topics</strong></summary>
-
 ### Recent additions
+- Implemented `String/Hard/Process_String_with_Special_Operations_II.js`
 - Implemented `String/Medium/Process_String_with_Special_Operations_I.js` (String - Medium)
 
 <br>
