@@ -553,6 +553,7 @@ A curated list of problems that significantly improved my understanding.
 | **Add Two Numbers** | 🟡 | Math / Linked List | [Link](./Math/Medium/Add_Two_Numbers.js) |
 | **Integer to Roman** | 🟡 | Math / String | [Link](./Math/Medium/Integer_to_Roman.js) |
 | **Divide Two Integers** | 🟡 | Math / Bit Manipulation | [Link](./Math/Medium/Divide_Two_Integers.js) |
+| **Angle Between Hands of a Clock** | 🟡 | Math / Geometry | [Link](./Math/Medium/Angle_Between_Hands_of_a_Clock.js) |
 | **Multiply Strings** | 🟡 | Math / String | [Link](./Math/Medium/Multiply_Strings.js) |
 | **Rotate Image** | 🟡 | Math / Matrix | [Link](./Math/Medium/Rotate_Image.js) |
 | **Pow(x, n)** | 🟡 | Math / Binary Exponentiation | [Link](./Math/Medium/Pow_x_n.js) |
