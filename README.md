@@ -151,6 +151,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 124 | Weighted Word Mapping         | LeetCode | ✅ Done |
 | 125 | Maximum Twin Sum of a Linked List | LeetCode | ✅ Done |
 | 126 | Delete the Middle Node of a Linked List | LeetCode | ✅ Done |
+| 127 | Find the Highest Altitude | LeetCode | ✅ Done |
 
 
 
