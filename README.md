@@ -599,6 +599,7 @@ A curated list of problems that significantly improved my understanding.
 | **Number of Ways to Assign Edge Weights I** | 🟡 | Math / BFS / Combinatorics | [Link](./Math/Medium/Number_of_Ways_to_Assign_Edge_Weights_I.js) |
 | **Super Palindromes** |     🔴     | Math / Palindrome       | [Link](./Math/Hard/Super_Palindromes.js) |
 | **Fancy Sequence** |     🔴     | Math / Modular Arithmetic / Design | [Link](./Math/Hard/Fancy_Sequence.js) |
+| **Maximum Building Height** |     🔴     | Math / Greedy / Constraints | [Link](./Math/Hard/Maximum_Building_Height.js) |
 
 ### Linked List
 
