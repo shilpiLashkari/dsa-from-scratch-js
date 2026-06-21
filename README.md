@@ -200,6 +200,7 @@ My development environment matches modern industry standards:
 ### Recent additions
 - Implemented `String/Hard/Process_String_with_Special_Operations_II.js`
 - Implemented `String/Medium/Process_String_with_Special_Operations_I.js` (String - Medium)
+- Implemented `Array/Medium/Maximum_Ice_Cream_Bars.js` (Array - Medium)
 
 <br>
 
