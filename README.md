@@ -152,6 +152,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 125 | Maximum Twin Sum of a Linked List | LeetCode | ✅ Done |
 | 126 | Delete the Middle Node of a Linked List | LeetCode | ✅ Done |
 | 127 | Find the Highest Altitude | LeetCode | ✅ Done |
+| 128 | Maximum Number of Balloons | LeetCode | ✅ Done |
 
 
 
