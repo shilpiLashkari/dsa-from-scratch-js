@@ -12,7 +12,7 @@ const BASE_POW = [
   BASE % MOD,
   (BASE * BASE) % MOD,
   (((BASE * BASE) % MOD) * BASE) % MOD,
-  ((((BASE * BASE) % MOD) * BASE) % MOD * BASE) % MOD,
+  (((((BASE * BASE) % MOD) * BASE) % MOD) * BASE) % MOD,
 ];
 
 function mulMod(a, b) {
@@ -31,10 +31,10 @@ function mulMod(a, b) {
   const c4 = a2 * b2;
 
   let result = c0 % MOD;
-  result = (result + (c1 * BASE_POW[1]) % MOD) % MOD;
-  result = (result + (c2 * BASE_POW[2]) % MOD) % MOD;
-  result = (result + (c3 * BASE_POW[3]) % MOD) % MOD;
-  result = (result + (c4 * BASE_POW[4]) % MOD) % MOD;
+  result = (result + ((c1 * BASE_POW[1]) % MOD)) % MOD;
+  result = (result + ((c2 * BASE_POW[2]) % MOD)) % MOD;
+  result = (result + ((c3 * BASE_POW[3]) % MOD)) % MOD;
+  result = (result + ((c4 * BASE_POW[4]) % MOD)) % MOD;
 
   return result;
 }
@@ -92,52 +92,71 @@ function multiplyMatrices(a, b) {
  * @return {number}
  */
 var numberOfZigzagArrays = function (n, l, r) {
-   const MOD = 1000000007n;
-    const k = r - l + 1;
-    if (k <= 0) return 0;
+  const MOD = 1000000007n;
 
-    // Initialize matrix m
-    let m: bigint[][] = Array.from({ length: k }, (_, i) =>
-        Array.from({ length: k }, (_, j) => (i + j + 1 < k ? 1n : 0n))
-    );
+  const m = r - l + 1;
+  const sz = 2 * m;
 
-    // Initialize result vector
-    let res: bigint[] = Array(k).fill(1n);
-    n -= 1;
+  const multiply = (A, B) => {
+    const C = Array.from({ length: sz }, () => Array(sz).fill(0n));
 
-    function matMul(a: bigint[][], b: bigint[][]): bigint[][] {
-        const sz = a.length;
-        const c: bigint[][] = Array.from({ length: sz }, () => Array(sz).fill(0n));
-        for (let i = 0; i < sz; i++) {
-            for (let k = 0; k < sz; k++) {
-                if (a[i][k] === 0n) continue;
-                for (let j = 0; j < sz; j++) {
-                    c[i][j] = (c[i][j] + a[i][k] * b[k][j]) % MOD;
-                }
-            }
-        }
-        return c;
-    }
+    for (let i = 0; i < sz; i++) {
+      for (let k = 0; k < sz; k++) {
+        if (A[i][k] === 0n) continue;
 
-    function vecMatMul(v: bigint[], mat: bigint[][]): bigint[] {
-        const sz = v.length;
-        const res: bigint[] = Array(sz).fill(0n);
+        const cur = A[i][k];
+
         for (let j = 0; j < sz; j++) {
-            for (let i = 0; i < sz; i++) {
-                res[j] = (res[j] + v[i] * mat[i][j]) % MOD;
-            }
+          if (B[k][j] === 0n) continue;
+
+          C[i][j] = (C[i][j] + cur * B[k][j]) % MOD;
         }
-        return res;
+      }
     }
 
-    while (n > 0) {
-        if (n & 1) res = vecMatMul(res, m);
-        m = matMul(m, m);
-        n >>= 1;
+    return C;
+  };
+
+  let T = Array.from({ length: sz }, () => Array(sz).fill(0n));
+
+  for (let x = 0; x < m; x++) {
+    for (let y = x + 1; y < m; y++) {
+      T[x][m + y] = 1n;
     }
 
-    const total = res.reduce((a, b) => (a + b) % MOD, 0n);
-    return Number((total * 2n) % MOD);
+    for (let y = 0; y < x; y++) {
+      T[m + x][y] = 1n;
+    }
+  }
+
+  let result = Array.from({ length: sz }, (_, i) =>
+    Array.from({ length: sz }, (_, j) => (i === j ? 1n : 0n)),
+  );
+
+  let power = BigInt(n - 1);
+
+  while (power > 0n) {
+    if (power & 1n) {
+      result = multiply(result, T);
+    }
+
+    T = multiply(T, T);
+    power >>= 1n;
+  }
+
+  let answer = 0n;
+
+  for (let i = 0; i < sz; i++) {
+    let rowSum = 0n;
+
+    for (let j = 0; j < sz; j++) {
+      rowSum = (rowSum + result[i][j]) % MOD;
+    }
+
+    answer = (answer + rowSum) % MOD;
+  }
+
+  return Number(answer);
 };
 
 // Notes:
