@@ -444,6 +444,7 @@ A curated list of problems that significantly improved my understanding.
 | **Scramble String** | 🔴 | DP / Recursion | [Link](./Dynamic%20Programming/Hard/Scramble_String.js) |
 | **Number of Digit One** | 🔴 | Digit DP / Math | [Link](./Dynamic%20Programming/Hard/Number_of_Digit_One.js) |
 | **Number of ZigZag Arrays I** | 🔴 | DP / Prefix Sum | [Link](./Dynamic%20Programming/Hard/Number_of_ZigZag_Arrays_I.js) |
+| **Number of ZigZag Arrays II** | 🔴 | DP / Matrix Exponentiation | [Link](./Dynamic%20Programming/Hard/Number_of_ZigZag_Arrays_II.js) |
 | **Longest Valid Parentheses** | 🔴 | DP | [Link](./Dynamic%20Programming/Hard/Longest_Valid_Parentheses.js) |
 | **Wildcard Matching** | 🔴 | DP | [Link](./Dynamic%20Programming/Hard/Wildcard_Matching.js) |
 | **Cat and Mouse** | 🔴 | Game Theory / DP| [Link](./Dynamic%20Programming/Hard/Cat_and_Mouse.js) |
