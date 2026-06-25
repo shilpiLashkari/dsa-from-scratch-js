@@ -338,6 +338,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Count Submatrices With Equal Frequency of X and Y
 - [x] Minimum Absolute Difference in Sliding Submatrix
 - [x] Construct Product Matrix
+- [x] Count Subarrays With Majority Element I
 - [x] Walking Robot Simulation
 - [x] XOR After Range Multiplication Queries I
 - [x] Minimum Distance Between Three Equal Elements II

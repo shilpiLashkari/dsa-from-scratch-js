@@ -327,6 +327,7 @@ A curated list of problems that significantly improved my understanding.
 | **Count Submatrices With Equal Frequency of X and Y** | 🟡 | Array / 2D Prefix Sum | [Link](./Array/Medium/Count_Submatrices_With_Equal_Frequency_of_X_and_Y.js) |
 | **Minimum Absolute Difference in Sliding Submatrix** | 🟡 | Array / Sliding Window / Sorting | [Link](./Array/Medium/Minimum_Absolute_Difference_in%20_Sliding_Submatrix.js) |
 | **Construct Product Matrix** | 🟡 | Array / Prefix Sums | [Link](./Array/Medium/Construct_Product_Matrix.js) |
+| **Count Subarrays With Majority Element I** | 🟡 | Array / Fenwick Tree / Prefix Sum | [Link](./Array/Medium/Count_Subarrays_With_Majority_Element_I.js) |
 | **Equal Sum Grid Partition I** | 🟡 | Array / Interval Merging | [Link](./Array/Medium/Equal_Sum_Grid_Partition_I.js) |
 | **Walking Robot Simulation** | 🟡 | Array / Simulation | [Link](./Array/Medium/Walking_Robot_Simulation.js) |
 | **XOR After Range Multiplication Queries I** | 🟡 | Array / Simulation / BigInt | [Link](./Array/Medium/XOR_After_Range_Multiplication_Queries_I.js) |
