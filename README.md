@@ -155,7 +155,8 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 127 | Find the Highest Altitude                                                           | LeetCode | ✅ Done |
 | 128 | Maximum Number of Balloons                                                          | LeetCode | ✅ Done |
 | 129 | Find the Safest Path in a Grid                                                      | LeetCode | ✅ Done |
-| 130 | Find a Safe Walk Through a Grid                                                    | LeetCode | ✅ Done |
+| 130 | Find a Safe Walk Through a Grid                                                     | LeetCode | ✅ Done |
+| 131 | Network Recovery Pathways                                                           | Internal | ✅ Done |
 
 ---
 
