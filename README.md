@@ -156,7 +156,8 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 128 | Maximum Number of Balloons                                                          | LeetCode | ✅ Done |
 | 129 | Find the Safest Path in a Grid                                                      | LeetCode | ✅ Done |
 | 130 | Find a Safe Walk Through a Grid                                                     | LeetCode | ✅ Done |
-| 131 | Network Recovery Pathways                                                           | Internal | ✅ Done |
+| 132 | Minimum Score of a Path Between Two Cities                                          | LeetCode | ✅ Done |
+| 133 | Network Recovery Pathways                                                           | Internal | ✅ Done |
 
 ---
 
@@ -204,6 +205,7 @@ My development environment matches modern industry standards:
 
 - Implemented `Array/Medium/Find_the_Safest_Path_in_a_Grid.js` (Array - Medium)
 - Implemented `Array/Medium/Find_a_Safe_Walk_Through_a_Grid.js` (Array - Medium)
+- Implemented `Graphy Theory/Medium/Minimum_Score_of_a_Path_Between_Two_Cities.js` (Graph - Medium)
 - Implemented `String/Hard/Process_String_with_Special_Operations_II.js`
 - Implemented `String/Medium/Process_String_with_Special_Operations_I.js` (String - Medium)
 - Implemented `Array/Medium/Maximum_Ice_Cream_Bars.js` (Array - Medium)
