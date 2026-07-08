@@ -158,6 +158,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 130 | Find a Safe Walk Through a Grid                                                     | LeetCode | ✅ Done |
 | 132 | Minimum Score of a Path Between Two Cities                                          | LeetCode | ✅ Done |
 | 133 | Network Recovery Pathways                                                           | Internal | ✅ Done |
+| 134 | Concatenate Non-Zero Digits and Multiply by Sum II                                  | LeetCode | ✅ Done |
 
 ---
 
@@ -209,6 +210,7 @@ My development environment matches modern industry standards:
 - Implemented `String/Hard/Process_String_with_Special_Operations_II.js`
 - Implemented `String/Medium/Process_String_with_Special_Operations_I.js` (String - Medium)
 - Implemented `Array/Medium/Maximum_Ice_Cream_Bars.js` (Array - Medium)
+- Implemented `Math/Medium/Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_II.js` (Math - Medium)
 
 <br>
 
