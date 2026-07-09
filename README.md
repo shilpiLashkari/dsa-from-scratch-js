@@ -157,8 +157,9 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 129 | Find the Safest Path in a Grid                                                      | LeetCode | ✅ Done |
 | 130 | Find a Safe Walk Through a Grid                                                     | LeetCode | ✅ Done |
 | 132 | Minimum Score of a Path Between Two Cities                                          | LeetCode | ✅ Done |
-| 133 | Network Recovery Pathways                                                           | Internal | ✅ Done |
-| 134 | Concatenate Non-Zero Digits and Multiply by Sum II                                  | LeetCode | ✅ Done |
+| 133 | Path Existence Queries in a Graph I                                                | LeetCode | ✅ Done |
+| 134 | Network Recovery Pathways                                                           | Internal | ✅ Done |
+| 135 | Concatenate Non-Zero Digits and Multiply by Sum II                                  | LeetCode | ✅ Done |
 
 ---
 
@@ -211,6 +212,7 @@ My development environment matches modern industry standards:
 - Implemented `String/Medium/Process_String_with_Special_Operations_I.js` (String - Medium)
 - Implemented `Array/Medium/Maximum_Ice_Cream_Bars.js` (Array - Medium)
 - Implemented `Math/Medium/Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_II.js` (Math - Medium)
+- Implemented `Graphy Theory/Medium/Path_Existence_Queries_in_a_Graph_I.js` (Graph - Medium)
 
 <br>
 
