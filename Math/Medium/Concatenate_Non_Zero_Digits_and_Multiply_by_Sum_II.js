@@ -15,25 +15,25 @@
  * Space Complexity: O(d)
  */
 function concatenateNonZeroDigitsAndMultiplyBySumII(num) {
-    const value = String(num);
-    let concatenatedDigits = "";
-    let digitSum = 0n;
+  const value = String(num);
+  let concatenatedDigits = "";
+  let digitSum = 0n;
 
-    for (const ch of value) {
-        if (ch === "-") continue;
+  for (const ch of value) {
+    if (ch === "-") continue;
 
-        const digit = BigInt(ch);
-        if (digit !== 0n) {
-            concatenatedDigits += ch;
-        }
-        digitSum += digit;
+    const digit = BigInt(ch);
+    if (digit !== 0n) {
+      concatenatedDigits += ch;
     }
+    digitSum += digit;
+  }
 
-    if (concatenatedDigits === "") {
-        return 0n;
-    }
+  if (concatenatedDigits === "") {
+    return 0n;
+  }
 
-    return BigInt(concatenatedDigits) * digitSum;
+  return BigInt(concatenatedDigits) * digitSum;
 }
 
 // Example usage

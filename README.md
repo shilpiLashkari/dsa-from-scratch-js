@@ -157,7 +157,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 129 | Find the Safest Path in a Grid                                                      | LeetCode | ✅ Done |
 | 130 | Find a Safe Walk Through a Grid                                                     | LeetCode | ✅ Done |
 | 132 | Minimum Score of a Path Between Two Cities                                          | LeetCode | ✅ Done |
-| 133 | Path Existence Queries in a Graph I                                                | LeetCode | ✅ Done |
+| 133 | Path Existence Queries in a Graph I                                                 | LeetCode | ✅ Done |
 | 134 | Network Recovery Pathways                                                           | Internal | ✅ Done |
 | 135 | Concatenate Non-Zero Digits and Multiply by Sum II                                  | LeetCode | ✅ Done |
 
