@@ -610,6 +610,7 @@ A curated list of problems that significantly improved my understanding.
 | **Super Palindromes**                                                |     🔴     | Math / Palindrome                  |                         [Link](./Math/Hard/Super_Palindromes.js)                          |
 | **Fancy Sequence**                                                   |     🔴     | Math / Modular Arithmetic / Design |                           [Link](./Math/Hard/Fancy_Sequence.js)                           |
 | **Maximum Building Height**                                          |     🔴     | Math / Greedy / Constraints        |                      [Link](./Math/Hard/Maximum_Building_Height.js)                       |
+| **GCD of Odd and Even Sums**                                         |     🔴     | Math /Constraints                  |                      [Link](./Math/Easy/GCD_of_Odd_and_Even_Sums.js)                      |
 
 ### Linked List
 
