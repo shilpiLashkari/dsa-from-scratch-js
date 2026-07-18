@@ -1,59 +1,56 @@
-// Problem: Find Greatest Common Divisor of Array
-// Given an integer array nums, return the greatest common divisor of the smallest number and largest number in nums.
-// The greatest common divisor of two numbers is the largest positive integer that evenly divides both numbers.
-
-// Example 1:
-// Input: nums = [2,5,6,9,10]
-// Output: 2
-// Explanation:
-// The smallest number in nums is 2.
-// The largest number in nums is 10.
-// The greatest common divisor of 2 and 10 is 2.
-
-// Example 2:
-// Input: nums = [7,5,6,8,3]
-// Output: 1
-// Explanation:
-// The smallest number in nums is 3.
-// The largest number in nums is 8.
-// The greatest common divisor of 3 and 8 is 1.
-
-// Example 3:
-// Input: nums = [3,3]
-// Output: 3
-// Explanation:
-// The smallest number in nums is 3.
-// The largest number in nums is 3.
-// The greatest common divisor of 3 and 3 is 3.
-
-// Constraints:
-// 2 <= nums.length <= 1000
-// 1 <= nums[i] <= 1000
+/**
+ * LeetCode 1979: Find Greatest Common Divisor of Array
+ *
+ * Given an integer array nums, return the greatest common divisor (GCD) of
+ * its smallest and largest values.
+ *
+ * Strategy:
+ * 1. Find the minimum and maximum values in one pass through the array.
+ * 2. Apply the Euclidean algorithm to those two values. Repeatedly replace
+ *    (a, b) with (b, a % b) until b becomes zero; a is then the GCD.
+ *
+ * Time Complexity: O(n + log(minValue))
+ * Space Complexity: O(1)
+ */
 
 /**
  * @param {number[]} nums
  * @return {number}
  */
-var findGCD = function(nums) {
-    let min = Infinity;
-    let max = -Infinity;
-    
-    for (let num of nums) {
-        if (num < min) min = num;
-        if (num > max) max = num;
-    }
-    
-    return gcd(min, max);
+var findGCD = function (nums) {
+  let minValue = nums[0];
+  let maxValue = nums[0];
+
+  for (const number of nums) {
+    minValue = Math.min(minValue, number);
+    maxValue = Math.max(maxValue, number);
+  }
+
+  while (minValue !== 0) {
+    const remainder = maxValue % minValue;
+    maxValue = minValue;
+    minValue = remainder;
+  }
+
+  return maxValue;
 };
 
-function gcd(a, b) {
-    return b === 0 ? a : gcd(b, a % b);
-}
+if (require.main === module) {
+  const testCases = [
+    { nums: [2, 5, 6, 9, 10], expected: 2 },
+    { nums: [7, 5, 6, 8, 3], expected: 1 },
+    { nums: [3, 3], expected: 3 },
+    { nums: [6, 12, 18, 24], expected: 6 },
+  ];
 
-// Notes:
-// - We first find the minimum and maximum elements in the array in a single O(N) pass.
-// - Then we compute the Greatest Common Divisor using the Euclidean algorithm.
-// - Time Complexity: O(N + log(min(a, b)))
-// - Space Complexity: O(1)
+  testCases.forEach(({ nums, expected }, index) => {
+    const actual = findGCD(nums);
+    console.assert(
+      actual === expected,
+      `Test ${index + 1} failed: expected ${expected}, received ${actual}`,
+    );
+    console.log(`Test ${index + 1}: PASSED`);
+  });
+}
 
 module.exports = { findGCD };

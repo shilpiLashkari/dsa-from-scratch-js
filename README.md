@@ -163,6 +163,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 136 | Concatenate Non-Zero Digits and Multiply by Sum II                                  | LeetCode | ✅ Done |
 | 137 | Minimum Score of a Path Between Two Cities                                          | LeetCode | ✅ Done |
 | 138 | Sequential Digits                                                                   | LeetCode | ✅ Done |
+| 139 | Find Greatest Common Divisor of Array                                               | LeetCode | ✅ Done |
 
 ---
 
