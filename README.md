@@ -164,6 +164,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 137 | Minimum Score of a Path Between Two Cities                                          | LeetCode | ✅ Done |
 | 138 | Sequential Digits                                                                   | LeetCode | ✅ Done |
 | 139 | Find Greatest Common Divisor of Array                                               | LeetCode | ✅ Done |
+| 140 | Shift 2D Grid                                                                       | LeetCode | ✅ Done |
 
 ---
 
@@ -305,6 +306,7 @@ A curated list of problems that significantly improved my understanding.
 | **Flip Square Submatrix Vertically**                              |     🟢     | Array / Two Pointers                   |                 [Link](./Array/Easy/Flip_Square_Submatrix_Vertically.js)                 |
 | **Determine Whether Matrix Can Be Obtained By Rotation**          |     🟢     | Array / Matrix Simulation              |       [Link](./Array/Easy/Determine_Whether_Matrix_Can_Be_Obtained_By_Rotation.js)       |
 | **Matrix Similarity After Cyclic Shifts**                         |     🟢     | Array / Cyclic Shifts                  |              [Link](./Array/Easy/Matrix_Similarity_After_Cyclic_Shifts.js)               |
+| **Shift 2D Grid**                                                  |     🟢     | Array / Matrix Simulation              |                         [Link](./Array/Easy/Shift_2D_Grid.js)                            |
 | **Flatten Nested Array**                                          |     🟡     | Recursion                              |                  [Link](./Array/Medium/Flatten_Deeply_Nested_Array.js)                   |
 | **Group By**                                                      |     🟡     | Prototype / Hash Map                   |                            [Link](./Array/Medium/Group_By.js)                            |
 | **Container With Most Water**                                     |     🟡     | Two Pointers / Greedy                  |                   [Link](./Array/Medium/Container_With_Most_Water.js)                    |

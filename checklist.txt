@@ -42,6 +42,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Find the Safest Path in a Grid
 - [x] Find a Safe Walk Through a Grid
 - [x] Maximum Ice Cream Bars
+- [x] Shift 2D Grid
 
 
 ## 🟢 Strings
@@ -320,6 +321,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Flip Square Submatrix Vertically
 - [x] Determine Whether Matrix Can Be Obtained By Rotation
 - [x] Matrix Similarity After Cyclic Shifts
+- [x] Shift 2D Grid
 - [x] Minimum Distance Between Three Equal Elements I
 - [x] Minimum Distance to the Target Element
 - [x] Shortest Distance to Target String in a Circular Array
