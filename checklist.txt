@@ -60,6 +60,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Longest Common Prefix
 - [x] Count the Number of Special Characters I
 - [x] Count the Number of Special Characters II
+- [x] Maximize Active Section with Trade I
 
 ## 🟢 Binary Search
 - [ ] Binary Search
@@ -408,6 +409,9 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Maximize the Distance Between Points on a Square
 - [x] Minimum Initial Energy to Finish Tasks
 - [x] Jump Game IV
+
+## 🔤 String — Medium
+- [x] Maximize Active Section with Trade I
 
 ## 🧭 Graph Theory / Union-Find — Medium
 - [x] Minimum Score of a Path Between Two Cities

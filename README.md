@@ -165,6 +165,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 138 | Sequential Digits                                                                   | LeetCode | ✅ Done |
 | 139 | Find Greatest Common Divisor of Array                                               | LeetCode | ✅ Done |
 | 140 | Shift 2D Grid                                                                       | LeetCode | ✅ Done |
+| 141 | Maximize Active Section with Trade I                                                | LeetCode | ✅ Done |
 
 ---
 
@@ -370,6 +371,7 @@ A curated list of problems that significantly improved my understanding.
 | **Reverse Words in a String**                                     |     🟡     | String / Two Pointers                  |                   [Link](./String/Medium/Reverse_Words_in_a_String.js)                   |
 | **Longest Palindromic Substring**                                 |     🟡     | String / DP                            |                 [Link](./String/Medium/Longest_Palindromic_Substring.js)                 |
 | **Count the Number of Special Characters II**                     |     🟡     | String / Maps                          |           [Link](./String/Medium/Count_the_Number_of_Special_Characters_II.js)           |
+| **Maximize Active Section with Trade I**                           |     🟡     | String / Greedy / Run Lengths          |          [Link](./String/Medium/Maximize_Active_Section_with_Trade_I.js)                  |
 | **Find Minimum in Rotated Sorted Array**                          |     🟡     | Binary Search                          |              [Link](./Array/Medium/Find_Minimum_in_Rotated_Sorted_Array.js)              |
 | **Search in Rotated Sorted Array**                                |     🟡     | Binary Search                          |                 [Link](./Array/Medium/Search_in_Rotated_Sorted_Array.js)                 |
 | **Jump Game III**                                                 |     🟡     | BFS / DFS                              |                         [Link](./Array/Medium/Jump_Game_III.js)                          |
