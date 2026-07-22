@@ -166,6 +166,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 139 | Find Greatest Common Divisor of Array                                               | LeetCode | ✅ Done |
 | 140 | Shift 2D Grid                                                                       | LeetCode | ✅ Done |
 | 141 | Maximize Active Section with Trade I                                                | LeetCode | ✅ Done |
+| 142 | Maximize Active Section with Trade II                                               | LeetCode | ✅ Done |
 
 ---
 
@@ -321,6 +322,7 @@ A curated list of problems that significantly improved my understanding.
 | **Largest Rectangle in Histogram**                                |     🔴     | Monotonic Stack                        |                  [Link](./Array/Hard/Largest_Rectangle_In_Histogram.js)                  |
 | **Text Justification**                                            |     🔴     | String / Greedy                        |                        [Link](./Array/Hard/Text_Justification.js)                        |
 | **Lexicographically Smallest Generated String**                   |     🔴     | String / Greedy / Sorting              |           [Link](./String/Hard/Lexicographically_Smallest_Generated_String.js)           |
+| **Maximize Active Section with Trade II**                         |     🔴     | String / Segment Tree / Binary Search  |           [Link](./String/Hard/Maximize_Active_Section_with_Trade_II.js)                  |
 | **Maximal Rectangle**                                             |     🔴     | Histogram / Monotonic Stack            |                        [Link](./Array/Hard/Maximal_Rectangle.js)                         |
 | **Perfect Rectangle**                                             |     🔴     | Geometry / Arrays                      |                        [Link](./Array/Hard/Perfect_Rectangle.js)                         |
 | **Reverse Pairs**                                                 |     🔴     | Array / Merge Sort                     |                          [Link](./Array/Hard/Reverse_Pairs.js)                           |

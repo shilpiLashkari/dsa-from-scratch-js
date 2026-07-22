@@ -61,6 +61,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Count the Number of Special Characters I
 - [x] Count the Number of Special Characters II
 - [x] Maximize Active Section with Trade I
+- [x] Maximize Active Section with Trade II
 
 ## 🟢 Binary Search
 - [ ] Binary Search
@@ -412,6 +413,9 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 
 ## 🔤 String — Medium
 - [x] Maximize Active Section with Trade I
+
+## 🔤 String — Hard
+- [x] Maximize Active Section with Trade II
 
 ## 🧭 Graph Theory / Union-Find — Medium
 - [x] Minimum Score of a Path Between Two Cities
