@@ -102,6 +102,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Sequential Digits
 - [x] GCD of Odd and Even Sums
 - [x] Find Greatest Common Divisor of Array
+- [x] Number of Unique XOR Triplets I
 
 ## 🟢 Search in Rotated Array
 - [x] Find Minimum in Rotated Sorted Array
@@ -427,3 +428,4 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 ## 📐 Math — Medium
 - [x] Concatenate Non-Zero Digits and Multiply by Sum II
 - [x] Sequential Digits
+- [x] Number of Unique XOR Triplets I

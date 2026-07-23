@@ -167,6 +167,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 140 | Shift 2D Grid                                                                       | LeetCode | ✅ Done |
 | 141 | Maximize Active Section with Trade I                                                | LeetCode | ✅ Done |
 | 142 | Maximize Active Section with Trade II                                               | LeetCode | ✅ Done |
+| 143 | Number of Unique XOR Triplets I                                                     | LeetCode | ✅ Done |
 
 ---
 
@@ -614,6 +615,7 @@ A curated list of problems that significantly improved my understanding.
 | **Count Collisions of Monkeys on a Polygon**                         |     🟡     | Math / Logic                       |                   [Link](./Math/Medium/Count_Collisions_of_Monkeys.js)                    |
 | **Number of Ways to Assign Edge Weights I**                          |     🟡     | Math / BFS / Combinatorics         |             [Link](./Math/Medium/Number_of_Ways_to_Assign_Edge_Weights_I.js)              |
 | **Sequential Digits**                                                |     🟡     | Math / Sliding Window              |                        [Link](./Math/Medium/Sequential_Digits.js)                         |
+| **Number of Unique XOR Triplets I**                                  |     🟡     | Math / Bit Manipulation            |                 [Link](./Math/Medium/Number_of_Unique_XOR_Triplets_I.js)                  |
 | **Super Palindromes**                                                |     🔴     | Math / Palindrome                  |                         [Link](./Math/Hard/Super_Palindromes.js)                          |
 | **Fancy Sequence**                                                   |     🔴     | Math / Modular Arithmetic / Design |                           [Link](./Math/Hard/Fancy_Sequence.js)                           |
 | **Maximum Building Height**                                          |     🔴     | Math / Greedy / Constraints        |                      [Link](./Math/Hard/Maximum_Building_Height.js)                       |
