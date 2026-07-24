@@ -103,6 +103,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] GCD of Odd and Even Sums
 - [x] Find Greatest Common Divisor of Array
 - [x] Number of Unique XOR Triplets I
+- [x] Number of Unique XOR Triplets II
 
 ## 🟢 Search in Rotated Array
 - [x] Find Minimum in Rotated Sorted Array
@@ -354,6 +355,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Count Subarrays With Majority Element I
 - [x] Walking Robot Simulation
 - [x] XOR After Range Multiplication Queries I
+- [x] Number of Unique XOR Triplets II
 - [x] Minimum Distance Between Three Equal Elements II
 - [x] Closest Equal Element Queries
 - [x] Minimum Absolute Distance Between Mirror Pairs

@@ -168,6 +168,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 141 | Maximize Active Section with Trade I                                                | LeetCode | ✅ Done |
 | 142 | Maximize Active Section with Trade II                                               | LeetCode | ✅ Done |
 | 143 | Number of Unique XOR Triplets I                                                     | LeetCode | ✅ Done |
+| 144 | Number of Unique XOR Triplets II                                                    | LeetCode | ✅ Done |
 
 ---
 
@@ -352,6 +353,7 @@ A curated list of problems that significantly improved my understanding.
 | **Equal Sum Grid Partition I**                                    |     🟡     | Array / Interval Merging               |                   [Link](./Array/Medium/Equal_Sum_Grid_Partition_I.js)                   |
 | **Walking Robot Simulation**                                      |     🟡     | Array / Simulation                     |                    [Link](./Array/Medium/Walking_Robot_Simulation.js)                    |
 | **XOR After Range Multiplication Queries I**                      |     🟡     | Array / Simulation / BigInt            |            [Link](./Array/Medium/XOR_After_Range_Multiplication_Queries_I.js)            |
+| **Number of Unique XOR Triplets II**                              |     🟡     | Array / Bit Manipulation / Enumeration |              [Link](./Array/Medium/Number_of_Unique_XOR_Triplets_II.js)                  |
 | **Minimum Distance Between Three Equal Elements II**              |     🟡     | Array / Map / Memory Optimization      |        [Link](./Array/Medium/Minimum_Distance_Between_Three_Equal_Elements_II.js)        |
 | **Closest Equal Element Queries**                                 |     🟡     | Array / Binary Search / Hash Map       |                 [Link](./Array/Medium/Closest_Equal_Element_Queries.js)                  |
 | **Minimum Absolute Distance Between Mirror Pairs**                |     🟡     | Array / Hash Map                       |         [Link](./Array/Medium/Minimum_Absolute_Distance_Between_Mirror_Pairs.js)         |
