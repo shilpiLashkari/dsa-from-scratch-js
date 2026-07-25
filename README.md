@@ -169,6 +169,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 142 | Maximize Active Section with Trade II                                               | LeetCode | ✅ Done |
 | 143 | Number of Unique XOR Triplets I                                                     | LeetCode | ✅ Done |
 | 144 | Number of Unique XOR Triplets II                                                    | LeetCode | ✅ Done |
+| 145 | Maximum Product of Two Digits                                                       | LeetCode | ✅ Done |
 
 ---
 
@@ -521,6 +522,7 @@ A curated list of problems that significantly improved my understanding.
 | **Perfect Number**                                                   |     🟢     | Math / Divisors                    |                           [Link](./Math/Easy/Perfect_Number.js)                           |
 | **Range Addition II**                                                |     🟢     | Math / Matrix                      |                         [Link](./Math/Easy/Range_Addition_II.js)                          |
 | **Maximum Product of Three Numbers**                                 |     🟢     | Math / Sorting                     |                  [Link](./Math/Easy/Maximum_Product_of_Three_Numbers.js)                  |
+| **Maximum Product of Two Digits**                                    |     🟢     | Math / Digit Extraction            |                    [Link](./Math/Easy/Maximum_Product_of_Two_Digits.js)                    |
 | **Self Dividing Numbers**                                            |     🟢     | Math / Digit Extraction            |                       [Link](./Math/Easy/Self_Dividing_Numbers.js)                        |
 | **Prime Number of Set Bits in Binary Representation**                |     🟢     | Math / Bit Manipulation            |         [Link](./Math/Easy/Prime_Number_of_Set_Bits_in_Binary_Representation.js)          |
 | **Largest Triangle Area**                                            |     🟢     | Math / Geometry                    |                       [Link](./Math/Easy/Largest_Triangle_Area.js)                        |

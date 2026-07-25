@@ -104,6 +104,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Find Greatest Common Divisor of Array
 - [x] Number of Unique XOR Triplets I
 - [x] Number of Unique XOR Triplets II
+- [x] Maximum Product of Two Digits
 
 ## 🟢 Search in Rotated Array
 - [x] Find Minimum in Rotated Sorted Array
