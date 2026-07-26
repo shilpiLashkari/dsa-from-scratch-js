@@ -45,10 +45,23 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Shift 2D Grid
 - [x] Pascal's Triangle
 - [x] Pascal's Triangle II
+- [x] Find All Numbers Disappeared in an Array
+- [x] Assign Cookies
+- [x] Island Perimeter
+- [x] Teemo Attacking
+- [x] Next Greater Element I
+- [x] Relative Ranks
 
 
 ## 🟢 Strings
 - [x] Valid Palindrome
+- [x] Number of Segments in a String
+- [x] Repeated Substring Pattern
+- [x] License Key Formatting
+- [x] Keyboard Row
+- [x] Detect Capital
+- [x] Longest Uncommon Subsequence I
+- [x] Reverse String II
 - [x] Reverse String
 - [x] Reverse Integer
 - [x] Roman to Integer
@@ -109,6 +122,8 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Number of Unique XOR Triplets I
 - [x] Number of Unique XOR Triplets II
 - [x] Maximum Product of Two Digits
+- [x] Hamming Distance
+- [x] Number Complement
 
 ## 🟢 Search in Rotated Array
 - [x] Find Minimum in Rotated Sorted Array
@@ -153,8 +168,8 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Balanced Binary Tree
 - [x] Minimum Depth of Binary Tree
 - [x] Path Sum
+- [x] Diameter of Binary Tree
 - [ ] Invert Binary Tree
-- [ ] Diameter of Binary Tree
 - [ ] Subtree of Another Tree
 
 ## 🟢 Trees (Construction & Variants – FAANG)
@@ -164,6 +179,8 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [ ] Recover Binary Search Tree
 
 ## 🟢 Binary Search Tree
+- [x] Find Mode in Binary Search Tree
+- [x] Minimum Absolute Difference in BST
 - [ ] Lowest Common Ancestor of a BST
 - [ ] Validate Binary Search Tree
 - [ ] Kth Smallest Element in a BST
@@ -352,12 +369,25 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Search Insert Position
 - [x] Pascal's Triangle
 - [x] Pascal's Triangle II
+- [x] Find All Numbers Disappeared in an Array
+- [x] Assign Cookies
+- [x] Island Perimeter
+- [x] Teemo Attacking
+- [x] Next Greater Element I
+- [x] Relative Ranks
 
 ## 🔤 String — Easy
 - [x] Valid Parentheses
 - [x] Find the Index of the First Occurrence in a String
 - [x] Length of Last Word
 - [x] Valid Palindrome
+- [x] Number of Segments in a String
+- [x] Repeated Substring Pattern
+- [x] License Key Formatting
+- [x] Keyboard Row
+- [x] Detect Capital
+- [x] Longest Uncommon Subsequence I
+- [x] Reverse String II
 
 ## 🔗 Linked List — Easy
 - [x] Merge Two Sorted Lists
@@ -372,6 +402,13 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Balanced Binary Tree
 - [x] Minimum Depth of Binary Tree
 - [x] Path Sum
+- [x] Find Mode in Binary Search Tree
+- [x] Minimum Absolute Difference in BST
+- [x] Diameter of Binary Tree
+
+## 📐 Math — Easy
+- [x] Hamming Distance
+- [x] Number Complement
 
 ## 🧮 Array — Medium
 - [x] Equal Sum Grid Partition I

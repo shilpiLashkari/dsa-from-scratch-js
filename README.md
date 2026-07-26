@@ -187,6 +187,24 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 160 | Pascal's Triangle                                                                   | LeetCode | ✅ Done |
 | 161 | Pascal's Triangle II                                                                | LeetCode | ✅ Done |
 | 162 | Valid Palindrome                                                                    | LeetCode | ✅ Done |
+| 163 | Number of Segments in a String                                                      | LeetCode | ✅ Done |
+| 164 | Find All Numbers Disappeared in an Array                                            | LeetCode | ✅ Done |
+| 165 | Assign Cookies                                                                      | LeetCode | ✅ Done |
+| 166 | Repeated Substring Pattern                                                         | LeetCode | ✅ Done |
+| 167 | Hamming Distance                                                                    | LeetCode | ✅ Done |
+| 168 | Island Perimeter                                                                    | LeetCode | ✅ Done |
+| 169 | Number Complement                                                                   | LeetCode | ✅ Done |
+| 170 | License Key Formatting                                                             | LeetCode | ✅ Done |
+| 171 | Teemo Attacking                                                                     | LeetCode | ✅ Done |
+| 172 | Next Greater Element I                                                              | LeetCode | ✅ Done |
+| 173 | Keyboard Row                                                                        | LeetCode | ✅ Done |
+| 174 | Find Mode in Binary Search Tree                                                     | LeetCode | ✅ Done |
+| 175 | Relative Ranks                                                                      | LeetCode | ✅ Done |
+| 176 | Detect Capital                                                                      | LeetCode | ✅ Done |
+| 177 | Longest Uncommon Subsequence I                                                      | LeetCode | ✅ Done |
+| 178 | Minimum Absolute Difference in BST                                                  | LeetCode | ✅ Done |
+| 179 | Reverse String II                                                                   | LeetCode | ✅ Done |
+| 180 | Diameter of Binary Tree                                                             | LeetCode | ✅ Done |
 
 ---
 
@@ -336,6 +354,19 @@ A curated list of problems that significantly improved my understanding.
 | **Pascal's Triangle**                                             |     🟢     | Array / Dynamic Programming            |                       [Link](./Array/Easy/Pascals_Triangle.js)                           |
 | **Pascal's Triangle II**                                          |     🟢     | Array / In-Place DP                    |                      [Link](./Array/Easy/Pascals_Triangle_II.js)                         |
 | **Valid Palindrome**                                              |     🟢     | String / Two Pointers                  |                      [Link](./String/Easy/Valid_Palindrome.js)                           |
+| **Number of Segments in a String**                               |     🟢     | String / Linear Scan                   |               [Link](./String/Easy/Number_of_Segments_in_a_String.js)                   |
+| **Find All Numbers Disappeared in an Array**                     |     🟢     | Array / In-Place Marking               |        [Link](./Array/Easy/Find_All_Numbers_Disappeared_in_an_Array.js)                  |
+| **Assign Cookies**                                               |     🟢     | Array / Greedy / Sorting               |                        [Link](./Array/Easy/Assign_Cookies.js)                            |
+| **Repeated Substring Pattern**                                   |     🟢     | String / KMP                           |                 [Link](./String/Easy/Repeated_Substring_Pattern.js)                     |
+| **Island Perimeter**                                             |     🟢     | Array / Matrix                         |                       [Link](./Array/Easy/Island_Perimeter.js)                           |
+| **License Key Formatting**                                       |     🟢     | String / Simulation                    |                  [Link](./String/Easy/License_Key_Formatting.js)                        |
+| **Teemo Attacking**                                              |     🟢     | Array / Intervals                      |                        [Link](./Array/Easy/Teemo_Attacking.js)                           |
+| **Next Greater Element I**                                       |     🟢     | Array / Monotonic Stack                |                  [Link](./Array/Easy/Next_Greater_Element_I.js)                         |
+| **Keyboard Row**                                                 |     🟢     | String / Hash Map                      |                         [Link](./String/Easy/Keyboard_Row.js)                            |
+| **Relative Ranks**                                               |     🟢     | Array / Sorting                        |                        [Link](./Array/Easy/Relative_Ranks.js)                            |
+| **Detect Capital**                                               |     🟢     | String / Case Analysis                 |                         [Link](./String/Easy/Detect_Capital.js)                          |
+| **Longest Uncommon Subsequence I**                               |     🟢     | String / Logic                         |              [Link](./String/Easy/Longest_Uncommon_Subsequence_I.js)                    |
+| **Reverse String II**                                            |     🟢     | String / Two Pointers                  |                       [Link](./String/Easy/Reverse_String_II.js)                         |
 | **Flatten Nested Array**                                          |     🟡     | Recursion                              |                  [Link](./Array/Medium/Flatten_Deeply_Nested_Array.js)                   |
 | **Group By**                                                      |     🟡     | Prototype / Hash Map                   |                            [Link](./Array/Medium/Group_By.js)                            |
 | **Container With Most Water**                                     |     🟡     | Two Pointers / Greedy                  |                   [Link](./Array/Medium/Container_With_Most_Water.js)                    |
@@ -547,6 +578,8 @@ A curated list of problems that significantly improved my understanding.
 | **Range Addition II**                                                |     🟢     | Math / Matrix                      |                         [Link](./Math/Easy/Range_Addition_II.js)                          |
 | **Maximum Product of Three Numbers**                                 |     🟢     | Math / Sorting                     |                  [Link](./Math/Easy/Maximum_Product_of_Three_Numbers.js)                  |
 | **Maximum Product of Two Digits**                                    |     🟢     | Math / Digit Extraction            |                    [Link](./Math/Easy/Maximum_Product_of_Two_Digits.js)                    |
+| **Hamming Distance**                                                  |     🟢     | Math / Bit Manipulation            |                         [Link](./Math/Easy/Hamming_Distance.js)                            |
+| **Number Complement**                                                 |     🟢     | Math / Bit Manipulation            |                         [Link](./Math/Easy/Number_Complement.js)                           |
 | **Self Dividing Numbers**                                            |     🟢     | Math / Digit Extraction            |                       [Link](./Math/Easy/Self_Dividing_Numbers.js)                        |
 | **Prime Number of Set Bits in Binary Representation**                |     🟢     | Math / Bit Manipulation            |         [Link](./Math/Easy/Prime_Number_of_Set_Bits_in_Binary_Representation.js)          |
 | **Largest Triangle Area**                                            |     🟢     | Math / Geometry                    |                       [Link](./Math/Easy/Largest_Triangle_Area.js)                        |
@@ -674,6 +707,9 @@ A curated list of problems that significantly improved my understanding.
 | **Balanced Binary Tree**                 |     🟢     | Tree / Postorder DFS | [Link](./Recursion/Easy/Balanced_Binary_Tree.js)                   |
 | **Minimum Depth of Binary Tree**         |     🟢     | Tree / Recursion     | [Link](./Recursion/Easy/Minimum_Depth_of_Binary_Tree.js)           |
 | **Path Sum**                             |     🟢     | Tree / DFS           | [Link](./Recursion/Easy/Path_Sum.js)                               |
+| **Find Mode in Binary Search Tree**      |     🟢     | BST / Inorder DFS    | [Link](./Recursion/Easy/Find_Mode_in_Binary_Search_Tree.js)        |
+| **Minimum Absolute Difference in BST**   |     🟢     | BST / Inorder DFS    | [Link](./Recursion/Easy/Minimum_Absolute_Difference_in_BST.js)     |
+| **Diameter of Binary Tree**              |     🟢     | Tree / Postorder DFS | [Link](./Recursion/Easy/Diameter_of_Binary_Tree.js)                |
 | **All Possible Full Binary Trees**       |     🟡     | Recursion / Trees    |    [Link](./Recursion/Medium/All_Possible_Full_Binary_Trees.js)    |
 | **K-th Symbol in Grammar**               |     🟡     | Recursion / Logic    |        [Link](./Recursion/Medium/Kth_Symbol_in_Grammar.js)         |
 | **Find Kth Bit in Nth Binary String**    |     🟡     | Recursion / Logic    |  [Link](./Recursion/Medium/Find_Kth_Bit_in_Nth_Binary_String.js)   |
