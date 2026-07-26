@@ -258,6 +258,24 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 231 | Closest Binary Search Tree Value II                                                | LeetCode | ✅ Done |
 | 232 | Integer to English Words                                                           | LeetCode | ✅ Done |
 | 233 | Expression Add Operators                                                          | LeetCode | ✅ Done |
+| 234 | Swim in Rising Water                                                               | LeetCode | ✅ Done |
+| 235 | Reaching Points                                                                    | LeetCode | ✅ Done |
+| 236 | Transform to Chessboard                                                            | LeetCode | ✅ Done |
+| 237 | Preimage Size of Factorial Zeroes Function                                         | LeetCode | ✅ Done |
+| 238 | Smallest Rotation with Highest Score                                               | LeetCode | ✅ Done |
+| 239 | Minimum Swaps To Make Sequences Increasing                                         | LeetCode | ✅ Done |
+| 240 | Bricks Falling When Hit                                                            | LeetCode | ✅ Done |
+| 241 | Split Array With Same Average                                                      | LeetCode | ✅ Done |
+| 242 | Chalkboard XOR Game                                                                | LeetCode | ✅ Done |
+| 243 | Bus Routes                                                                         | LeetCode | ✅ Done |
+| 244 | Race Car                                                                           | LeetCode | ✅ Done |
+| 245 | Making A Large Island                                                              | LeetCode | ✅ Done |
+| 246 | Count Unique Characters of All Substrings of a Given String                       | LeetCode | ✅ Done |
+| 247 | Consecutive Numbers Sum                                                            | LeetCode | ✅ Done |
+| 248 | Sum of Distances in Tree                                                           | LeetCode | ✅ Done |
+| 249 | Similar String Groups                                                              | LeetCode | ✅ Done |
+| 250 | Guess the Word                                                                     | LeetCode | ✅ Done |
+| 251 | Shortest Path Visiting All Nodes                                                   | LeetCode | ✅ Done |
 
 ---
 
@@ -514,10 +532,13 @@ A curated list of problems that significantly improved my understanding.
 | **Block Placement Queries**                                       |     🔴     | Segment Tree / Fenwick Tree            |                     [Link](./Array/Hard/Block_Placement_Queries.js)                      |
 | **Maximum Total Subarray Value II**                               |     🔴     | Array / Heap / Sparse Table            |                 [Link](./Array/Hard/Maximum_Total_Subarray_Value_II.js)                  |
 | **The Skyline Problem**                                           |     🔴     | Heap / Sweep Line                      |                    [Link](./Array/Hard/The_Skyline_Problem.js)                          |
+| **Transform to Chessboard**                                       |     🔴     | Matrix / Parity                        |                    [Link](./Array/Hard/Transform_to_Chessboard.js)                      |
+| **Smallest Rotation with Highest Score**                          |     🔴     | Difference Array                       |             [Link](./Array/Hard/Smallest_Rotation_with_Highest_Score.js)                |
 | **Minimum Window Substring**                                      |     🔴     | String / Sliding Window                |                 [Link](./String/Hard/Minimum_Window_Substring.js)                       |
 | **Read N Characters Given read4 II - Call Multiple Times**       |     🔴     | String / Design / Buffer               |          [Link](./String/Hard/Read_N_Characters_Given_read4_II.js)                      |
 | **Shortest Palindrome**                                           |     🔴     | String / KMP                           |                    [Link](./String/Hard/Shortest_Palindrome.js)                         |
 | **Integer to English Words**                                      |     🔴     | String / Recursion                     |                 [Link](./String/Hard/Integer_to_English_Words.js)                       |
+| **Count Unique Characters of All Substrings of a Given String**  |     🔴     | String / Contribution Counting        | [Link](./String/Hard/Count_Unique_Characters_of_All_Substrings_of_a_Given_String.js)    |
 
 ### Asynchronous Programming
 
@@ -620,6 +641,9 @@ A curated list of problems that significantly improved my understanding.
 | **Palindrome Partitioning II**                       |     🔴     | Palindrome DP              |             [Link](./Dynamic_Programming/Hard/Palindrome_Partitioning_II.js)               |
 | **Best Time to Buy and Sell Stock IV**                |     🔴     | State Machine DP           |       [Link](./Dynamic_Programming/Hard/Best_Time_to_Buy_and_Sell_Stock_IV.js)              |
 | **Paint House II**                                    |     🔴     | Optimized DP               |                  [Link](./Dynamic_Programming/Hard/Paint_House_II.js)                       |
+| **Minimum Swaps To Make Sequences Increasing**        |     🔴     | State Machine DP           | [Link](./Dynamic_Programming/Hard/Minimum_Swaps_To_Make_Sequences_Increasing.js)             |
+| **Split Array With Same Average**                     |     🔴     | Subset Sum DP              |          [Link](./Dynamic_Programming/Hard/Split_Array_With_Same_Average.js)                 |
+| **Race Car**                                          |     🔴     | Memoized DP                |                       [Link](./Dynamic_Programming/Hard/Race_Car.js)                         |
 | **Minimum Distance to Type a Word Using Two Fingers** |     🔴     | DP                         | [Link](./Dynamic%20Programming/Hard/Minimum_Distance_to_Type_a_Word_Using_Two_Fingers.js) |
 | **Minimum Total Distance Traveled**                   |     🔴     | DP / Sorting               |          [Link](./Dynamic%20Programming/Hard/Minimum_Total_Distance_Traveled.js)          |
 | **Total Waviness of Numbers in Range II**             |     🔴     | Digit DP                   |       [Link](./Dynamic%20Programming/Hard/Total_Waviness_of_Numbers_in_Range_II.js)       |
@@ -639,6 +663,14 @@ A curated list of problems that significantly improved my understanding.
 | **Word Ladder II**                                  |     🔴     | BFS / Backtracking                | [Link](./Graphy%20Theory/Hard/Word_Ladder_II.js)                                |
 | **Word Ladder**                                     |     🔴     | BFS                               | [Link](./Graphy%20Theory/Hard/Word_Ladder.js)                                   |
 | **Alien Dictionary**                                |     🔴     | Topological Sort                  | [Link](./Graphy%20Theory/Hard/Alien_Dictionary.js)                              |
+| **Swim in Rising Water**                            |     🔴     | Dijkstra / Min Heap               | [Link](./Graphy%20Theory/Hard/Swim_in_Rising_Water.js)                          |
+| **Bricks Falling When Hit**                         |     🔴     | Reverse Union-Find                | [Link](./Graphy%20Theory/Hard/Bricks_Falling_When_Hit.js)                       |
+| **Bus Routes**                                      |     🔴     | BFS                               | [Link](./Graphy%20Theory/Hard/Bus_Routes.js)                                    |
+| **Making A Large Island**                           |     🔴     | DFS / Component Labeling          | [Link](./Graphy%20Theory/Hard/Making_A_Large_Island.js)                         |
+| **Sum of Distances in Tree**                        |     🔴     | Tree DP / Rerooting               | [Link](./Graphy%20Theory/Hard/Sum_of_Distances_in_Tree.js)                      |
+| **Similar String Groups**                           |     🔴     | Union-Find                        | [Link](./Graphy%20Theory/Hard/Similar_String_Groups.js)                         |
+| **Guess the Word**                                  |     🔴     | Minimax / Interactive             | [Link](./Graphy%20Theory/Hard/Guess_the_Word.js)                                |
+| **Shortest Path Visiting All Nodes**                |     🔴     | Multi-Source BFS / Bitmask        | [Link](./Graphy%20Theory/Hard/Shortest_Path_Visiting_All_Nodes.js)              |
 
 ### Math
 
@@ -774,6 +806,10 @@ A curated list of problems that significantly improved my understanding.
 | **Fancy Sequence**                                                   |     🔴     | Math / Modular Arithmetic / Design |                           [Link](./Math/Hard/Fancy_Sequence.js)                           |
 | **Maximum Building Height**                                          |     🔴     | Math / Greedy / Constraints        |                      [Link](./Math/Hard/Maximum_Building_Height.js)                       |
 | **Basic Calculator**                                                 |     🔴     | Math / Stack                       |                         [Link](./Math/Hard/Basic_Calculator.js)                           |
+| **Reaching Points**                                                   |     🔴     | Math / Reverse Euclidean Algorithm |                         [Link](./Math/Hard/Reaching_Points.js)                            |
+| **Preimage Size of Factorial Zeroes Function**                        |     🔴     | Math / Binary Search               |           [Link](./Math/Hard/Preimage_Size_of_Factorial_Zeroes_Function.js)              |
+| **Chalkboard XOR Game**                                               |     🔴     | Math / Game Theory                 |                       [Link](./Math/Hard/Chalkboard_XOR_Game.js)                          |
+| **Consecutive Numbers Sum**                                           |     🔴     | Math / Number Theory               |                    [Link](./Math/Hard/Consecutive_Numbers_Sum.js)                         |
 | **GCD of Odd and Even Sums**                                         |     🔴     | Math /Constraints                  |                      [Link](./Math/Easy/GCD_of_Odd_and_Even_Sums.js)                      |
 
 ### Linked List

@@ -580,17 +580,29 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Read N Characters Given read4 II - Call Multiple Times
 - [x] Shortest Palindrome
 - [x] Integer to English Words
+- [x] Count Unique Characters of All Substrings of a Given String
 
 ## 🧠 Dynamic Programming — Hard
 - [x] Distinct Subsequences
 - [x] Palindrome Partitioning II
 - [x] Best Time to Buy and Sell Stock IV
 - [x] Paint House II
+- [x] Minimum Swaps To Make Sequences Increasing
+- [x] Split Array With Same Average
+- [x] Race Car
 
 ## 🧭 Graph Theory — Hard
 - [x] Word Ladder II
 - [x] Word Ladder
 - [x] Alien Dictionary
+- [x] Swim in Rising Water
+- [x] Bricks Falling When Hit
+- [x] Bus Routes
+- [x] Making A Large Island
+- [x] Sum of Distances in Tree
+- [x] Similar String Groups
+- [x] Guess the Word
+- [x] Shortest Path Visiting All Nodes
 
 ## 🌳 Recursion / Tree — Hard
 - [x] Binary Tree Maximum Path Sum
@@ -598,6 +610,12 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 
 ## 🧮 Array — Hard
 - [x] The Skyline Problem
+- [x] Transform to Chessboard
+- [x] Smallest Rotation with Highest Score
 
 ## 📐 Math — Hard
 - [x] Basic Calculator
+- [x] Reaching Points
+- [x] Preimage Size of Factorial Zeroes Function
+- [x] Chalkboard XOR Game
+- [x] Consecutive Numbers Sum
