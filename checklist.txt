@@ -8,7 +8,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Best Time to Buy and Sell Stock
 - [ ] Valid Anagram
 - [ ] Running Sum of 1d Array
-- [ ] Maximum Subarray
+- [x] Maximum Subarray
 - [x] Fibonacci Number
 - [x] Max Consecutive Ones
 - [x] Move Zeroes
@@ -20,7 +20,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [ ] Intersection of Two Arrays II
 - [ ] Set Matrix Zeroes
 - [x] Rotate Image
-- [ ] Spiral Matrix
+- [x] Spiral Matrix
 - [ ] Longest Consecutive Sequence
 - [x] Apply Transform Over Each Element in Array
 - [x] Array Prototype Last
@@ -51,6 +51,12 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Teemo Attacking
 - [x] Next Greater Element I
 - [x] Relative Ranks
+- [x] 3Sum
+- [x] 3Sum Closest
+- [x] 4Sum
+- [x] Next Permutation
+- [x] Valid Sudoku
+- [x] Spiral Matrix II
 
 
 ## 🟢 Strings
@@ -83,6 +89,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [ ] Binary Search
 - [ ] First Bad Version
 - [x] Search Insert Position
+- [x] Find First and Last Position of Element in Sorted Array
 
 ## 🟢 Two Pointers / Array Manipulation
 - [x] Merge Sorted Array
@@ -94,7 +101,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [ ] Reverse Linked List
 - [x] Merge Two Sorted Lists
 - [x] Remove Duplicates from Sorted List
-- [ ] Remove Nth Node From End of List
+- [x] Remove Nth Node From End of List
 
 ## 🟢 Linked List (Advanced – FAANG)
 - [ ] Copy List with Random Pointer
@@ -227,9 +234,11 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 ## 🟢 Backtracking
 - [x] Word Search
 - [x] Word Search II
-- [ ] Combination Sum
+- [x] Combination Sum
+- [x] Combination Sum II
 - [ ] Subsets
-- [ ] Permutations
+- [x] Permutations
+- [x] Permutations II
 - [x] N-Queens
 - [x] Sudoku Solver
 
@@ -271,11 +280,11 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Jump Game IX
 - [x] Jump Game VII
 - [x] Jump Game IV
-- [ ] Jump Game
+- [x] Jump Game
 
 ## 🟢 Greedy
-- [ ] Jump Game
-- [ ] Jump Game II
+- [x] Jump Game
+- [x] Jump Game II
 - [ ] Gas Station
 - [ ] Hand of Straights
 - [ ] Task Scheduler
@@ -287,8 +296,8 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 ## 🟢 Intervals
 - [ ] Meeting Rooms
 - [ ] Meeting Rooms II
-- [ ] Merge Intervals
-- [ ] Insert Interval
+- [x] Merge Intervals
+- [x] Insert Interval
 
 ## 🟢 Stack (Advanced)
 - [x] Trapping Rain Water
@@ -410,7 +419,29 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Hamming Distance
 - [x] Number Complement
 
+## 🔗 Linked List — Medium
+- [x] Remove Nth Node From End of List
+
+## 🧩 Backtracking — Medium
+- [x] Combination Sum
+- [x] Combination Sum II
+- [x] Permutations
+- [x] Permutations II
+
 ## 🧮 Array — Medium
+- [x] 3Sum
+- [x] 3Sum Closest
+- [x] 4Sum
+- [x] Next Permutation
+- [x] Find First and Last Position of Element in Sorted Array
+- [x] Valid Sudoku
+- [x] Jump Game II
+- [x] Maximum Subarray
+- [x] Spiral Matrix
+- [x] Jump Game
+- [x] Merge Intervals
+- [x] Insert Interval
+- [x] Spiral Matrix II
 - [x] Equal Sum Grid Partition I
 - [x] Check if Strings Can be Made Equal With Operations II
 - [x] Decode the Slanted Ciphertext

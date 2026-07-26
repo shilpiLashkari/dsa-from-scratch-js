@@ -205,6 +205,24 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 178 | Minimum Absolute Difference in BST                                                  | LeetCode | ✅ Done |
 | 179 | Reverse String II                                                                   | LeetCode | ✅ Done |
 | 180 | Diameter of Binary Tree                                                             | LeetCode | ✅ Done |
+| 181 | 3Sum                                                                                | LeetCode | ✅ Done |
+| 182 | 3Sum Closest                                                                        | LeetCode | ✅ Done |
+| 183 | 4Sum                                                                                | LeetCode | ✅ Done |
+| 184 | Remove Nth Node From End of List                                                    | LeetCode | ✅ Done |
+| 185 | Next Permutation                                                                    | LeetCode | ✅ Done |
+| 186 | Find First and Last Position of Element in Sorted Array                             | LeetCode | ✅ Done |
+| 187 | Valid Sudoku                                                                        | LeetCode | ✅ Done |
+| 188 | Combination Sum                                                                     | LeetCode | ✅ Done |
+| 189 | Combination Sum II                                                                  | LeetCode | ✅ Done |
+| 190 | Jump Game II                                                                        | LeetCode | ✅ Done |
+| 191 | Permutations                                                                        | LeetCode | ✅ Done |
+| 192 | Permutations II                                                                     | LeetCode | ✅ Done |
+| 193 | Maximum Subarray                                                                    | LeetCode | ✅ Done |
+| 194 | Spiral Matrix                                                                       | LeetCode | ✅ Done |
+| 195 | Jump Game                                                                           | LeetCode | ✅ Done |
+| 196 | Merge Intervals                                                                     | LeetCode | ✅ Done |
+| 197 | Insert Interval                                                                      | LeetCode | ✅ Done |
+| 198 | Spiral Matrix II                                                                    | LeetCode | ✅ Done |
 
 ---
 
@@ -367,6 +385,19 @@ A curated list of problems that significantly improved my understanding.
 | **Detect Capital**                                               |     🟢     | String / Case Analysis                 |                         [Link](./String/Easy/Detect_Capital.js)                          |
 | **Longest Uncommon Subsequence I**                               |     🟢     | String / Logic                         |              [Link](./String/Easy/Longest_Uncommon_Subsequence_I.js)                    |
 | **Reverse String II**                                            |     🟢     | String / Two Pointers                  |                       [Link](./String/Easy/Reverse_String_II.js)                         |
+| **3Sum**                                                         |     🟡     | Array / Two Pointers                   |                            [Link](./Array/Medium/3Sum.js)                                |
+| **3Sum Closest**                                                 |     🟡     | Array / Two Pointers                   |                       [Link](./Array/Medium/3Sum_Closest.js)                             |
+| **4Sum**                                                         |     🟡     | Array / Two Pointers                   |                            [Link](./Array/Medium/4Sum.js)                                |
+| **Next Permutation**                                             |     🟡     | Array / In-Place                       |                      [Link](./Array/Medium/Next_Permutation.js)                          |
+| **Find First and Last Position in Sorted Array**                 |     🟡     | Array / Binary Search                  | [Link](./Array/Medium/Find_First_and_Last_Position_of_Element_in_Sorted_Array.js)        |
+| **Valid Sudoku**                                                 |     🟡     | Array / Hash Set                       |                        [Link](./Array/Medium/Valid_Sudoku.js)                            |
+| **Jump Game II**                                                 |     🟡     | Array / Greedy                         |                        [Link](./Array/Medium/Jump_Game_II.js)                            |
+| **Maximum Subarray**                                             |     🟡     | Array / Kadane's Algorithm             |                      [Link](./Array/Medium/Maximum_Subarray.js)                          |
+| **Spiral Matrix**                                                |     🟡     | Array / Matrix Simulation              |                        [Link](./Array/Medium/Spiral_Matrix.js)                           |
+| **Jump Game**                                                    |     🟡     | Array / Greedy                         |                          [Link](./Array/Medium/Jump_Game.js)                             |
+| **Merge Intervals**                                              |     🟡     | Array / Sorting                        |                       [Link](./Array/Medium/Merge_Intervals.js)                          |
+| **Insert Interval**                                              |     🟡     | Array / Intervals                      |                       [Link](./Array/Medium/Insert_Interval.js)                          |
+| **Spiral Matrix II**                                             |     🟡     | Array / Matrix Simulation              |                       [Link](./Array/Medium/Spiral_Matrix_II.js)                         |
 | **Flatten Nested Array**                                          |     🟡     | Recursion                              |                  [Link](./Array/Medium/Flatten_Deeply_Nested_Array.js)                   |
 | **Group By**                                                      |     🟡     | Prototype / Hash Map                   |                            [Link](./Array/Medium/Group_By.js)                            |
 | **Container With Most Water**                                     |     🟡     | Two Pointers / Greedy                  |                   [Link](./Array/Medium/Container_With_Most_Water.js)                    |
@@ -494,6 +525,10 @@ A curated list of problems that significantly improved my understanding.
 | **Word Search**                           |     🟡     | Backtracking / DFS       |              [Link](./Backtracking/Medium/Word_Search.js)              |
 | **Restore IP Addresses**                  |     🟡     | Backtracking / Recursion |         [Link](./Backtracking/Medium/Restore_IP_Addresses.js)          |
 | **Palindrome Partitioning**               |     🟡     | Backtracking / Recursion |        [Link](./Backtracking/Medium/Palindrome_Partitioning.js)        |
+| **Combination Sum**                        |     🟡     | Backtracking / Reuse     |           [Link](./Backtracking/Medium/Combination_Sum.js)             |
+| **Combination Sum II**                     |     🟡     | Backtracking / Sorting   |          [Link](./Backtracking/Medium/Combination_Sum_II.js)           |
+| **Permutations**                           |     🟡     | Backtracking             |             [Link](./Backtracking/Medium/Permutations.js)              |
+| **Permutations II**                        |     🟡     | Backtracking / Dedup     |            [Link](./Backtracking/Medium/Permutations_II.js)            |
 
 ### Dynamic Programming
 
@@ -688,6 +723,7 @@ A curated list of problems that significantly improved my understanding.
 | :------------------------------------------ | :--------: | :------------------------- | :-----------------------------------------------------------------------: |
 | **Merge Two Sorted Lists**                  |     🟢     | Linked List / Merge        |       [Link](./Linked%20List/Easy/Merge_Two_Sorted_Lists.js)              |
 | **Remove Duplicates from Sorted List**      |     🟢     | Linked List / Two Pointers | [Link](./Linked%20List/Easy/Remove_Duplicates_From_Sorted_List.js)        |
+| **Remove Nth Node From End of List**        |     🟡     | Linked List / Two Pointers | [Link](./Linked%20List/Medium/Remove_Nth_Node_From_End_of_List.js)        |
 | **Swap Nodes in Pairs**                     |     🟡     | Linked List / Recursion    |            [Link](./Linked_List/Medium/Swap_Nodes_in_Pairs.js)            |
 | **Reorder List**                            |     🟡     | Linked List / Two Pointers |               [Link](./Linked_List/Medium/Reorder_List.js)                |
 | **Remove Nodes From Linked List**           |     🟡     | Linked List / Recursion    |       [Link](./Linked_List/Medium/Remove_Nodes_From_Linked_List.js)       |
