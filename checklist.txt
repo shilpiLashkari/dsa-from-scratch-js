@@ -43,10 +43,12 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Find a Safe Walk Through a Grid
 - [x] Maximum Ice Cream Bars
 - [x] Shift 2D Grid
+- [x] Pascal's Triangle
+- [x] Pascal's Triangle II
 
 
 ## 🟢 Strings
-- [ ] Valid Palindrome
+- [x] Valid Palindrome
 - [x] Reverse String
 - [x] Reverse Integer
 - [x] Roman to Integer
@@ -56,7 +58,8 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Robot Return to Origin
 - [x] Furthest Point From Origin
 - [x] Rotate String
-- [ ] Implement strStr()
+- [x] Find the Index of the First Occurrence in a String
+- [x] Length of Last Word
 - [x] Longest Common Prefix
 - [x] Count the Number of Special Characters I
 - [x] Count the Number of Special Characters II
@@ -66,7 +69,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 ## 🟢 Binary Search
 - [ ] Binary Search
 - [ ] First Bad Version
-- [ ] Search Insert Position
+- [x] Search Insert Position
 
 ## 🟢 Two Pointers / Array Manipulation
 - [x] Merge Sorted Array
@@ -76,7 +79,8 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 ## 🟢 Linked List (Basics)
 - [ ] Linked List Cycle
 - [ ] Reverse Linked List
-- [ ] Merge Two Sorted Lists
+- [x] Merge Two Sorted Lists
+- [x] Remove Duplicates from Sorted List
 - [ ] Remove Nth Node From End of List
 
 ## 🟢 Linked List (Advanced – FAANG)
@@ -85,7 +89,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [ ] Reverse Nodes in k-Group
 
 ## 🟢 Stack & Queue
-- [ ] Valid Parentheses
+- [x] Valid Parentheses
 - [ ] Min Stack
 - [ ] Implement Queue using Stacks
 
@@ -142,13 +146,19 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [ ] Min Cost Climbing Stairs
 
 ## 🟢 Trees (DFS Basics)
-- [ ] Same Tree
-- [ ] Maximum Depth of Binary Tree
+- [x] Binary Tree Inorder Traversal
+- [x] Same Tree
+- [x] Symmetric Tree
+- [x] Maximum Depth of Binary Tree
+- [x] Balanced Binary Tree
+- [x] Minimum Depth of Binary Tree
+- [x] Path Sum
 - [ ] Invert Binary Tree
 - [ ] Diameter of Binary Tree
 - [ ] Subtree of Another Tree
 
 ## 🟢 Trees (Construction & Variants – FAANG)
+- [x] Convert Sorted Array to Binary Search Tree
 - [ ] Construct Binary Tree from Preorder and Inorder Traversal
 - [ ] Binary Tree Zigzag Level Order Traversal
 - [ ] Recover Binary Search Tree
@@ -339,6 +349,29 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Count the Number of Special Characters I
 - [x] Count the Number of Special Characters II
 - [x] Minimum Element After Replacement With Digit Sum
+- [x] Search Insert Position
+- [x] Pascal's Triangle
+- [x] Pascal's Triangle II
+
+## 🔤 String — Easy
+- [x] Valid Parentheses
+- [x] Find the Index of the First Occurrence in a String
+- [x] Length of Last Word
+- [x] Valid Palindrome
+
+## 🔗 Linked List — Easy
+- [x] Merge Two Sorted Lists
+- [x] Remove Duplicates from Sorted List
+
+## 🌳 Recursion / Tree — Easy
+- [x] Binary Tree Inorder Traversal
+- [x] Same Tree
+- [x] Symmetric Tree
+- [x] Maximum Depth of Binary Tree
+- [x] Convert Sorted Array to Binary Search Tree
+- [x] Balanced Binary Tree
+- [x] Minimum Depth of Binary Tree
+- [x] Path Sum
 
 ## 🧮 Array — Medium
 - [x] Equal Sum Grid Partition I

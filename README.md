@@ -170,6 +170,23 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 143 | Number of Unique XOR Triplets I                                                     | LeetCode | ✅ Done |
 | 144 | Number of Unique XOR Triplets II                                                    | LeetCode | ✅ Done |
 | 145 | Maximum Product of Two Digits                                                       | LeetCode | ✅ Done |
+| 146 | Valid Parentheses                                                                   | LeetCode | ✅ Done |
+| 147 | Merge Two Sorted Lists                                                              | LeetCode | ✅ Done |
+| 148 | Find the Index of the First Occurrence in a String                                  | LeetCode | ✅ Done |
+| 149 | Search Insert Position                                                              | LeetCode | ✅ Done |
+| 150 | Length of Last Word                                                                 | LeetCode | ✅ Done |
+| 151 | Remove Duplicates from Sorted List                                                  | LeetCode | ✅ Done |
+| 152 | Binary Tree Inorder Traversal                                                       | LeetCode | ✅ Done |
+| 153 | Same Tree                                                                           | LeetCode | ✅ Done |
+| 154 | Symmetric Tree                                                                      | LeetCode | ✅ Done |
+| 155 | Maximum Depth of Binary Tree                                                        | LeetCode | ✅ Done |
+| 156 | Convert Sorted Array to Binary Search Tree                                          | LeetCode | ✅ Done |
+| 157 | Balanced Binary Tree                                                                | LeetCode | ✅ Done |
+| 158 | Minimum Depth of Binary Tree                                                        | LeetCode | ✅ Done |
+| 159 | Path Sum                                                                            | LeetCode | ✅ Done |
+| 160 | Pascal's Triangle                                                                   | LeetCode | ✅ Done |
+| 161 | Pascal's Triangle II                                                                | LeetCode | ✅ Done |
+| 162 | Valid Palindrome                                                                    | LeetCode | ✅ Done |
 
 ---
 
@@ -312,6 +329,13 @@ A curated list of problems that significantly improved my understanding.
 | **Determine Whether Matrix Can Be Obtained By Rotation**          |     🟢     | Array / Matrix Simulation              |       [Link](./Array/Easy/Determine_Whether_Matrix_Can_Be_Obtained_By_Rotation.js)       |
 | **Matrix Similarity After Cyclic Shifts**                         |     🟢     | Array / Cyclic Shifts                  |              [Link](./Array/Easy/Matrix_Similarity_After_Cyclic_Shifts.js)               |
 | **Shift 2D Grid**                                                  |     🟢     | Array / Matrix Simulation              |                         [Link](./Array/Easy/Shift_2D_Grid.js)                            |
+| **Valid Parentheses**                                             |     🟢     | String / Stack                         |                     [Link](./String/Easy/Valid_Parentheses.js)                           |
+| **Find the Index of the First Occurrence in a String**            |     🟢     | String / Pattern Matching              | [Link](./String/Easy/Find_the_Index_of_the_First_Occurrence_in_a_String.js)              |
+| **Search Insert Position**                                        |     🟢     | Array / Binary Search                  |                   [Link](./Array/Easy/Search_Insert_Position.js)                         |
+| **Length of Last Word**                                           |     🟢     | String / Reverse Scan                  |                    [Link](./String/Easy/Length_of_Last_Word.js)                          |
+| **Pascal's Triangle**                                             |     🟢     | Array / Dynamic Programming            |                       [Link](./Array/Easy/Pascals_Triangle.js)                           |
+| **Pascal's Triangle II**                                          |     🟢     | Array / In-Place DP                    |                      [Link](./Array/Easy/Pascals_Triangle_II.js)                         |
+| **Valid Palindrome**                                              |     🟢     | String / Two Pointers                  |                      [Link](./String/Easy/Valid_Palindrome.js)                           |
 | **Flatten Nested Array**                                          |     🟡     | Recursion                              |                  [Link](./Array/Medium/Flatten_Deeply_Nested_Array.js)                   |
 | **Group By**                                                      |     🟡     | Prototype / Hash Map                   |                            [Link](./Array/Medium/Group_By.js)                            |
 | **Container With Most Water**                                     |     🟡     | Two Pointers / Greedy                  |                   [Link](./Array/Medium/Container_With_Most_Water.js)                    |
@@ -629,6 +653,8 @@ A curated list of problems that significantly improved my understanding.
 
 | Problem                                     | Difficulty | Pattern/Concept            |                               Solution Link                               |
 | :------------------------------------------ | :--------: | :------------------------- | :-----------------------------------------------------------------------: |
+| **Merge Two Sorted Lists**                  |     🟢     | Linked List / Merge        |       [Link](./Linked%20List/Easy/Merge_Two_Sorted_Lists.js)              |
+| **Remove Duplicates from Sorted List**      |     🟢     | Linked List / Two Pointers | [Link](./Linked%20List/Easy/Remove_Duplicates_From_Sorted_List.js)        |
 | **Swap Nodes in Pairs**                     |     🟡     | Linked List / Recursion    |            [Link](./Linked_List/Medium/Swap_Nodes_in_Pairs.js)            |
 | **Reorder List**                            |     🟡     | Linked List / Two Pointers |               [Link](./Linked_List/Medium/Reorder_List.js)                |
 | **Remove Nodes From Linked List**           |     🟡     | Linked List / Recursion    |       [Link](./Linked_List/Medium/Remove_Nodes_From_Linked_List.js)       |
@@ -640,6 +666,14 @@ A curated list of problems that significantly improved my understanding.
 
 | Problem                                  | Difficulty | Pattern/Concept      |                           Solution Link                            |
 | :--------------------------------------- | :--------: | :------------------- | :----------------------------------------------------------------: |
+| **Binary Tree Inorder Traversal**        |     🟢     | Tree / Iterative DFS | [Link](./Recursion/Easy/Binary_Tree_Inorder_Traversal.js)          |
+| **Same Tree**                            |     🟢     | Tree / Recursion     | [Link](./Recursion/Easy/Same_Tree.js)                              |
+| **Symmetric Tree**                       |     🟢     | Tree / Mirror DFS    | [Link](./Recursion/Easy/Symmetric_Tree.js)                         |
+| **Maximum Depth of Binary Tree**         |     🟢     | Tree / Recursion     | [Link](./Recursion/Easy/Maximum_Depth_of_Binary_Tree.js)           |
+| **Convert Sorted Array to BST**          |     🟢     | Tree / Divide & Conquer | [Link](./Recursion/Easy/Convert_Sorted_Array_to_Binary_Search_Tree.js) |
+| **Balanced Binary Tree**                 |     🟢     | Tree / Postorder DFS | [Link](./Recursion/Easy/Balanced_Binary_Tree.js)                   |
+| **Minimum Depth of Binary Tree**         |     🟢     | Tree / Recursion     | [Link](./Recursion/Easy/Minimum_Depth_of_Binary_Tree.js)           |
+| **Path Sum**                             |     🟢     | Tree / DFS           | [Link](./Recursion/Easy/Path_Sum.js)                               |
 | **All Possible Full Binary Trees**       |     🟡     | Recursion / Trees    |    [Link](./Recursion/Medium/All_Possible_Full_Binary_Trees.js)    |
 | **K-th Symbol in Grammar**               |     🟡     | Recursion / Logic    |        [Link](./Recursion/Medium/Kth_Symbol_in_Grammar.js)         |
 | **Find Kth Bit in Nth Binary String**    |     🟡     | Recursion / Logic    |  [Link](./Recursion/Medium/Find_Kth_Bit_in_Nth_Binary_String.js)   |
