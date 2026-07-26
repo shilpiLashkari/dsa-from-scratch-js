@@ -112,8 +112,8 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 
 ## 🟢 Linked List (Advanced – FAANG)
 - [ ] Copy List with Random Pointer
-- [ ] Merge K Sorted Lists
-- [ ] Reverse Nodes in k-Group
+- [x] Merge K Sorted Lists
+- [x] Reverse Nodes in k-Group
 
 ## 🟢 Stack & Queue
 - [x] Valid Parentheses
@@ -157,7 +157,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 ## 🟢 Sliding Window (Advanced)
 - [ ] Longest Substring with At Most K Distinct Characters
 - [ ] Subarrays with K Different Integers
-- [ ] Minimum Window Substring
+- [x] Minimum Window Substring
 
 ## 🟢 Hashing / Frequency
 - [x] Group Anagrams
@@ -215,14 +215,14 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 ## 🟢 Graph (Topological Sort)
 - [ ] Course Schedule
 - [ ] Course Schedule II
-- [ ] Alien Dictionary
+- [x] Alien Dictionary
 
 ## 🟢 Graph (Multi-Source BFS)
 - [ ] Pacific Atlantic Water Flow
 - [ ] Rotting Oranges
 
 ## 🟢 Graph (Advanced – FAANG)
-- [ ] Word Ladder
+- [x] Word Ladder
 - [ ] Network Delay Time
 - [ ] Cheapest Flights Within K Stops
 - [ ] Reconstruct Itinerary
@@ -275,10 +275,10 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Interleaving String
 - [x] Burst Balloons
 - [x] Distinct Subsequences
-- [ ] Palindrome Partitioning II
+- [x] Palindrome Partitioning II
 - [ ] Maximum Subarray Sum Circular
 - [ ] Paint House
-- [ ] Paint House II
+- [x] Paint House II
 - [x] Best Time to Buy and Sell Stock III
 - [x] Dungeon Game
 - [x] Word Break II
@@ -334,7 +334,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Regular Expression Matching
 - [x] Wildcard Matching
 - [ ] Serialize and Deserialize Binary Tree
-- [ ] Binary Tree Maximum Path Sum
+- [x] Binary Tree Maximum Path Sum
 - [x] Reverse Pairs
 - [x] XOR After Range Multiplication Queries II
 - [x] Longest Common Suffix Queries
@@ -565,3 +565,39 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Concatenate Non-Zero Digits and Multiply by Sum II
 - [x] Sequential Digits
 - [x] Number of Unique XOR Triplets I
+
+## 🔗 Linked List — Hard
+- [x] Merge K Sorted Lists
+- [x] Reverse Nodes in k-Group
+
+## 🧩 Backtracking — Hard
+- [x] N-Queens II
+- [x] Strobogrammatic Number III
+- [x] Expression Add Operators
+
+## 🔤 String — Hard
+- [x] Minimum Window Substring
+- [x] Read N Characters Given read4 II - Call Multiple Times
+- [x] Shortest Palindrome
+- [x] Integer to English Words
+
+## 🧠 Dynamic Programming — Hard
+- [x] Distinct Subsequences
+- [x] Palindrome Partitioning II
+- [x] Best Time to Buy and Sell Stock IV
+- [x] Paint House II
+
+## 🧭 Graph Theory — Hard
+- [x] Word Ladder II
+- [x] Word Ladder
+- [x] Alien Dictionary
+
+## 🌳 Recursion / Tree — Hard
+- [x] Binary Tree Maximum Path Sum
+- [x] Closest Binary Search Tree Value II
+
+## 🧮 Array — Hard
+- [x] The Skyline Problem
+
+## 📐 Math — Hard
+- [x] Basic Calculator

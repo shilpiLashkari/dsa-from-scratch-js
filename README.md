@@ -239,6 +239,25 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 212 | Validate Binary Search Tree                                                         | LeetCode | ✅ Done |
 | 213 | Recover Binary Search Tree                                                          | LeetCode | ✅ Done |
 | 214 | Binary Tree Level Order Traversal                                                   | LeetCode | ✅ Done |
+| 215 | Merge K Sorted Lists                                                               | LeetCode | ✅ Done |
+| 216 | Reverse Nodes in k-Group                                                           | LeetCode | ✅ Done |
+| 217 | N-Queens II                                                                        | LeetCode | ✅ Done |
+| 218 | Minimum Window Substring                                                           | LeetCode | ✅ Done |
+| 219 | Binary Tree Maximum Path Sum                                                       | LeetCode | ✅ Done |
+| 220 | Word Ladder II                                                                     | LeetCode | ✅ Done |
+| 221 | Word Ladder                                                                        | LeetCode | ✅ Done |
+| 222 | Palindrome Partitioning II                                                         | LeetCode | ✅ Done |
+| 223 | Read N Characters Given read4 II - Call Multiple Times                            | LeetCode | ✅ Done |
+| 224 | Best Time to Buy and Sell Stock IV                                                 | LeetCode | ✅ Done |
+| 225 | Shortest Palindrome                                                                | LeetCode | ✅ Done |
+| 226 | The Skyline Problem                                                                | LeetCode | ✅ Done |
+| 227 | Basic Calculator                                                                   | LeetCode | ✅ Done |
+| 228 | Strobogrammatic Number III                                                         | LeetCode | ✅ Done |
+| 229 | Paint House II                                                                     | LeetCode | ✅ Done |
+| 230 | Alien Dictionary                                                                   | LeetCode | ✅ Done |
+| 231 | Closest Binary Search Tree Value II                                                | LeetCode | ✅ Done |
+| 232 | Integer to English Words                                                           | LeetCode | ✅ Done |
+| 233 | Expression Add Operators                                                          | LeetCode | ✅ Done |
 
 ---
 
@@ -494,6 +513,11 @@ A curated list of problems that significantly improved my understanding.
 | **Longest Common Suffix Queries**                                 |     🔴     | Suffix Trie / String                   |                  [Link](./Array/Hard/Longest_Common_Suffix_Queries.js)                   |
 | **Block Placement Queries**                                       |     🔴     | Segment Tree / Fenwick Tree            |                     [Link](./Array/Hard/Block_Placement_Queries.js)                      |
 | **Maximum Total Subarray Value II**                               |     🔴     | Array / Heap / Sparse Table            |                 [Link](./Array/Hard/Maximum_Total_Subarray_Value_II.js)                  |
+| **The Skyline Problem**                                           |     🔴     | Heap / Sweep Line                      |                    [Link](./Array/Hard/The_Skyline_Problem.js)                          |
+| **Minimum Window Substring**                                      |     🔴     | String / Sliding Window                |                 [Link](./String/Hard/Minimum_Window_Substring.js)                       |
+| **Read N Characters Given read4 II - Call Multiple Times**       |     🔴     | String / Design / Buffer               |          [Link](./String/Hard/Read_N_Characters_Given_read4_II.js)                      |
+| **Shortest Palindrome**                                           |     🔴     | String / KMP                           |                    [Link](./String/Hard/Shortest_Palindrome.js)                         |
+| **Integer to English Words**                                      |     🔴     | String / Recursion                     |                 [Link](./String/Hard/Integer_to_English_Words.js)                       |
 
 ### Asynchronous Programming
 
@@ -536,6 +560,9 @@ A curated list of problems that significantly improved my understanding.
 | :---------------- | :--------: | :-------------- | :------------------------------------------: |
 | **Sudoku Solver** |     🔴     | Backtracking    | [Link](./Backtracking/Hard/Sudoku_Solver.js) |
 | **N-Queens**      |     🔴     | Backtracking    |   [Link](./Backtracking/Hard/N_Queens.js)    |
+| **N-Queens II**   |     🔴     | Backtracking    | [Link](./Backtracking/Hard/N_Queens_II.js)   |
+| **Strobogrammatic Number III** | 🔴 | Backtracking / Generation | [Link](./Backtracking/Hard/Strobogrammatic_Number_III.js) |
+| **Expression Add Operators** | 🔴 | Backtracking / Expression | [Link](./Backtracking/Hard/Expression_Add_Operators.js) |
 
 ### Backtracking
 
@@ -589,7 +616,10 @@ A curated list of problems that significantly improved my understanding.
 | **Remove Boxes**                                      |     🔴     | DP                         |                   [Link](./Dynamic%20Programming/Hard/Remove_Boxes.js)                    |
 | **Decode Ways II**                                    |     🔴     | DP / BigInt                |                  [Link](./Dynamic%20Programming/Hard/Decode_Ways_II.js)                   |
 | **Burst Balloons**                                    |     🔴     | Range DP                   |                  [Link](./Dynamic%20Programming/Hard/Burst_Balloons.js)                   |
-| **Distinct Subsequences**                             |     🔴     | 2D DP                      |               [Link](./Dynamic%20Programming/Hard/Distinct_Subsequences.js)               |
+| **Distinct Subsequences**                             |     🔴     | 1D DP                      |               [Link](./Dynamic_Programming/Hard/Distinct_Subsequences.js)                  |
+| **Palindrome Partitioning II**                       |     🔴     | Palindrome DP              |             [Link](./Dynamic_Programming/Hard/Palindrome_Partitioning_II.js)               |
+| **Best Time to Buy and Sell Stock IV**                |     🔴     | State Machine DP           |       [Link](./Dynamic_Programming/Hard/Best_Time_to_Buy_and_Sell_Stock_IV.js)              |
+| **Paint House II**                                    |     🔴     | Optimized DP               |                  [Link](./Dynamic_Programming/Hard/Paint_House_II.js)                       |
 | **Minimum Distance to Type a Word Using Two Fingers** |     🔴     | DP                         | [Link](./Dynamic%20Programming/Hard/Minimum_Distance_to_Type_a_Word_Using_Two_Fingers.js) |
 | **Minimum Total Distance Traveled**                   |     🔴     | DP / Sorting               |          [Link](./Dynamic%20Programming/Hard/Minimum_Total_Distance_Traveled.js)          |
 | **Total Waviness of Numbers in Range II**             |     🔴     | Digit DP                   |       [Link](./Dynamic%20Programming/Hard/Total_Waviness_of_Numbers_in_Range_II.js)       |
@@ -606,6 +636,9 @@ A curated list of problems that significantly improved my understanding.
 | Problem                                            | Difficulty | Pattern/Concept                  |                                  Solution Link                                   |
 | :------------------------------------------------- | :--------: | :------------------------------- | :------------------------------------------------------------------------------: |
 | **Maximize Spanning Tree Stability with Upgrades** |     🔴     | Binary Search / DSU / Union-Find | [Link](./Graphy%20Theory/Hard/Maximize_Spanning_Tree_Stability_with_Upgrades.js) |
+| **Word Ladder II**                                  |     🔴     | BFS / Backtracking                | [Link](./Graphy%20Theory/Hard/Word_Ladder_II.js)                                |
+| **Word Ladder**                                     |     🔴     | BFS                               | [Link](./Graphy%20Theory/Hard/Word_Ladder.js)                                   |
+| **Alien Dictionary**                                |     🔴     | Topological Sort                  | [Link](./Graphy%20Theory/Hard/Alien_Dictionary.js)                              |
 
 ### Math
 
@@ -740,6 +773,7 @@ A curated list of problems that significantly improved my understanding.
 | **Super Palindromes**                                                |     🔴     | Math / Palindrome                  |                         [Link](./Math/Hard/Super_Palindromes.js)                          |
 | **Fancy Sequence**                                                   |     🔴     | Math / Modular Arithmetic / Design |                           [Link](./Math/Hard/Fancy_Sequence.js)                           |
 | **Maximum Building Height**                                          |     🔴     | Math / Greedy / Constraints        |                      [Link](./Math/Hard/Maximum_Building_Height.js)                       |
+| **Basic Calculator**                                                 |     🔴     | Math / Stack                       |                         [Link](./Math/Hard/Basic_Calculator.js)                           |
 | **GCD of Odd and Even Sums**                                         |     🔴     | Math /Constraints                  |                      [Link](./Math/Easy/GCD_of_Odd_and_Even_Sums.js)                      |
 
 ### Linked List
@@ -758,6 +792,8 @@ A curated list of problems that significantly improved my understanding.
 | **Rotate List**                             |     🟡     | Linked List / Two Pointers |               [Link](./Linked%20List/Medium/Rotate_List.js)               |
 | **Maximum Twin Sum of a Linked List**       |     🟡     | Linked List / Two Pointers |    [Link](./Linked%20List/Medium/Maximum_Twin_Sum_of_a_Linked_List.js)    |
 | **Delete the Middle Node of a Linked List** |     🟡     | Linked List / Two Pointers | [Link](./Linked%20List/Medium/Delete_the_Middle_Node_of_a_Linked_List.js) |
+| **Merge K Sorted Lists**                    |     🔴     | Linked List / Min Heap     | [Link](./Linked%20List/Hard/Merge_K_Sorted_Lists.js)                     |
+| **Reverse Nodes in k-Group**                |     🔴     | Linked List / In-Place     | [Link](./Linked%20List/Hard/Reverse_Nodes_in_k-Group.js)                 |
 
 ### Recursion
 
@@ -783,6 +819,8 @@ A curated list of problems that significantly improved my understanding.
 | **Find Kth Bit in Nth Binary String**    |     🟡     | Recursion / Logic    |  [Link](./Recursion/Medium/Find_Kth_Bit_in_Nth_Binary_String.js)   |
 | **Find the Winner of the Circular Game** |     🟡     | Recursion / Josephus | [Link](./Recursion/Medium/Find_the_Winner_of_the_Circular_Game.js) |
 | **Permutation Sequence**                 |     🔴     | Math / Recursion     |          [Link](./Recursion/Hard/Permutation_Sequence.js)          |
+| **Binary Tree Maximum Path Sum**         |     🔴     | Tree / Postorder DFS | [Link](./Recursion/Hard/Binary_Tree_Maximum_Path_Sum.js)            |
+| **Closest Binary Search Tree Value II**  |     🔴     | BST / Two Stacks     | [Link](./Recursion/Hard/Closest_Binary_Search_Tree_Value_II.js)     |
 
 ---
 
