@@ -223,6 +223,22 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 196 | Merge Intervals                                                                     | LeetCode | ✅ Done |
 | 197 | Insert Interval                                                                      | LeetCode | ✅ Done |
 | 198 | Spiral Matrix II                                                                    | LeetCode | ✅ Done |
+| 199 | Minimum Path Sum                                                                    | LeetCode | ✅ Done |
+| 200 | Set Matrix Zeroes                                                                   | LeetCode | ✅ Done |
+| 201 | Search a 2D Matrix                                                                  | LeetCode | ✅ Done |
+| 202 | Sort Colors                                                                         | LeetCode | ✅ Done |
+| 203 | Combinations                                                                        | LeetCode | ✅ Done |
+| 204 | Subsets                                                                             | LeetCode | ✅ Done |
+| 205 | Remove Duplicates from Sorted Array II                                              | LeetCode | ✅ Done |
+| 206 | Search in Rotated Sorted Array II                                                   | LeetCode | ✅ Done |
+| 207 | Remove Duplicates from Sorted List II                                               | LeetCode | ✅ Done |
+| 208 | Partition List                                                                      | LeetCode | ✅ Done |
+| 209 | Subsets II                                                                          | LeetCode | ✅ Done |
+| 210 | Reverse Linked List II                                                              | LeetCode | ✅ Done |
+| 211 | Unique Binary Search Trees II                                                       | LeetCode | ✅ Done |
+| 212 | Validate Binary Search Tree                                                         | LeetCode | ✅ Done |
+| 213 | Recover Binary Search Tree                                                          | LeetCode | ✅ Done |
+| 214 | Binary Tree Level Order Traversal                                                   | LeetCode | ✅ Done |
 
 ---
 
@@ -398,6 +414,11 @@ A curated list of problems that significantly improved my understanding.
 | **Merge Intervals**                                              |     🟡     | Array / Sorting                        |                       [Link](./Array/Medium/Merge_Intervals.js)                          |
 | **Insert Interval**                                              |     🟡     | Array / Intervals                      |                       [Link](./Array/Medium/Insert_Interval.js)                          |
 | **Spiral Matrix II**                                             |     🟡     | Array / Matrix Simulation              |                       [Link](./Array/Medium/Spiral_Matrix_II.js)                         |
+| **Set Matrix Zeroes**                                            |     🟡     | Array / In-Place Marking               |                      [Link](./Array/Medium/Set_Matrix_Zeroes.js)                         |
+| **Search a 2D Matrix**                                           |     🟡     | Array / Binary Search                  |                     [Link](./Array/Medium/Search_a_2D_Matrix.js)                        |
+| **Sort Colors**                                                  |     🟡     | Array / Dutch National Flag            |                         [Link](./Array/Medium/Sort_Colors.js)                            |
+| **Remove Duplicates from Sorted Array II**                       |     🟡     | Array / Two Pointers                   |       [Link](./Array/Medium/Remove_Duplicates_From_Sorted_Array_II.js)                  |
+| **Search in Rotated Sorted Array II**                            |     🟡     | Array / Binary Search                  |          [Link](./Array/Medium/Search_in_Rotated_Sorted_Array_II.js)                    |
 | **Flatten Nested Array**                                          |     🟡     | Recursion                              |                  [Link](./Array/Medium/Flatten_Deeply_Nested_Array.js)                   |
 | **Group By**                                                      |     🟡     | Prototype / Hash Map                   |                            [Link](./Array/Medium/Group_By.js)                            |
 | **Container With Most Water**                                     |     🟡     | Two Pointers / Greedy                  |                   [Link](./Array/Medium/Container_With_Most_Water.js)                    |
@@ -529,6 +550,9 @@ A curated list of problems that significantly improved my understanding.
 | **Combination Sum II**                     |     🟡     | Backtracking / Sorting   |          [Link](./Backtracking/Medium/Combination_Sum_II.js)           |
 | **Permutations**                           |     🟡     | Backtracking             |             [Link](./Backtracking/Medium/Permutations.js)              |
 | **Permutations II**                        |     🟡     | Backtracking / Dedup     |            [Link](./Backtracking/Medium/Permutations_II.js)            |
+| **Combinations**                           |     🟡     | Backtracking / Pruning   |             [Link](./Backtracking/Medium/Combinations.js)              |
+| **Subsets**                                |     🟡     | Backtracking             |                [Link](./Backtracking/Medium/Subsets.js)                |
+| **Subsets II**                             |     🟡     | Backtracking / Dedup     |               [Link](./Backtracking/Medium/Subsets_II.js)              |
 
 ### Dynamic Programming
 
@@ -673,7 +697,8 @@ A curated list of problems that significantly improved my understanding.
 | **Rotate Image**                                                     |     🟡     | Math / Matrix                      |                           [Link](./Math/Medium/Rotate_Image.js)                           |
 | **Pow(x, n)**                                                        |     🟡     | Math / Binary Exponentiation       |                             [Link](./Math/Medium/Pow_x_n.js)                              |
 | **Unique Paths**                                                     |     🟡     | Math / Combinatorics               |                           [Link](./Math/Medium/Unique_Paths.js)                           |
-| **Unique Paths II**                                                  |     🟡     | Dynamic Programming                |                 [Link](./Dynamic%20Programming/Medium/Unique_Paths_II.js)                 |
+| **Unique Paths II**                                                  |     🟡     | Dynamic Programming                |                 [Link](./Dynamic_Programming/Medium/Unique_Paths_II.js)                   |
+| **Minimum Path Sum**                                                 |     🟡     | Dynamic Programming                |              [Link](./Dynamic_Programming/Medium/Minimum_Path_Sum.js)                    |
 | **Gray Code**                                                        |     🟡     | Math / Bit Manipulation            |                            [Link](./Math/Medium/Gray_Code.js)                             |
 | **Unique Binary Search Trees**                                       |     🟡     | Math / Catalan/DP                  |                    [Link](./Math/Medium/Unique_Binary_Search_Trees.js)                    |
 | **Evaluate Reverse Polish Notation**                                 |     🟡     | Math / Stack                       |                 [Link](./Math/Medium/Evaluate_Reverse_Polish_Notation.js)                 |
@@ -724,6 +749,9 @@ A curated list of problems that significantly improved my understanding.
 | **Merge Two Sorted Lists**                  |     🟢     | Linked List / Merge        |       [Link](./Linked%20List/Easy/Merge_Two_Sorted_Lists.js)              |
 | **Remove Duplicates from Sorted List**      |     🟢     | Linked List / Two Pointers | [Link](./Linked%20List/Easy/Remove_Duplicates_From_Sorted_List.js)        |
 | **Remove Nth Node From End of List**        |     🟡     | Linked List / Two Pointers | [Link](./Linked%20List/Medium/Remove_Nth_Node_From_End_of_List.js)        |
+| **Remove Duplicates from Sorted List II**   |     🟡     | Linked List / Two Pointers | [Link](./Linked%20List/Medium/Remove_Duplicates_From_Sorted_List_II.js)   |
+| **Partition List**                          |     🟡     | Linked List / Partitioning | [Link](./Linked%20List/Medium/Partition_List.js)                          |
+| **Reverse Linked List II**                  |     🟡     | Linked List / In-Place     | [Link](./Linked%20List/Medium/Reverse_Linked_List_II.js)                  |
 | **Swap Nodes in Pairs**                     |     🟡     | Linked List / Recursion    |            [Link](./Linked_List/Medium/Swap_Nodes_in_Pairs.js)            |
 | **Reorder List**                            |     🟡     | Linked List / Two Pointers |               [Link](./Linked_List/Medium/Reorder_List.js)                |
 | **Remove Nodes From Linked List**           |     🟡     | Linked List / Recursion    |       [Link](./Linked_List/Medium/Remove_Nodes_From_Linked_List.js)       |
@@ -746,6 +774,10 @@ A curated list of problems that significantly improved my understanding.
 | **Find Mode in Binary Search Tree**      |     🟢     | BST / Inorder DFS    | [Link](./Recursion/Easy/Find_Mode_in_Binary_Search_Tree.js)        |
 | **Minimum Absolute Difference in BST**   |     🟢     | BST / Inorder DFS    | [Link](./Recursion/Easy/Minimum_Absolute_Difference_in_BST.js)     |
 | **Diameter of Binary Tree**              |     🟢     | Tree / Postorder DFS | [Link](./Recursion/Easy/Diameter_of_Binary_Tree.js)                |
+| **Unique Binary Search Trees II**        |     🟡     | Tree / Recursion     | [Link](./Recursion/Medium/Unique_Binary_Search_Trees_II.js)        |
+| **Validate Binary Search Tree**          |     🟡     | BST / Bounds         | [Link](./Recursion/Medium/Validate_Binary_Search_Tree.js)          |
+| **Recover Binary Search Tree**           |     🟡     | BST / Inorder DFS    | [Link](./Recursion/Medium/Recover_Binary_Search_Tree.js)           |
+| **Binary Tree Level Order Traversal**    |     🟡     | Tree / BFS           | [Link](./Recursion/Medium/Binary_Tree_Level_Order_Traversal.js)    |
 | **All Possible Full Binary Trees**       |     🟡     | Recursion / Trees    |    [Link](./Recursion/Medium/All_Possible_Full_Binary_Trees.js)    |
 | **K-th Symbol in Grammar**               |     🟡     | Recursion / Logic    |        [Link](./Recursion/Medium/Kth_Symbol_in_Grammar.js)         |
 | **Find Kth Bit in Nth Binary String**    |     🟡     | Recursion / Logic    |  [Link](./Recursion/Medium/Find_Kth_Bit_in_Nth_Binary_String.js)   |

@@ -18,7 +18,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Check if Binary String Has at Most One Segment of Ones
 - [x] Find All Possible Stable Binary Arrays I
 - [ ] Intersection of Two Arrays II
-- [ ] Set Matrix Zeroes
+- [x] Set Matrix Zeroes
 - [x] Rotate Image
 - [x] Spiral Matrix
 - [ ] Longest Consecutive Sequence
@@ -57,6 +57,10 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Next Permutation
 - [x] Valid Sudoku
 - [x] Spiral Matrix II
+- [x] Search a 2D Matrix
+- [x] Sort Colors
+- [x] Remove Duplicates from Sorted Array II
+- [x] Search in Rotated Sorted Array II
 
 
 ## 🟢 Strings
@@ -102,6 +106,9 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Merge Two Sorted Lists
 - [x] Remove Duplicates from Sorted List
 - [x] Remove Nth Node From End of List
+- [x] Remove Duplicates from Sorted List II
+- [x] Partition List
+- [x] Reverse Linked List II
 
 ## 🟢 Linked List (Advanced – FAANG)
 - [ ] Copy List with Random Pointer
@@ -180,20 +187,21 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [ ] Subtree of Another Tree
 
 ## 🟢 Trees (Construction & Variants – FAANG)
+- [x] Unique Binary Search Trees II
 - [x] Convert Sorted Array to Binary Search Tree
 - [ ] Construct Binary Tree from Preorder and Inorder Traversal
 - [ ] Binary Tree Zigzag Level Order Traversal
-- [ ] Recover Binary Search Tree
+- [x] Recover Binary Search Tree
 
 ## 🟢 Binary Search Tree
 - [x] Find Mode in Binary Search Tree
 - [x] Minimum Absolute Difference in BST
 - [ ] Lowest Common Ancestor of a BST
-- [ ] Validate Binary Search Tree
+- [x] Validate Binary Search Tree
 - [ ] Kth Smallest Element in a BST
 
 ## 🟢 Trees (BFS)
-- [ ] Binary Tree Level Order Traversal
+- [x] Binary Tree Level Order Traversal
 - [ ] Binary Tree Right Side View
 
 ## 🟢 Graph (DFS / BFS Intro)
@@ -236,7 +244,9 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Word Search II
 - [x] Combination Sum
 - [x] Combination Sum II
-- [ ] Subsets
+- [x] Combinations
+- [x] Subsets
+- [x] Subsets II
 - [x] Permutations
 - [x] Permutations II
 - [x] N-Queens
@@ -253,6 +263,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [ ] Target Sum
 - [x] Unique Paths
 - [x] Unique Paths II
+- [x] Minimum Path Sum
 
 
 ## 🟢 DP (Advanced – FAANG)
@@ -421,12 +432,28 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 
 ## 🔗 Linked List — Medium
 - [x] Remove Nth Node From End of List
+- [x] Remove Duplicates from Sorted List II
+- [x] Partition List
+- [x] Reverse Linked List II
 
 ## 🧩 Backtracking — Medium
 - [x] Combination Sum
 - [x] Combination Sum II
 - [x] Permutations
 - [x] Permutations II
+- [x] Combinations
+- [x] Subsets
+- [x] Subsets II
+
+## 🧠 Dynamic Programming — Medium
+- [x] Unique Paths II
+- [x] Minimum Path Sum
+
+## 🌳 Recursion / Tree — Medium
+- [x] Unique Binary Search Trees II
+- [x] Validate Binary Search Tree
+- [x] Recover Binary Search Tree
+- [x] Binary Tree Level Order Traversal
 
 ## 🧮 Array — Medium
 - [x] 3Sum
@@ -442,6 +469,11 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Merge Intervals
 - [x] Insert Interval
 - [x] Spiral Matrix II
+- [x] Set Matrix Zeroes
+- [x] Search a 2D Matrix
+- [x] Sort Colors
+- [x] Remove Duplicates from Sorted Array II
+- [x] Search in Rotated Sorted Array II
 - [x] Equal Sum Grid Partition I
 - [x] Check if Strings Can be Made Equal With Operations II
 - [x] Decode the Slanted Ciphertext
