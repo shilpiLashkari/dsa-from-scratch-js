@@ -51,6 +51,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Teemo Attacking
 - [x] Next Greater Element I
 - [x] Relative Ranks
+- [x] Maximum Product of Two Elements in an Array
 - [x] 3Sum
 - [x] 3Sum Closest
 - [x] 4Sum

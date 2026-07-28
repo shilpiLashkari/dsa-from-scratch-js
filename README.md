@@ -276,6 +276,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 249 | Similar String Groups                                                              | LeetCode | ✅ Done |
 | 250 | Guess the Word                                                                     | LeetCode | ✅ Done |
 | 251 | Shortest Path Visiting All Nodes                                                   | LeetCode | ✅ Done |
+| 252 | Maximum Product of Two Elements in an Array                                        | LeetCode | ✅ Done |
 
 ---
 
@@ -382,6 +383,7 @@ A curated list of problems that significantly improved my understanding.
 | **Shortest Distance to Target String in a Circular Array**        |     🟢     | Array / Circular Logic                 |      [Link](./Array/Easy/Shortest_Distance_to_Target_String_in_a_Circular_Array.js)      |
 | **Single Number**                                                 |     🟢     | Bit Manipulation / XOR                 |                          [Link](./Array/Easy/Single_Number.js)                           |
 | **Two Furthest Houses With Different Colors**                     |     🟢     | Array / Greedy                         |            [Link](./Array/Easy/Two_Furthest_Houses_With_Different_Colors.js)             |
+| **Maximum Product of Two Elements in an Array**                   |     🟢     | Array / Two Maximums                   |       [Link](./Array/Easy/Maximum_Product_of_Two_Elements_in_an_Array.js)                 |
 | **Reverse String**                                                |     🟢     | Two Pointers                           |                         [Link](./String/Easy/Reverse_String.js)                          |
 | **Roman to Integer**                                              |     🟢     | Hash Map / Math                        |                        [Link](./String/Easy/Roman_to_Integer.js)                         |
 | **Check if Strings Can be Made Equal With Operations I**          |     🟢     | String / Swap Logic                    |      [Link](./String/Easy/Check_if_Strings_Can_be_Made_Equal_With_Operations_I.js)       |
