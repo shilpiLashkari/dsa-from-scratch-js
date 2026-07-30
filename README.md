@@ -277,6 +277,7 @@ For every problem in this repo, I don't just paste a solution. I rewrite it, opt
 | 250 | Guess the Word                                                                     | LeetCode | ✅ Done |
 | 251 | Shortest Path Visiting All Nodes                                                   | LeetCode | ✅ Done |
 | 252 | Maximum Product of Two Elements in an Array                                        | LeetCode | ✅ Done |
+| 253 | Minimum Number of Pushes to Type Word I                                            | LeetCode | ✅ Done |
 
 ---
 
@@ -393,6 +394,7 @@ A curated list of problems that significantly improved my understanding.
 | **Rotate String**                                                 |     🟢     | String / Substring Search              |                          [Link](./String/Easy/Rotate_String.js)                          |
 | **Longest Common Prefix**                                         |     🟢     | String / Vertical Scanning             |                      [Link](./String/Easy/Longest_Common_Prefix.js)                      |
 | **Count the Number of Special Characters I**                      |     🟢     | String / Hash Set                      |            [Link](./String/Easy/Count_the_Number_of_Special_Characters_I.js)             |
+| **Minimum Number of Pushes to Type Word I**                       |     🟢     | String / Greedy                        |          [Link](./String/Easy/Minimum_Number_of_Pushes_to_Type_Word_I.js)                |
 | **Separate the Digits in an Array**                               |     🟢     | Array / Iteration                      |                 [Link](./Array/Easy/Separate_the_Digits_in_an_Array.js)                  |
 | **Check if Array is Good**                                        |     🟢     | Array / Frequency Map                  |                    [Link](./Array/Easy/Check_if_Array%20_is_Good.js)                     |
 | **Minimum Common Value**                                          |     🟢     | Two Pointers                           |                       [Link](./Array/Easy/Minimum_Common_Value.js)                       |

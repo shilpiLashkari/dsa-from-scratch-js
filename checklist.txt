@@ -73,6 +73,7 @@ Progress: Track your journey from foundational concepts to advanced algorithms.
 - [x] Detect Capital
 - [x] Longest Uncommon Subsequence I
 - [x] Reverse String II
+- [x] Minimum Number of Pushes to Type Word I
 - [x] Reverse String
 - [x] Reverse Integer
 - [x] Roman to Integer
